@@ -1,0 +1,335 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "wie-ist-dein-opa",
+  chapter: 2,
+  number: 3,
+  title: "Wie ist dein Opa?",
+  titlePl: "Jaki jest twój dziadek?",
+  intro:
+    "Julia opowiada Annie o dziadkach z Krakowa, a Paul pokazuje zdjęcia swojej rodziny z Wiednia. Nauczysz się opisywać ludzi i liczyć aż do stu – w końcu dziadkowie mają więcej niż 20 lat!",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "opisać wygląd i charakter osoby kilkoma przymiotnikami,",
+        "powiedzieć „jego” i „jej”: sein / seine, ihr / ihre,",
+        "liczyć od 20 do 100,",
+        "podać wiek rodziców i dziadków.",
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "Mein Opa ist super!",
+      titlePl: "Mój dziadek jest super!",
+      context: "Anna i Julia wracają razem ze szkoły.",
+      cast: { Anna: "f", Julia: "f" },
+      lines: [
+        { speaker: "Anna", text: "Julia, wie ist dein Opa?", pl: "Julio, jaki jest twój dziadek?" },
+        { speaker: "Julia", text: "Mein Opa ist sehr lustig und nett.", pl: "Mój dziadek jest bardzo zabawny i miły." },
+        { speaker: "Anna", text: "Wie alt ist er?", pl: "Ile ma lat?" },
+        { speaker: "Julia", text: "Er ist zweiundsiebzig.", pl: "Ma siedemdziesiąt dwa lata." },
+        { speaker: "Anna", text: "Und deine Oma?", pl: "A twoja babcia?" },
+        {
+          speaker: "Julia",
+          text: "Sie ist achtundsechzig. Sie ist klein und sehr sportlich!",
+          pl: "Ma sześćdziesiąt osiem lat. Jest niska i bardzo wysportowana!",
+        },
+        { speaker: "Anna", text: "Toll! Meine Oma ist schon neunzig!", pl: "Super! Moja babcia ma już dziewięćdziesiąt lat!" },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "Pauls Familie",
+      titlePl: "Rodzina Paula",
+      context: "Paul pokazuje Julii i Lukasowi zdjęcia z wakacji w Wiedniu.",
+      cast: { Lukas: "m", Paul: "m", Julia: "f" },
+      lines: [
+        { speaker: "Lukas", text: "Paul, wer ist die Frau hier?", pl: "Paul, kim jest ta pani tutaj?" },
+        { speaker: "Paul", text: "Das ist meine Oma. Sie wohnt in Wien.", pl: "To jest moja babcia. Mieszka w Wiedniu." },
+        { speaker: "Julia", text: "Wie ist sie?", pl: "Jaka ona jest?" },
+        { speaker: "Paul", text: "Sie ist sehr nett, aber ein bisschen streng.", pl: "Jest bardzo miła, ale trochę surowa." },
+        { speaker: "Lukas", text: "Und das ist dein Vater, oder? Er ist groß!", pl: "A to jest twój tata, prawda? Jest wysoki!" },
+        {
+          speaker: "Paul",
+          text: "Ja, mein Vater ist sehr groß und ruhig. Er ist dreiundvierzig. Sein Hobby ist Fußball.",
+          pl: "Tak, mój tata jest bardzo wysoki i spokojny. Ma czterdzieści trzy lata. Jego hobby to piłka nożna.",
+        },
+        { speaker: "Julia", text: "Und wie ist deine Mutter?", pl: "A jaka jest twoja mama?" },
+        {
+          speaker: "Paul",
+          text: "Meine Mutter ist neununddreißig. Sie ist schlank und sportlich. Ihr Hobby ist Tennis.",
+          pl: "Moja mama ma trzydzieści dziewięć lat. Jest szczupła i wysportowana. Jej hobby to tenis.",
+        },
+      ],
+    },
+    {
+      type: "vocab",
+      title: "Słowniczek",
+      groups: [
+        {
+          title: "Wygląd",
+          items: [
+            { text: "groß", pl: "wysoki, duży" },
+            { text: "klein", pl: "niski, mały" },
+            { text: "schlank", pl: "szczupły" },
+            { text: "alt", pl: "stary" },
+            { text: "jung", pl: "młody" },
+            { text: "blond", pl: "jasnowłosy, blond" },
+            { text: "hübsch", pl: "ładny" },
+          ],
+        },
+        {
+          title: "Charakter",
+          items: [
+            { text: "nett", pl: "miły" },
+            { text: "freundlich", pl: "życzliwy, przyjazny" },
+            { text: "lustig", pl: "zabawny, wesoły" },
+            { text: "langweilig", pl: "nudny" },
+            { text: "ruhig", pl: "spokojny, cichy" },
+            { text: "laut", pl: "głośny" },
+            { text: "streng", pl: "surowy, wymagający" },
+            { text: "sportlich", pl: "wysportowany" },
+            { text: "klug", pl: "mądry" },
+          ],
+        },
+        {
+          title: "Przydatne zwroty",
+          items: [
+            { text: "Wie ist dein Opa?", pl: "Jaki jest twój dziadek?" },
+            { text: "Wie ist deine Oma?", pl: "Jaka jest twoja babcia?" },
+            { text: "Wie alt ist deine Mutter?", pl: "Ile lat ma twoja mama?" },
+            { text: "sehr", pl: "bardzo" },
+            { text: "ein bisschen", pl: "trochę" },
+            { text: "nicht", pl: "nie (Er ist nicht streng. – On nie jest surowy.)" },
+            { text: "das Hobby", pl: "hobby" },
+            { text: "Toll!", pl: "Super! Świetnie!" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Er ist nett, sie ist nett – przymiotniki oraz sein / ihr",
+      paragraphs: [
+        "Dobra wiadomość: po czasowniku **sein** (być) przymiotnik **się nie zmienia**. Po polsku mówimy miły, miła, mili – po niemiecku zawsze **nett**: Mein Opa ist nett. Meine Oma ist nett. Meine Eltern sind nett.",
+        "Teraz „jego” i „jej”. Najpierw pytasz: **czyj** to jest? Jeśli należy do niego (er) – mówisz **sein**, jeśli do niej (sie) – **ihr**.",
+        "Potem patrzysz na rzeczownik, tak jak przy mein / meine: przy **der** i **das** – bez końcówki, przy **die** i w liczbie mnogiej – z **-e**: **seine** Schwester, **ihre** Eltern.",
+        "Uwaga: **sein** to także czasownik „być” (ich bin, du bist, er ist). Z kontekstu zawsze wiadomo, o które słowo chodzi.",
+      ],
+      table: {
+        headers: ["", "der / das", "die / l. mnoga", "przykład"],
+        rows: [
+          { cells: ["mój", "mein", "meine", "mein Opa, meine Oma"], speak: "mein Opa, meine Oma" },
+          { cells: ["twój", "dein", "deine", "dein Vater, deine Eltern"], speak: "dein Vater, deine Eltern" },
+          { cells: ["jego (er)", "sein", "seine", "sein Bruder, seine Schwester"], speak: "sein Bruder, seine Schwester" },
+          { cells: ["jej (sie)", "ihr", "ihre", "ihr Hund, ihre Katze"], speak: "ihr Hund, ihre Katze" },
+        ],
+      },
+      examples: [
+        { text: "Das ist Paul. Sein Vater ist groß.", pl: "To jest Paul. Jego tata jest wysoki." },
+        { text: "Das ist Anna. Ihr Vater ist groß.", pl: "To jest Anna. Jej tata jest wysoki." },
+        { text: "Jan ist acht. Seine Schwester heißt Julia.", pl: "Jan ma osiem lat. Jego siostra ma na imię Julia." },
+        { text: "Anna hat eine Katze. Ihre Katze ist klein.", pl: "Anna ma kota. Jej kot jest mały." },
+      ],
+      tip: "Dwa kroki: 1) **czyje?** – jego → sein, jej → ihr; 2) **der/das** → bez -e, **die/l. mn.** → z -e. Julia hat einen Hund → **ihr** Hund (Julia = sie, der Hund = bez -e).",
+    },
+    {
+      type: "vocab",
+      title: "Liczby 20–100",
+      groups: [
+        {
+          title: "Dziesiątki",
+          items: [
+            { text: "zwanzig", pl: "20" },
+            { text: "dreißig", pl: "30" },
+            { text: "vierzig", pl: "40" },
+            { text: "fünfzig", pl: "50" },
+            { text: "sechzig", pl: "60" },
+            { text: "siebzig", pl: "70" },
+            { text: "achtzig", pl: "80" },
+            { text: "neunzig", pl: "90" },
+            { text: "hundert / einhundert", pl: "100" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Jak tworzymy liczby 21–99?",
+      paragraphs: [
+        "Dziesiątki tworzymy przez dodanie **-zig**: vier → **vierzig**, fünf → **fünfzig**. Wyjątki: **zwanzig** (20), **dreißig** (30 – z **ß**, nie -zig!), **sechzig** (60 – bez s) i **siebzig** (70 – bez -en).",
+        "Najważniejsza różnica: w liczbach 21–99 Niemcy mówią **najpierw jedności, potem dziesiątki**, a łączy je słowo **und** (i): 21 = **einundzwanzig**, czyli dosłownie „jeden i dwadzieścia”. 47 = **siebenundvierzig** – „siedem i czterdzieści”.",
+        "Całą liczbę piszemy **jednym słowem**. W 21, 31, 41 … mówimy **ein**, nie eins: **einundzwanzig**.",
+      ],
+      table: {
+        headers: ["liczba", "po niemiecku", "jak powstaje"],
+        rows: [
+          { cells: ["21", "einundzwanzig", "1 + und + 20"], speak: "einundzwanzig" },
+          { cells: ["22", "zweiundzwanzig", "2 + und + 20"], speak: "zweiundzwanzig" },
+          { cells: ["35", "fünfunddreißig", "5 + und + 30"], speak: "fünfunddreißig" },
+          { cells: ["43", "dreiundvierzig", "3 + und + 40"], speak: "dreiundvierzig" },
+          { cells: ["58", "achtundfünfzig", "8 + und + 50"], speak: "achtundfünfzig" },
+          { cells: ["66", "sechsundsechzig", "6 + und + 60"], speak: "sechsundsechzig" },
+          { cells: ["72", "zweiundsiebzig", "2 + und + 70"], speak: "zweiundsiebzig" },
+          { cells: ["99", "neunundneunzig", "9 + und + 90"], speak: "neunundneunzig" },
+        ],
+      },
+      tip: "Gdy słuchasz liczby, zapisuj ją **od prawej**: najpierw usłyszysz jedności (sieben… → _7), potem dziesiątki (…undvierzig → 47). W **sechsundsechzig** jedności mają s, a dziesiątki nie!",
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "de-2-3-listen",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Jaka to liczba?",
+        instruction: "Kliknij ▶, posłuchaj i wybierz liczbę, którą słyszysz. Uwaga na kolejność cyfr!",
+        items: [
+          { audio: "einundzwanzig", options: ["12", "21", "20"], answer: 1 },
+          { audio: "vierunddreißig", options: ["34", "43", "24"], answer: 0 },
+          { audio: "sechzig", options: ["16", "70", "60"], answer: 2 },
+          { audio: "siebenundsiebzig", options: ["17", "77", "71"], answer: 1 },
+          { audio: "achtundfünfzig", options: ["58", "85", "48"], answer: 0 },
+          { audio: "neunzig", options: ["19", "99", "90"], answer: 2 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "de-2-3-numbers",
+        kind: "fill",
+        skill: "Pisanie",
+        title: "Ile mają lat?",
+        instruction:
+          "Wpisz wiek słowem (jednym wyrazem!). Liczba jest w podpowiedzi. Jeśli nie masz na klawiaturze ß, napisz ss – zaliczymy, ale przypomnimy o ß.",
+        items: [
+          { before: "Meine Cousine ist", after: "Jahre alt.", answers: ["einundzwanzig"], hint: "21" },
+          { before: "Meine Tante ist", after: "Jahre alt.", answers: ["dreißig"], hint: "30" },
+          { before: "Mein Vater ist", after: "Jahre alt.", answers: ["fünfundvierzig"], hint: "45" },
+          { before: "Mein Onkel ist", after: "Jahre alt.", answers: ["sechsundfünfzig"], hint: "56" },
+          { before: "Mein Opa ist", after: "Jahre alt.", answers: ["zweiundsiebzig"], hint: "72" },
+          { before: "Meine Uroma ist", after: "Jahre alt!", answers: ["neunundneunzig"], hint: "99 (die Uroma = prababcia)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "de-2-3-sein-ihr",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "sein czy ihr?",
+        instruction: "Czyje to jest – jego czy jej? I czy rzeczownik ma der/das, czy die? Wybierz właściwe słowo.",
+        items: [
+          { prompt: "Das ist Paul. ___ Vater ist groß.", options: ["Sein", "Ihr", "Seine"], answer: 0 },
+          { prompt: "Das ist Anna. ___ Mutter ist nett.", options: ["Seine", "Ihre", "Ihr"], answer: 1 },
+          { prompt: "Das ist Lukas. ___ Schwestern heißen Lea und Emma.", options: ["Sein", "Ihre", "Seine"], answer: 2, explanation: "Lukas = er → sein; Schwestern to liczba mnoga → seine." },
+          { prompt: "Julia hat einen Hund. ___ Hund heißt Bruno.", options: ["Ihr", "Sein", "Ihre"], answer: 0, explanation: "Właścicielka to Julia (sie) → ihr; der Hund → bez -e." },
+          { prompt: "Mein Opa hat eine Katze. ___ Katze ist alt.", options: ["Ihre", "Seine", "Sein"], answer: 1, explanation: "Właściciel to dziadek (er) → sein; die Katze → seine." },
+          { prompt: "Das ist Frau Weber. ___ Kinder sind klein.", options: ["Ihre", "Seine", "Ihr"], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "de-2-3-adjectives",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Przeciwieństwa i opisy",
+        instruction: "Wybierz słowo o przeciwnym znaczeniu albo takie, które pasuje do opisu.",
+        items: [
+          { prompt: "groß ↔ ?", options: ["klein", "alt", "nett"], answer: 0, speakOptions: true },
+          { prompt: "alt ↔ ?", options: ["lustig", "jung", "ruhig"], answer: 1, speakOptions: true },
+          { prompt: "laut ↔ ?", options: ["streng", "sportlich", "ruhig"], answer: 2, speakOptions: true },
+          { prompt: "lustig ↔ ?", options: ["langweilig", "schlank", "klein"], answer: 0, speakOptions: true },
+          { prompt: "Twój dziadek ciągle opowiada żarty. Er ist …", options: ["streng", "lustig", "langweilig"], answer: 1, speakOptions: true },
+          { prompt: "Twoja ciocia codziennie biega i pływa. Sie ist …", options: ["laut", "klug", "sportlich"], answer: 2, speakOptions: true },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "de-2-3-dialogue",
+        kind: "choice",
+        skill: "Czytanie",
+        title: "Rodzina Paula i dziadkowie Julii",
+        instruction: "Przeczytaj jeszcze raz oba dialogi i odpowiedz na pytania.",
+        items: [
+          { prompt: "Ile lat ma dziadek Julii?", options: ["27", "62", "72"], answer: 2 },
+          { prompt: "Jaka jest babcia Julii?", options: ["niska i wysportowana", "wysoka i spokojna", "surowa i głośna"], answer: 0 },
+          { prompt: "Jaka jest babcia Paula?", options: ["zabawna i głośna", "bardzo miła, ale trochę surowa", "młoda i wysportowana"], answer: 1 },
+          { prompt: "Ile lat ma tata Paula?", options: ["34", "43", "33"], answer: 1 },
+          { prompt: "Jakie hobby ma mama Paula?", options: ["tenis", "piłka nożna", "pływanie"], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "de-2-3-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["Opa", "ist", "dein", "Wie"], answer: "Wie ist dein Opa?", pl: "Jaki jest twój dziadek?" },
+          { words: ["lustig", "klein", "Oma", "und", "ist", "Meine"], answer: "Meine Oma ist klein und lustig.", pl: "Moja babcia jest niska i zabawna." },
+          { words: ["groß", "sehr", "Vater", "ist", "Sein"], answer: "Sein Vater ist sehr groß.", pl: "Jego tata jest bardzo wysoki." },
+          { words: ["dreiundvierzig", "Mutter", "ist", "Ihre"], answer: "Ihre Mutter ist dreiundvierzig.", pl: "Jej mama ma czterdzieści trzy lata." },
+        ],
+      },
+    },
+    {
+      type: "culture",
+      title: "Landeskunde – runde Geburtstage",
+      paragraphs: [
+        "W Niemczech szczególnie hucznie obchodzi się **okrągłe urodziny** – **der runde Geburtstag**: 30., 40., 50., 60. czy 70. Na takie przyjęcie często zaprasza się całą rodzinę.",
+        "Gdy dzieci mają dwie babcie albo dwóch dziadków, często dodają imię, żeby było wiadomo, o kogo chodzi: **Oma Inge**, **Opa Klaus**.",
+        "Prababcia i pradziadek to **die Uroma** i **der Uropa**.",
+      ],
+      examples: [
+        { text: "Herzlichen Glückwunsch zum Geburtstag!", pl: "Wszystkiego najlepszego z okazji urodzin!" },
+        { text: "Mein Opa wird siebzig.", pl: "Mój dziadek kończy siedemdziesiąt lat." },
+        { text: "die Uroma, der Uropa", pl: "prababcia, pradziadek" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "de-2-3-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "Teraz ty! Opisz swoją rodzinę",
+        instruction:
+          "Połącz wszystko, czego nauczyłeś/-aś się w rozdziale 2. Opisz swoją rodzinę (6–8 zdań), posłuchaj tekstu i przeczytaj go na głos. Możesz też wymyślić rodzinę!",
+        checklist: [
+          "przedstaw co najmniej 3 osoby z rodziny (Das ist … / Mein … heißt …)",
+          "podaj wiek dorosłych osób słowem (np. Er ist dreiundvierzig.)",
+          "opisz każdą osobę przynajmniej jednym przymiotnikiem",
+          "użyj sein albo ihr (np. Sein Hobby ist … / Ihr Hund heißt …)",
+          "napisz, czy masz rodzeństwo lub zwierzę",
+        ],
+        placeholder: "Meine Familie ist … Mein Vater heißt …",
+        model:
+          "Das ist meine Familie. Mein Vater heißt Thomas. Er ist vierundvierzig Jahre alt. Er ist groß und ruhig. Sein Hobby ist Fußball. Meine Mutter heißt Eva. Sie ist einundvierzig. Sie ist nett und sehr lustig. Ich habe einen Bruder, Jan. Er ist klein, aber laut! Mein Opa ist zweiundsiebzig und meine Oma ist achtundsechzig.",
+        modelPl:
+          "To jest moja rodzina. Mój tata ma na imię Thomas. Ma czterdzieści cztery lata. Jest wysoki i spokojny. Jego hobby to piłka nożna. Moja mama ma na imię Eva. Ma czterdzieści jeden lat. Jest miła i bardzo zabawna. Mam brata, Jana. Jest mały, ale głośny! Mój dziadek ma siedemdziesiąt dwa lata, a moja babcia sześćdziesiąt osiem.",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Umiem opisać osobę kilkoma przymiotnikami (groß, klein, nett, lustig …).",
+        "Wiem, że po sein przymiotnik się nie zmienia: er ist nett, sie ist nett.",
+        "Wiem, kiedy mówić sein / seine, a kiedy ihr / ihre.",
+        "Umiem policzyć od 20 do 100 i pamiętam o dreißig, sechzig, siebzig.",
+        "Umiem powiedzieć 21–99 w niemieckiej kolejności: einundzwanzig, zweiundsiebzig …",
+        "Umiem podać wiek rodziców i dziadków.",
+      ],
+    },
+  ],
+};

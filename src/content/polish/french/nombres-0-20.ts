@@ -1,0 +1,305 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "nombres-0-20",
+  chapter: 1,
+  number: 3,
+  title: "Les nombres de 0 à 20",
+  titlePl: "Liczby od 0 do 20",
+  intro:
+    "Carla wymienia się numerem telefonu z Hugo, a na matematyce pani Martin sprawdza, kto umie liczyć po francusku. Allez – un, deux, trois !",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "liczyć od 0 do 20,",
+        "powiedzieć, ile masz lat, i zapytać o wiek,",
+        "podać i zapisać numer telefonu (po francusku – parami!),",
+        "poprosić, żeby ktoś mówił wolniej albo powtórzył.",
+      ],
+    },
+    {
+      type: "vocab",
+      title: "Liczby 0–20",
+      groups: [
+        {
+          title: "0–10",
+          items: [
+            { text: "zéro", pl: "0" },
+            { text: "un", pl: "1" },
+            { text: "deux", pl: "2" },
+            { text: "trois", pl: "3" },
+            { text: "quatre", pl: "4" },
+            { text: "cinq", pl: "5" },
+            { text: "six", pl: "6" },
+            { text: "sept", pl: "7" },
+            { text: "huit", pl: "8" },
+            { text: "neuf", pl: "9" },
+            { text: "dix", pl: "10" },
+          ],
+        },
+        {
+          title: "11–20",
+          items: [
+            { text: "onze", pl: "11" },
+            { text: "douze", pl: "12" },
+            { text: "treize", pl: "13" },
+            { text: "quatorze", pl: "14" },
+            { text: "quinze", pl: "15" },
+            { text: "seize", pl: "16" },
+            { text: "dix-sept", pl: "17" },
+            { text: "dix-huit", pl: "18" },
+            { text: "dix-neuf", pl: "19" },
+            { text: "vingt", pl: "20" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "Tu as quel âge ?",
+      titlePl: "Ile masz lat?",
+      context: "Po lekcjach. Hugo i Carla chcą się umówić na naukę francuskiego.",
+      cast: { Hugo: "m", Carla: "f" },
+      lines: [
+        { speaker: "Hugo", text: "Carla, tu as quel âge ?", pl: "Carlo, ile masz lat?" },
+        { speaker: "Carla", text: "J'ai treize ans. Et toi ?", pl: "Mam trzynaście lat. A ty?" },
+        { speaker: "Hugo", text: "Moi, j'ai quatorze ans.", pl: "Ja mam czternaście lat." },
+        { speaker: "Carla", text: "C'est quoi, ton numéro de portable ?", pl: "Jaki jest twój numer komórki?" },
+        {
+          speaker: "Hugo",
+          text: "C'est le zéro six, douze, quinze, dix-neuf, vingt.",
+          pl: "To zero sześć, dwanaście, piętnaście, dziewiętnaście, dwadzieścia.",
+        },
+        { speaker: "Carla", text: "Plus lentement, s'il te plaît ! Tu peux répéter ?", pl: "Wolniej, proszę! Możesz powtórzyć?" },
+        { speaker: "Hugo", text: "Zéro six, douze, quinze, dix-neuf, vingt.", pl: "Zero sześć, dwanaście, piętnaście, dziewiętnaście, dwadzieścia." },
+        { speaker: "Carla", text: "Merci ! Salut, Hugo !", pl: "Dzięki! Cześć, Hugo!" },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "En cours de maths",
+      titlePl: "Na lekcji matematyki",
+      context: "Lekcja matematyki. Pani Martin zadaje pytania.",
+      cast: { "Madame Martin": "f", Lucas: "m", "Léa": "f" },
+      lines: [
+        { speaker: "Madame Martin", text: "Lucas, sept plus huit, ça fait combien ?", pl: "Lucas, siedem plus osiem, ile to jest?" },
+        { speaker: "Lucas", text: "Sept plus huit, ça fait quinze.", pl: "Siedem plus osiem to piętnaście." },
+        { speaker: "Madame Martin", text: "C'est juste ! Léa, vingt moins onze ?", pl: "Dobrze! Léa, dwadzieścia minus jedenaście?" },
+        { speaker: "Léa", text: "Vingt moins onze, ça fait … neuf !", pl: "Dwadzieścia minus jedenaście to… dziewięć!" },
+        { speaker: "Madame Martin", text: "Bravo, Léa ! C'est juste.", pl: "Brawo, Léa! To jest dobrze." },
+      ],
+    },
+    {
+      type: "vocab",
+      title: "Przydatne zwroty",
+      groups: [
+        {
+          title: "Wiek i telefon",
+          items: [
+            { text: "Tu as quel âge ?", pl: "Ile masz lat?" },
+            { text: "J'ai treize ans.", pl: "Mam trzynaście lat." },
+            { text: "Vous avez quel âge ?", pl: "Ile pan/pani ma lat?" },
+            { text: "C'est quoi, ton numéro ?", pl: "Jaki jest twój numer?" },
+            { text: "Mon numéro, c'est le …", pl: "Mój numer to …" },
+            { text: "le portable", pl: "komórka, telefon komórkowy" },
+          ],
+        },
+        {
+          title: "Na lekcji",
+          items: [
+            { text: "Plus lentement, s'il te plaît !", pl: "Wolniej, proszę!" },
+            { text: "Tu peux répéter ?", pl: "Możesz powtórzyć?" },
+            { text: "Ça fait combien ?", pl: "Ile to jest?" },
+            { text: "plus / moins", pl: "plus / minus" },
+            { text: "C'est juste !", pl: "Dobrze! Prawidłowo!" },
+            { text: "C'est faux !", pl: "Źle! Błędnie!" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Jak tworzymy liczby 11–19?",
+      paragraphs: [
+        "Liczby od 11 do 16 to **osobne słowa** zakończone na **-ze**: on**ze**, dou**ze**, trei**ze**, quator**ze**, quin**ze**, sei**ze**. Trzeba je zapamiętać.",
+        "Od 17 do 19 jest łatwo: **dix** (10) + jedności, z łącznikiem: **dix-sept** (10 + 7), **dix-huit** (10 + 8), **dix-neuf** (10 + 9).",
+      ],
+      table: {
+        headers: ["liczba", "po francusku", "jak powstaje"],
+        rows: [
+          { cells: ["11", "onze", "osobne słowo"], speak: "onze" },
+          { cells: ["12", "douze", "osobne słowo"], speak: "douze" },
+          { cells: ["13", "treize", "osobne słowo"], speak: "treize" },
+          { cells: ["14", "quatorze", "osobne słowo"], speak: "quatorze" },
+          { cells: ["15", "quinze", "osobne słowo"], speak: "quinze" },
+          { cells: ["16", "seize", "osobne słowo"], speak: "seize" },
+          { cells: ["17", "dix-sept", "dix + sept"], speak: "dix-sept" },
+          { cells: ["18", "dix-huit", "dix + huit"], speak: "dix-huit" },
+          { cells: ["19", "dix-neuf", "dix + neuf"], speak: "dix-neuf" },
+        ],
+      },
+      tip: "Wiek podajemy jak po polsku – z czasownikiem „mieć” (**avoir**): **J'ai treize ans** = Mam trzynaście lat. Nie mów „Je suis treize ans”! A numer telefonu Francuzi podają **parami**: 06 12 15 19 20 = zéro six, douze, quinze, dix-neuf, vingt.",
+    },
+    {
+      type: "pronunciation",
+      title: "Wymowa",
+      intro: "W liczbach łatwo pomylić podobne dźwięki – a jedna pomyłka to inny numer telefonu! Kliknij przykład i powtórz go na głos 3 razy.",
+      items: [
+        { sound: "qu", explanation: "czytamy jak **k**", examples: ["quatre", "quatorze", "quinze"] },
+        { sound: "z", explanation: "czytamy jak polskie **z**", examples: ["onze", "douze", "seize"] },
+        { sound: "-gt, -pt", explanation: "w **vingt** nie czytamy -gt, w **sept** nie czytamy p", examples: ["vingt", "sept", "dix-sept"] },
+        { sound: "eu", explanation: "usta jak do **o**, a mówimy **e**", examples: ["deux", "neuf", "dix-neuf"] },
+        { sound: "liaison", explanation: "końcowe s, x czytamy jak **z** przed samogłoską", examples: ["deux ans", "trois ans", "six ans"] },
+        { sound: "six, dix", explanation: "osobno czytamy **sis**, **dis** – z wyraźnym s", examples: ["six", "dix"] },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-1-3-listen",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "C'est quel nombre ?",
+        instruction: "Kliknij ▶, posłuchaj i wybierz liczbę, którą słyszysz.",
+        items: [
+          { audio: "trois", options: ["3", "13", "12"], answer: 0 },
+          { audio: "douze", options: ["2", "12", "20"], answer: 1 },
+          { audio: "seize", options: ["6", "7", "16"], answer: 2 },
+          { audio: "six", options: ["6", "10", "16"], answer: 0 },
+          { audio: "dix-neuf", options: ["9", "19", "15"], answer: 1 },
+          { audio: "vingt", options: ["2", "12", "20"], answer: 2 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-1-3-spelling",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Uwaga na pisownię!",
+        instruction: "Wybierz poprawny zapis liczby.",
+        items: [
+          { prompt: "**11**", options: ["dix-un", "onze", "once"], answer: 1, speakOptions: true },
+          { prompt: "**15**", options: ["quinze", "cinqze", "dix-cinq"], answer: 0, speakOptions: true },
+          { prompt: "**16**", options: ["dix-six", "seize", "sixze"], answer: 1, speakOptions: true, explanation: "16 to jeszcze osobne słowo: seize. „dix-” zaczyna się dopiero od 17." },
+          { prompt: "**17**", options: ["sept-dix", "septze", "dix-sept"], answer: 2, speakOptions: true },
+          { prompt: "**20**", options: ["vingt", "deux-dix", "vint"], answer: 0, speakOptions: true, explanation: "W słowie vingt piszemy -gt, ale go nie czytamy." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-1-3-math",
+        kind: "fill",
+        skill: "Pisanie",
+        title: "Policz i napisz słowem",
+        instruction: "Rozwiąż działanie i wpisz wynik słowem (nie cyfrą!). Łącznik w dix-sept możesz pominąć.",
+        items: [
+          { before: "trois plus quatre, ça fait", after: ".", answers: ["sept"] },
+          { before: "dix moins deux, ça fait", after: ".", answers: ["huit"] },
+          { before: "six plus six, ça fait", after: ".", answers: ["douze"] },
+          { before: "neuf plus huit, ça fait", after: ".", answers: ["dix-sept"] },
+          { before: "vingt moins cinq, ça fait", after: ".", answers: ["quinze"] },
+          { before: "onze plus cinq, ça fait", after: ".", answers: ["seize"] },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-1-3-phone",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Zapisz numer telefonu",
+        instruction:
+          "Posłuchaj numeru telefonu i wybierz, który został zapisany poprawnie. Pamiętaj: Francuzi czytają numer parami. Jeśli mówi za szybko – włącz wolne tempo lektora w górnym menu.",
+        items: [
+          { audio: "zéro six, douze, quinze, dix-neuf, vingt", options: ["06 12 15 19 20", "06 12 50 19 20", "06 20 15 19 12"], answer: 0 },
+          { audio: "zéro sept, treize, quatorze, dix-huit, onze", options: ["07 30 14 18 11", "07 13 14 18 11", "07 13 14 8 11"], answer: 1 },
+          { audio: "zéro six, seize, dix-sept, zéro deux, vingt", options: ["06 16 17 02 20", "06 06 17 02 20", "06 16 07 02 20"], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-1-3-phrases",
+        kind: "choice",
+        skill: "Mówienie",
+        title: "Qu'est-ce que tu dis ? – Co powiesz?",
+        instruction: "Przeczytaj sytuację i wybierz właściwą reakcję.",
+        items: [
+          { prompt: "Ktoś podaje ci numer telefonu, ale mówi za szybko.", options: ["Plus lentement, s'il te plaît !", "C'est juste !", "Bonne nuit !"], answer: 0, speakOptions: true },
+          { prompt: "Nie usłyszałeś/-aś. Prosisz, żeby kolega powtórzył.", options: ["Tu as quel âge ?", "Tu peux répéter ?", "Je suis nouvelle."], answer: 1, speakOptions: true },
+          {
+            prompt: "Chcesz powiedzieć, że masz 13 lat.",
+            options: ["Je suis treize ans.", "J'ai treize ans."],
+            answer: 1,
+            speakOptions: true,
+            explanation: "Po francusku, tak jak po polsku, wiek „się ma”: J'ai treize ans.",
+          },
+          { prompt: "Kolega mówi: „Huit plus quatre, ça fait douze.” Co odpowiesz?", speak: "Huit plus quatre, ça fait douze.", options: ["C'est faux !", "C'est juste !"], answer: 1, speakOptions: true },
+          { prompt: "Chcesz zapytać nauczyciela, ile ma lat (choć to niegrzeczne 😉).", options: ["Tu as quel âge ?", "Vous avez quel âge ?"], answer: 1, speakOptions: true },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-1-3-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["âge", "as", "quel", "Tu"], answer: "Tu as quel âge ?", pl: "Ile masz lat?" },
+          { words: ["ans", "J'ai", "quatorze"], answer: "J'ai quatorze ans.", pl: "Mam czternaście lat." },
+          { words: ["quel", "Hugo", "a", "âge"], answer: "Hugo a quel âge ?", pl: "Ile lat ma Hugo?" },
+          { words: ["ton", "C'est", "numéro", "quoi,"], answer: "C'est quoi, ton numéro ?", pl: "Jaki jest twój numer?" },
+        ],
+      },
+    },
+    {
+      type: "culture",
+      title: "Culture – dix-huit sur vingt!",
+      paragraphs: [
+        "We francuskich szkołach oceny wystawia się w punktach **od 0 do 20**. Żeby zdać, trzeba mieć co najmniej **10/20**. Ocena **20/20** zdarza się tak rzadko, że mówi się żartem: „20 jest dla Pana Boga, 19 dla nauczyciela”. Dlatego **18/20** to już powód do świętowania!",
+        "W Belgii i Szwajcarii liczy się trochę inaczej niż we Francji: 70 to **septante**, a 90 to **nonante** – dużo prościej niż francuskie soixante-dix (60 + 10) i quatre-vingt-dix (4 × 20 + 10). Francuskie liczby do 100 poznasz już w rozdziale 2.",
+      ],
+      examples: [
+        { text: "J'ai eu dix-huit sur vingt !", pl: "Dostałem/-am osiemnaście na dwadzieścia!" },
+        { text: "dix sur vingt", pl: "dziesięć na dwadzieścia (= zdane)" },
+        { text: "septante, nonante", pl: "70, 90 (w Belgii i Szwajcarii)" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-1-3-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "À toi ! Przedstaw się – wersja rozszerzona",
+        instruction:
+          "Połącz wszystko, czego nauczyłeś/-aś się w rozdziale 1. Napisz kilka zdań o sobie, posłuchaj ich i przeczytaj na głos. Numer telefonu możesz wymyślić!",
+        checklist: ["przywitaj się i podaj imię", "napisz, skąd jesteś", "napisz, ile masz lat", "podaj (wymyślony) numer telefonu"],
+        placeholder: "Salut ! Je m'appelle … J'ai … ans.",
+        model: "Salut ! Je m'appelle Carla. Je suis polonaise, de Cracovie. J'ai treize ans. Mon numéro, c'est le zéro six, douze, quinze, dix-neuf, vingt.",
+        modelPl:
+          "Cześć! Mam na imię Carla. Jestem Polką, z Krakowa. Mam trzynaście lat. Mój numer to zero sześć, dwanaście, piętnaście, dziewiętnaście, dwadzieścia.",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Umiem policzyć od 0 do 20 bez patrzenia w tabelkę.",
+        "Wiem, że 11–16 to osobne słowa, a 17–19 to dix + jedności.",
+        "Umiem powiedzieć, ile mam lat (J'ai … ans).",
+        "Umiem podać i zrozumieć numer telefonu czytany parami.",
+        "Umiem poprosić: Plus lentement, s'il te plaît ! / Tu peux répéter ?",
+      ],
+    },
+  ],
+};

@@ -1,0 +1,1168 @@
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+Servei de Llengües i Terminologia
+U N I V E R S I TAT P O L I T È C N I C A D E C ATA L U N YA
+
+
+
+
+                                   L•xic
+                                   bˆsic.
+                                   Arquitectura
+                                   t•cnica
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                       Presentació
+                       El Servei de Llengües i Terminologia de la UPC, en la
+                       seva tasca de donar suport lingüístic a la comunitat univer-
+                       sitària, col.labora des de 1990 amb els estudiants de diver-
+                       ses escoles. Aquestes accions, que tenen un vessant nor-
+                       malitzador del català molt important, han donat com a
+                       resultat el Lèxic bàsic de l’arquitectura tècnica, fruit de la
+                       col.laboració del Servei amb alguns estudiants de l’EUPB.
+
+                       Cal considerar la importància d’aquest lèxic que pretén,
+                       d’una banda, recollir els termes bàsics d’aquesta àrea per
+                       donar a conèixer el seu equivalent català correcte i, d’altra
+                       banda, incidir en aquells termes que ja es coneixen però
+                       que s’escriuen o es fan servir de manera incorrecta.
+
+                       Esperem que la selecció de termes, feta pels mateixos estu-
+                       diants, i la informació que conté aquest lèxic sigui útil per a
+                       l’activitat acadèmica.
+
+                       Rosa Mateu
+                       Cap del Servei de Llengües i Terminologia
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      Consulta
+
+                      Informació
+
+                      entrada                 categoria gramatical           terme castellà
+                      (terme català)
+
+                      mesurar                           v tr                 medir      v tr
+                       amidar
+
+                      Nota: Segons el Diccionari manual de la construcció
+                      el terme «amidar» és adequat per a les mesures lineals.
+
+                      sinònim                nota (conté informació complementària)
+                      (si n’hi ha)           (opcional)
+
+
+                      Abreviatures utilitzades
+
+                      m           nom masculí singular
+                      f           nom femení singular
+                      adj         adjectiu
+                      v tr        verb transitiu
+                      v intr      verb intransitiu
+                      loc adv     locució adverbial
+
+
+                      Entrada en castellà i en català
+
+                      Les entrades estan ordenades alfabèticament seguint l’ordre
+                      seqüencial i el sistema discontinu. Els verbs s’entren en
+                      infinitiu. Els adjectius de doble gènere recullen la indicació
+                      de la terminació femenina tant en català com en castellà.
+
+                      P.ex.               esvelt -a                      esbelto -ta
+
+
+                      Informació complementària
+
+                      Alguns dels termes del lèxic incorporen en una nota infor-
+                      mació complementària que es creu interessant.
+                      Generalment, hi apareixen algunes informacions de tipus
+                      lingüístic, que s’han considerat pertinents per als usuaris als
+                      quals es destina el recull.
+
+                      P.ex.
+                      Nota: El plural masculí de «fix» és «fixos» i el plural femení «fixes».
+
+                      Al final del vocabulari hi ha un espai per afegir-hi els ter-
+                      mes que es considerin interessants.
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      Bibliografia
+                      Departament de Política Territorial i Obres Públiques.
+                      Diccionari visual de la construcció. Barcelona: DPTOP,
+                      1994.
+
+                      Diccionari de la llengua catalana. 3a ed. actualitzada.
+                      Barcelona: Enciclopèdia Catalana, 1994. (Diccionaris
+                      Enciclopèdia Catalana).
+
+                      ITEC. Diccionari manual de la construcció. Barcelona:
+                      ITEC, 1986.
+
+                      TERMCAT. Full de difusió de neologismes. [Barcelona]
+                      (setembre 1989), núm. 4.
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                                       Català
+                                       Castellà
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      A
+                      a portell loc adv                       al tresbolillo loc adv
+                      a rastell loc adv                       a rastel loc adv
+                      abocador m                              vertedero m
+                      addicional adj                          adicional adj
+                      adormiment m                            fraguado m
+                      agulla f                                machón m
+                      aiguafons m                             lima hoya f
+                      aiguavés m                              faldón m
+                        vessant m i f                           vertiente f
+                        caient m
+                      aïllament m                             aislamiento m
+                      aïllant m                               aislante m
+                      aire condicionat m                      aire acondicionado m
+                      al llarg loc adv                        a soga loc adv
+                      amidar v tr(*)                          medir v tr
+                        mesurar v t
+                      ampit m                                 alféizar m
+                                                                antepecho m
+                      ancoratge m                             anclaje m
+                      androna f                               buhardilla f
+                      antilliscant m                          antideslizante m
+                      aparell m                               aparejo m
+                      aparellament m                          aparejamiento m
+                      aplacat m                               chapado m
+                                                                revestido m
+                      argollada f                             anillado m
+                      arrebossat m                            enfoscado m
+                      assentament m                           asentamiento m
+                                                                asiento m
+                      atermenar v tr                          deslindar v tr
+                      azimut m                                acimut m
+
+
+
+
+                      B
+                      baixant m                               bajante m
+
+                      (*) Nota: Segons el Diccionari manual de la construcció el terme «amidar» és
+                      adequat per a les mesures lineals.
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      banderola f             jalón m
+                        jaló m
+                      barbacana f             alero m
+                        ràfec m
+                      barret m                sombrerete m
+                      bastida f               andamio m
+                      bastiment de doella m   marco de mocheta m
+                      biaix de cartabó m      inglete m
+                      biga f                  viga f
+                      bigueta f               vigueta f
+                      bombolla f              burbuja f
+                      bonera f                sumidero m
+                      brancal m               jamba f
+                      buixardada f            abujardado m
+
+
+
+
+                      C
+                      cabal m                 caudal m
+                      caient m                vertiente f
+                        vessant m i f          faldón m
+                        aiguavés m
+                      cairó m                 baldosa cuadrada f
+                      caironet m              baldosín m
+                      calcària f              caliza f
+                      calç f                  cal f
+                      campana de fums f       campana de humos f
+                      canal f                 canal m
+                      canal f                 canalón m
+                      canalera f              canal m
+                      canaló m                canalón m
+                      canonada f              tubería f
+                                                cañería f
+                      cantell m               canto m
+                      cantonera f             cantonera f
+                      carcanyol m             seno m
+                      carcassa f              armazón m
+                      carener m               cumbrera f
+                                                lima tesa f
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      cargol m               tornillo m
+                      cartel.la f            cartela f
+                      carreu m               sillar m
+                      cavalló m              albardilla f
+                      cel ras m              cielo raso m
+                                               falso techo m
+                      celobert m             patio de luces m
+                      cep m                  cepo m
+                      ciment m               cemento m
+                      cindri m               cimbra f
+                      claraboia f            claraboya f
+                      claveguera f           alcantarilla f
+                                               cloaca f
+                      clavegueram m          alcantarillado m
+                      clavegueró m           albañal m
+                      còdol m                canto m
+                        palet m
+                      col.limar v tr         colimar v tr
+                      connexió a terra f     toma de tierra f
+                      connexió de servei f   acometida f
+                      cornisa f              cornisa f
+                      crugia f               crujía f
+
+
+
+
+                      D
+                      davanter m             contrahuella f
+                      de través loc adv      a tizón loc adv
+                      declinació f           declinación f
+                      demolir v tr           demoler v tr
+                        enrunar v tr
+                      desguàs m              desagüe m
+                      desmunt m              desmonte m
+                      drenatge m             drenaje m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      E
+                      embornal m              imbornal m
+                      emmacat m               encachado m
+                      emmollatge m            enmoldado m
+                                                moldeado m
+                      emmorterar v tr         amorterar v tr
+                      empostissat m           entarimado m
+                                                entablado m
+                      emprimar v tr           imprimar v tr
+                      encadellat m            machihembrado m
+                      encaix m                ensamble m
+                      encastar v tr           empotrar v tr
+                      encavallada f           armadura de cubierta f
+                                                cercha f
+                      encenall m              viruta f
+                      encep m                 encepado m
+                      enderroc m              derribo m
+                      endoll m                enchufe m
+                      enjovar v tr            embrochalar v tr
+                      enllumenat m            alumbrado m
+                      enrajolat de parets m   alicatado m
+                      enrigidor m             rigidizador m
+                      enrunar v tr            demoler v tr
+                       demolir v tr
+                      entaulament m           entablamiento m
+                      entornpeu m             zanca f
+                      entumiment m            entumecimiento m
+                      envà m                  tabique m
+                      envà de sostremort m    tabique conejero m
+                      envernissada f          barnizado m
+                      esbrossada f            desbroce m
+                      escala de gat f         escala de barco f
+                      escopidor m             vierteaguas m
+                      escossell m             alcorque m
+                      esgraó m                peldaño m
+                       graó m
+                      estampidor m            codal m
+                      estesa f                huella f
+                      estrebar v intr         entibar v intr
+                      estrep m                estribo m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      estucat m                            estucado m
+                      esvelt -a adj                        esbelto -ta adj
+
+
+
+
+                      F
+                      façana f                             fachada f
+                      faixa armada f                       zuncho m
+                      femella f                            tuerca f
+                      fita f                               hito m
+                        molló m                              mojón m
+                      fitar v tr                           amojonar v tr
+                        termenar v tr
+                      fix -a adj (*)                       fijo -ja adj
+                      fleix m                              fleje m
+                      floniall m                           blandón m
+                      fonament m                           cimiento m
+                      frontissa f                          bisagra f
+                      fuita f                              fuga f
+                      fust m                               fuste m
+
+
+
+
+                      G
+                      gafa de pala i punta f               patilla f
+                        pota f
+                      gelosia f                            celosía f
+                      granulat m                           árido m
+                      graó m                               peldaño m
+                        esgraó m
+                      graveta f                            gravilla f
+                      gual m                               vado m
+                      guerxar-se v pron                    alabearse v pron
+                      guix m                               yeso m
+
+
+
+
+                      (*) Nota: El plural masculí de «fix» és «fixos» i el plural femení «fixes».
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      H
+                      habitatge m             vivienda f
+
+
+
+
+                      I
+                      illa f                  manzana f
+                      instal.lació f          instalación f
+
+
+
+
+                      J
+                      jaló m                  jalón m
+                        banderola f
+                      jàssera f               jácena f
+                      jou m                   brochal m
+                      junt m                  junta f
+                      junt horitzontal m      tendel m
+                        llença f
+                      junt vertical m         llaga f
+
+
+
+
+                      L
+                      limbe m                 limbo m
+                      lineal adj              lineal adj
+                      línia f                 linea f
+                      llamborda f             losa f
+                      llambordí m             adoquín m
+                      llata d’empostissar f   rastrel m
+                      llença f                tendel m
+                         junt horitzontal m
+                      lligada f               adaraja f
+                      llinda f                dintel m
+                      lliscat m               enlucido m
+                      lluerna f               lucernario m
+                                                tragaluz m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      M
+                      mànega f                                manguera f
+                      mantell freàtic m                       capa freática f
+                      manyeria f                              cerrajería f
+                      maó m                                   ladrillo m
+                      maó calat m                             ladrillo perforat m
+                      maó de queixal m                        ladrillo de mocheta m
+                      maó doble foradat m                     ladrillo doble hueco m
+                      maó foradat m                           ladrillo hueco m
+                      matxucatge m                            machaqueo m
+                      mesurar v tr                            medir v tr
+                       amidar v tr (*)
+                      mòbil adj                               móvil adj
+                      molló m                                 mojón m
+                       fita f                                   hito m
+                      muntant m                               montante m
+                      mur de carreu m                         muro de sillarejos m
+                      mur de trava m                          muro de arriostramien-
+                                                              to m
+
+
+
+
+                      N
+                      nivell mitjà m                          nivel medio m
+
+
+
+
+                      O
+                      obra de carreus f                       sillería f
+                      obra de fàbrica f                       muro de fábrica m
+                      obra de paret f                         muro de pared m
+
+
+
+
+                      (*) Nota: Segons el Diccionari manual de la construcció el terme «amidar» és
+                      adequat per a les mesures lineals.
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      P
+                      palet m                  canto m
+                        còdol m
+                      paleta m                 albañil m
+                      pandeig m                pandeo m
+                      paredat m                mampostería f
+                      paredó m                 tabicón m
+                      paret de façana f        muro de fachada m
+                      paret mitgera f          pared mediana f
+                      pastar v tr              amasar v tr
+                      pedra de paredar f       mampuesto m
+                      pericó m                 arqueta f
+                      pern m                   perno m
+                      petri pètria adj         pétreo -a adj
+                      piló m                   pilón m
+                      piló m                   pilote m
+                      pinyol m                 caliche m
+                      pinyolet m               garbancillo m
+                      pla m                    plan m
+                      pla m                    plano m
+                      plafó m                  panel m
+                      plànol m (*)             plano m
+                      porcellana f             porcelana f
+                      porta de plafons f       puerta de cuarterones f
+                      portal m                 portal m
+                      pòrtic m                 pórtico m
+                      posició intermèdia f     posición intermedia f
+                      post d’empostissar f     tabla de entarimado f
+                      posttesar v tr           postesar v tr
+                      pota f                   patilla f
+                        gafa de pala i punta f
+                      pou de recalçar m        batache m
+                      pretesar v tr            pretesar v tr
+                      punxonament m            punzonamiento m
+
+
+
+
+                      (*) Nota: El mot «planell» designa únicament un indret pla i elevat.
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      Q
+                      quadre-resum m         estadillo m
+                      quitrà m               alquitrán m
+
+
+
+
+                      R
+                      ràfec m                alero m
+                        barbacana f
+                      rajola f               baldosa f
+                      rajola f               rasilla f
+                      rajola de València f   azulejo m
+                      rasa f                 zanja f
+                      rasant f               rasante f
+                      referit m              guarnecido (yeso) m
+                      reglada f              maestra f
+                      reixeta f              maestra f
+                      replà m                descansillo m
+                                               rellano m
+                      reticle m              retículo m
+                      revoltó m              bovedilla f
+                      ruixador m             rociador m
+                      rumb m                 rumbo m
+
+
+
+
+                      S
+                      sifó m                 sifón m
+                      sòcol m                zócalo m
+                      sòl m                  suelo m
+                      solera f               solera f
+                      sostre m               forjado m
+                      sostre m               techo m
+                      subministrament m      suministro m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      T
+                      talús m               talud m
+                      tapaboques m          cubrejuntas m
+                      tapajunts m           tapajuntas m
+                      tapaporus m           tapaporos m
+                      tascó m               ejión m
+                      taula f               tabla f
+                      tauler m              tablero m
+                      termenar v tr         amojonar v tr
+                        fitar v tr
+                      termòstat m           termostato m
+                      terratzo m            terrazo m
+                      testa f               testa f
+                      topall m              tope m
+                      tortugada f           canalón m
+                      tova f                adobe m
+                      travar v tr           arriostrar v tr
+
+
+
+
+                      V
+                      verdugada f           verdugada f
+                      vernís m              barniz m
+                      vessant m i f         vertiente f
+                        aiguavés m           faldón m
+                        caient m
+                      viari -ària adj       vial adj
+                      volta f               bóveda f
+                      volta tradicional f   bóveda a la catalana f
+                                              bóveda tabicada f
+                      vorada f              bordillo m
+                      vorera f              acera f
+
+
+
+
+                      X
+                      xamfrà m              chaflán m
+                      xarnera f             charnela f
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      xarxa de clavegueres f red de alcantarillado f
+                      xarxa de reg f         red de riego f
+
+
+
+
+                      Z
+                      zenit m                 cénit m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                                       Castellà
+                                       Català
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      A
+                      a rastel loc adv         a rastell loc adv
+                      a soga loc adv           al llarg loc adv
+                      a tizón loc adv          de través loc adv
+                      abujardado m             buixardada f
+                      acera f                  vorera f
+                      acimut m                 azimut m
+                      acometida f              connexió de servei f
+                      adaraja f                lligada f
+                      adicional adj            addicional adj
+                      adobe m                  tova f
+                      adoquín m                llambordí m
+                      aire acondicionado m     aire condicionat m
+                      aislamiento m            aïllament m
+                      aislante m               aïllant m
+                      al tresbolillo loc adv   a portell loc adv
+                      alabearse v pron         guerxar-se v pron
+                      albañal m                clavegueró m
+                      albañil m                paleta m
+                      albardilla f             cavalló m
+                      alcantarilla f           claveguera f
+                        cloaca f
+                      alcantarillado m         clavegueram m
+                      alcorque m               escossell m
+                      alero m                  barbacana f
+                                                 ràfec m
+                      alféizar m               ampit m
+                        antepecho m
+                      alicatado m              enrajolat de parets m
+                      alquitrán m              quitrà m
+                      alumbrado m              enllumenat m
+                      amasar v tr              pastar v tr
+                      amojonar v tr            termenar v tr
+                                                 fitar v tr
+                      amorterar v tr           emmorterar v tr
+                      anclaje m                ancoratge m
+                      andamio m                bastida f
+                      anillado m               argollada f
+                      antepecho m              ampit m
+                       alféizar m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      antideslizante m       antilliscant m
+                      aparejamiento m        aparellament m
+                      aparejo m              aparell m
+                      árido m                granulat m
+                      armadura de cubierta f encavallada f
+                        cercha f
+                      armazón m              carcassa f
+                      arqueta f              pericó m
+                      arriostrar v tr        travar v tr
+                      asentamiento m         assentament m
+                        asiento m
+                      asiento m              assentament m
+                        asentamiento m
+                      azulejo m              rajola de València f
+
+
+
+
+                      B
+                      bajante m                baixant m
+                      baldosa f                rajola f
+                      baldosa cuadrada f       cairó m
+                      baldosín m               caironet m
+                      barniz m                 vernís m
+                      barnizado m              envernissada f
+                      batache m                pou de recalçar m
+                      bisagra f                frontissa f
+                      blandón m                floniall m
+                      bordillo m               vorada f
+                      bóveda f                 volta f
+                      bóveda a la catalana f volta tradicional f
+                        bóveda tabicada f
+                      bóveda tabicada f        volta tradicional f
+                        bóveda a la catalana f
+                      bovedilla f              revoltó m
+                      brochal m                jou m
+                      buhardilla f             androna f
+                      burbuja f                bombolla f
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      C
+                      cal f                   calç f
+                      caliche m               pinyol m
+                      caliza f                calcària f
+                      campana de humos f      campana de fums f
+                      canal m                 canal f
+                      canal m                 canalera f
+                      canalón m               canal f
+                      canalón m               canaló m
+                      canalón m               tortugada f
+                      canto m                 cantell m
+                      canto m                 còdol m
+                                                palet m
+                      cantonera f             cantonera f
+                      cañería f               canonada f
+                        tubería f
+                      capa freática f          mantell freàtic m
+                      cartela f                cartel.la f
+                      caudal m                 cabal m
+                      celosía f                gelosia f
+                      cemento m                ciment m
+                      cénit m                  zenit m
+                      cepo m                   cep m
+                      cercha f                 encavallada f
+                        armadura de cubierta f
+                      cerrajería f             manyeria f
+                      cielo raso m             cel ras m
+                        falso techo m
+                      cimbra f                 cindri m
+                      cimiento m               fonament m
+                      claraboya f              claraboia f
+                      cloaca f                 claveguera f
+                        alcantarilla f
+                      codal m                  estampidor m
+                      colimar v tr             col.limar v tr
+                      contrahuella f           davanter m
+                      cornisa f                cornisa f
+                      crujía f                 crugia f
+                      cubrejuntas m            tapaboques m
+                      cumbrera f               carener m
+                        lima tesa f
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      chaflán m          xamfrà m
+                      chapado m          aplacat m
+                       revestido m
+                      charnela f         xarnera f
+
+
+
+
+                      D
+                      declinación f      declinació f
+                      demoler v tr       demolir v tr
+                                           enrunar v tr
+                      derribo m          enderroc m
+                      desagüe m          desguàs m
+                      desbroce m         esbrossada f
+                      descansillo m      replà m
+                        rellano m
+                      deslindar v tr     atermenar v tr
+                      desmonte m         desmunt m
+                      dintel m           llinda f
+                      drenaje m          drenatge m
+
+
+
+
+                      E
+                      ejión m            tascó m
+                      embrochalar v tr   enjovar v tr
+                      empotrar v tr      encastar v tr
+                      encachado m        emmacat m
+                      encepado m         encep m
+                      enchufe m          endoll m
+                      enfoscado m        arrebossat m
+                      enlucido m         lliscat m
+                      enmoldado m        emmollatge m
+                        moldeado m
+                      ensamble m         encaix m
+                      entablado m        empostissat m
+                        entarimado m
+                      entablamiento m    entaulament m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      entarimado m          empostissat m
+                       entablado m
+                      entibar v intr        estrebar v intr
+                      entumecimiento m      entumiment m
+                      esbelto -ta adj       esvelt -a adj
+                      escala de barco f     escala de gat f
+                      estadillo m           quadre-resum m
+                      estribo m             estrep m
+                      estucado m            estucat m
+
+
+
+
+                      F
+                      fachada f             façana f
+                      faldón m              aiguavés m
+                        vertiente f           vessant m i f
+                                              caient m
+                      falso techo m         cel ras m
+                         cielo raso m
+                      fijo -ja adj          fix -a adj
+                      fleje m               fleix m
+                      forjado m             sostre m
+                      fraguado m            adormiment m
+                      fuga f                fuita f
+                      fuste m               fust m
+
+
+
+
+                      G
+                      garbancillo m         pinyolet m
+                      gravilla f            graveta f
+                      guarnecido (yeso) m   referit m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      H
+                      hito m                   fita f
+                        mojón m                  molló m
+                      huella f                 estesa f
+
+
+
+
+                      I
+                      imbornal m               embornal m
+                      imprimar v tr            emprimar v tr
+                      inglete m                biaix de cartabó m
+                      instalación f            instal.lació f
+
+
+
+
+                      J
+                      jácena f                 jàssera f
+                      jalón m                  banderola f
+                                                 jaló m
+                      jamba f                  brancal m
+                      junta f                  junt m
+
+
+
+
+                      L
+                      ladrillo m               maó m
+                      ladrillo de mocheta m    maó de queixal m
+                      ladrillo doble hueco m   maó doble foradat m
+                      ladrillo hueco m         maó foradat m
+                      ladrillo perforat m      maó calat m
+                      lima hoya f              aiguafons m
+                      lima tesa f              carener m
+                        cumbrera f
+                      limbo m                  limbe m
+                      linea f                  línia f
+                      lineal adj               lineal adj
+                      losa f                   llamborda f
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      lucernario m           lluerna f
+                        tragaluz m
+                      llaga f                junt vertical m
+
+
+
+
+                      M
+                      machaqueo m            matxucatge m
+                      machihembrado m        encadellat m
+                      machón m               agulla f
+                      maestra f              reglada f
+                      mampostería f          paredat m
+                      mampuesto m            pedra de paredar f
+                      manguera f             mànega f
+                      manzana f              illa f
+                      marco de mocheta m     bastiment de doella m
+                      medir v tr             amidar v tr
+                                                mesurar v tr
+                      mojón m                molló m
+                       hito m                   fita f
+                      moldeado m             emmollatge m
+                       enmoldado m
+                      montante m             muntant m
+                      móvil adj              mòbil adj
+                      muro                   mur de trava m
+                      de arriostramiento m
+                      muro de fábrica m      obra de fàbrica f
+                      muro de fachada m      paret de façana f
+                      muro de pared m        obra de paret f
+                      muro de sillarejos m   mur de carreu m
+
+
+
+
+                      N
+                      nivel medio m          nivell mitjà m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      P
+                      pandeo m                pandeig m
+                      panel m                 plafó m
+                      pared mediana f         paret mitgera f
+                      patilla f               gafa de pala i punta f
+                                                pota f
+                      patio de luces m        celobert m
+                      peldaño m               esgraó m
+                                                graó m
+                      perno m                 pern m
+                      pétreo -a adj           petri pètria adj
+                      pilón m                 piló m
+                      pilote m                piló m
+                      plan m                  pla m
+                      plano m                 pla m
+                      plano m                 plànol m
+                      porcelana f             porcellana f
+                      portal m                portal m
+                      pórtico m               pòrtic m
+                      posición intermedia f posició intermèdia f
+                      postesar v tr           posttesar v tr
+                      pretesar v tr           pretesar v tr
+                      puerta de cuarterones f porta de plafons f
+                      punzonamiento m         punxonament m
+
+
+
+
+                      R
+                      rasante f                 rasant f
+                      rasilla f                 rajola f
+                      rastrel m                 llata d’empostissar f
+                      red de alcantarillado f   xarxa de clavegueres f
+                      red de riego f            xarxa de reg f
+                      rejilla f                 reixeta f
+                      rellano m                 replà m
+                        descansillo m
+                      retículo m                reticle m
+                      revestido m               aplacat m
+                        chapado m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      rigidizador m           enrigidor m
+                      rociador m              ruixador m
+                      rumbo m                 rumb m
+
+
+
+
+                      S
+                      seno m                  carcanyol m
+                      sifón m                 sifó m
+                      sillar m                carreu m
+                      sillería f              obra de carreus f
+                      solera f                solera f
+                      sombrerete m            barret m
+                      suelo m                 sòl m
+                      sumidero m              bonera f
+                      suministro m            subministrament m
+
+
+
+
+                      T
+                      tabicón m               paredó m
+                      tabique m               envà m
+                      tabique conejero m      envà de sostremort m
+                      tabla f                 taula f
+                      tabla de entarimado f   post d’empostissar f
+                      tablero m               tauler m
+                      talud m                 talús m
+                      tapajuntas m            tapajunts m
+                      tapaporos m             tapaporus m
+                      techo m                 sostre m
+                      tendel m                junt horitzontal m
+                                                llença f
+                      termostato m            termòstat m
+                      terrazo m               terratzo m
+                      testa f                 testa f
+                      toma de tierra f        connexió a terra f
+                      tope m                  topall m
+                      tornillo m              cargol m
+                      tragaluz m              lluerna f
+                        lucernario m
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      tubería f        canonada f
+                        cañería f
+                      tuerca f         femella f
+
+
+
+
+                      V
+                      vado m           gual m
+                      verdugada f      verdugada f
+                      vertedero m      abocador m
+                      vertiente f      vessant m i f
+                        faldón m         aiguavés m
+                                         caient m
+                      vial adj         viari -ària adj
+                      vierteaguas m    escopidor m
+                      viga f           biga f
+                      vigueta f        bigueta f
+                      viruta f         encenall m
+                      vivienda f       habitatge m
+
+
+
+
+                      Y
+                      yeso m           guix m
+
+
+
+
+                      Z
+                      zanca f          entornpeu m
+                      zanja f          rasa f
+                      zócalo m         sòcol m
+                      zuncho m         faixa armada f
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                              Símbols i abreviatures més freqüents
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      • altitud                              alt.
+                      • altura                               alt.
+                      • ampère/amper                         A
+                      • amplada                              ampl.
+                      • amplària                             ampl.
+                      • àngstrom/ångström (longitud)         Å
+                      • àrea                                 a
+                      • bar                                  bar
+                      • candela                              cd
+                      • centímetre                           cm
+                      • coulomb                              C
+                      • dia                                  d
+                      • est                                  E
+                      • farad                                F
+                      • gram                                 g
+                      • grau Celsius                         ºC
+                      • habitants                            h.
+                      • hectàrea                             ha
+                      • henry (inductància)                  H
+                      • hora                                 h
+                      • joule                                J
+                      • kelvin                               K
+                      • kilogram/quilogram                   kg
+                      • kilòmetre                            km
+                      • kilowatt                             kW
+                      • litre                                l, L
+                      • lumen (flux lluminós)                lm
+                      • lux (il.luminació)                   lx
+                      • metre                                m
+                      • metre cúbic                          m3
+                      • metre quadrat                        m2
+                      • milions de pessetes                  MPTA
+                      • mil.límetre                          mm
+                      • minut                                min
+                      • newton                               N
+                      • nit (luminància)                     nt
+                      • nord                                 N
+                      • nord-est                             NE
+                      • nord-oest                            NW
+                      • oest                                 OoW
+                      • ohm                                  W
+                      • pascal                               Pa
+                      • pesseta                              PTA
+                      • radiant                              rad
+                      • segon                                s
+                      • siemens (conductància, admitància)   S
+                      • sud                                  S
+                      • sud-est                              SE
+                      • sud-oest                             SO
+                      • tona                                 t
+                      • volt                                 V
+                      • watt/vat                             W
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      • weber (flux magnètic)                           Wb
+
+
+                      Nota:
+                      Els símbols s’escriuen en minúscules o en majúscules, d’a-
+                      cord amb les normes ISO i d’altres convencions internacio-
+                      nals. No porten mai punt. P.ex. kg, Pa, N, etc.
+                      Les abreviatures s’escriuen en minúscules o majúscules, d’a-
+                      cord amb la manera com escrivim el mot sencer. Porten punt
+                      final o bé barra (en aquest cas, no hi ha d’haver cap punt).
+Servei de Llengües i Terminologia
+UNIVERSITAT POLITÈCNICA DE CATALUNYA
+
+
+
+
+                      Autors
+
+                      Escola Universitària Politècnica de Catalunya
+
+                      Joan Albiol (Delegació d’Estudiants, BEI)
+                      Jeroni Vinyet (Delegació d’Estudiants, BEI)
+
+                      Servei de Llengües i Terminologia
+
+                      Montserrat Noró
+                      Anna Cervera
+
+                      Tractament informàtic
+
+                      Jordi Aymà
+
+                      Servei de Llengües i Terminologia
+                      Jordi Girona, 31
+                      08034 Barcelona
+
+                      Tel. 401 71 09
+
+
+
+                      © Servei de Llengües i Terminologia de la UPC, 1996
+
+
+                      Servei de Publicacions de la UPC, 1996 (2998)
+                      Impressió: El Tinter, sccl
+                      Dipòsit legal: B. 19.587-95
+                      2a edició
+

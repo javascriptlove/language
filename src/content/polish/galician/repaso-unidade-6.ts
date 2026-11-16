@@ -1,0 +1,288 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "repaso-unidade-6",
+  chapter: 6,
+  number: 4,
+  title: "Repaso – Unidade 6",
+  titlePl: "Powtórka z rozdziału 6",
+  intro:
+    "Powtarzamy wszystko o domu! Zrób tę lekcję dzień lub dwa po skończeniu rozdziału 6. Przejrzyj ściągi i słowniczek, rozwiąż zadania, a na koniec napisz test. Jeśli coś pójdzie słabo, wróć do lekcji: vivir, pomieszczenia i liczebniki porządkowe – „Vivo nun piso”, meble, estar, przyimki miejsca i do / da – „No meu cuarto”, hai czy está i polecenia – „Onde está o meu móbil?”.",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "opowiedzieć, gdzie i w czym mieszkasz,",
+        "nazwać pomieszczenia i meble,",
+        "używać liczebników porządkowych i podać adres,",
+        "powiedzieć, gdzie coś jest, z estar, przyimkami miejsca i do / da,",
+        "odróżnić hai od está / están,",
+        "wydawać proste polecenia: pon, mira, ven, fai.",
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: vivir, pomieszczenia, piętra",
+      paragraphs: [
+        "**vivir**: vivo, vives, vive, vivimos, vivides, viven. **nun** piso / **nunha** casa (en + un / unha), **en** Santiago, **na** Coruña, **na** rúa…, **no** terceiro (andar). (Lekcja „Vivo nun piso”)",
+        "Liczebniki porządkowe mają rodzaj: **primeiro / primeira**, **segundo / segunda**, **terceiro / terceira**, **cuarto / cuarta**, **quinto / quinta**… Adres **4.º esquerda** = cuarto andar, porta da esquerda.",
+        "**na casa** = w domu, **á casa** = do domu. **cuarto** = czwarty, pokój i kwadrans!",
+      ],
+      table: {
+        headers: ["", "męski (o andar)", "żeński (a porta)"],
+        rows: [
+          { cells: ["1", "primeiro", "primeira"], speak: "primeiro, primeira" },
+          { cells: ["2", "segundo", "segunda"], speak: "segundo, segunda" },
+          { cells: ["3", "terceiro", "terceira"], speak: "terceiro, terceira" },
+          { cells: ["4", "cuarto", "cuarta"], speak: "cuarto, cuarta" },
+          { cells: ["5", "quinto", "quinta"], speak: "quinto, quinta" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: gdzie co jest?",
+      paragraphs: [
+        "Przy miejscu używamy **estar**: estou, estás, está, estamos, estades, están. **Onde está** o libro? – **Está na** mesa. **Onde están** as chaves? – **Están no** peto. (Lekcja „No meu cuarto”)",
+        "Przyimki: **enriba de** (na), **debaixo de** (pod), **ao lado de** (obok), **diante de** (przed), **detrás de** (za), **dentro de** (w), **entre … e …** (między). **de + o = do**, **de + a = da**, **dos**, **das**.",
+        "**hai** + un / unha / liczba / ningún – coś w ogóle jest: **Hai un** gato na bolsa! **está / están** + o / a / o meu… – gdzie jest konkretna rzecz: **O** meu móbil **está** na neveira. (Lekcja „Onde está o meu móbil?”)",
+      ],
+      table: {
+        headers: ["po galicyjsku", "po polsku"],
+        rows: [
+          { cells: ["Lúa está enriba do armario.", "Lúa jest na szafie."], speak: "Lúa está enriba do armario." },
+          { cells: ["Os zapatos están debaixo da cama.", "Buty są pod łóżkiem."], speak: "Os zapatos están debaixo da cama." },
+          { cells: ["No recibidor non hai ningunha bolsa.", "W przedpokoju nie ma żadnej torby."], speak: "No recibidor non hai ningunha bolsa." },
+          { cells: ["Hai dous libros na mesa.", "Na stole są dwie książki."], speak: "Hai dous libros na mesa." },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: polecenia",
+      paragraphs: [
+        "Polecenie do jednej osoby = forma **el / ela**: mira → **Mira!**, busca → **Busca!**, abre → **Abre!**, pecha → **Pecha!**, colle → **Colle!**",
+        "Nieregularne: **Pon!** (pór), **Ven!** (vir), **Fai!** (facer), **Di!** (dicir). Gotowe zwroty z zaimkiem: **Axúdame!**, **Chámame!**, **Agarda!**",
+        "Grzeczniej: dodaj **por favor**. Odpowiedź na polecenie: **Agora mesmo!** – Już!",
+      ],
+    },
+    {
+      type: "vocab",
+      title: "Najważniejsze słówka rozdziału 6",
+      groups: [
+        {
+          title: "Dom i mieszkanie",
+          items: [
+            { text: "o piso / a casa", pl: "mieszkanie / dom" },
+            { text: "o edificio / o ascensor", pl: "budynek / winda" },
+            { text: "as escaleiras / a porta", pl: "schody / drzwi" },
+            { text: "o recibidor / o salón", pl: "przedpokój / salon" },
+            { text: "a cociña / o baño", pl: "kuchnia / łazienka" },
+            { text: "o cuarto / o dormitorio", pl: "pokój / sypialnia" },
+            { text: "o balcón / a galería", pl: "balkon / przeszklony balkon" },
+            { text: "o xardín", pl: "ogród" },
+          ],
+        },
+        {
+          title: "Meble i rzeczy",
+          items: [
+            { text: "a cama / o armario", pl: "łóżko / szafa" },
+            { text: "a mesa / a cadeira", pl: "biurko, stół / krzesło" },
+            { text: "o andel / a lámpada", pl: "półka / lampa" },
+            { text: "a alfombra / o espello", pl: "dywan / lustro" },
+            { text: "o sofá / a neveira", pl: "kanapa / lodówka" },
+            { text: "a parede / o chan", pl: "ściana / podłoga" },
+            { text: "a fiestra", pl: "okno" },
+          ],
+        },
+        {
+          title: "Gdzie? Polecenia",
+          items: [
+            { text: "enriba de / debaixo de", pl: "na / pod" },
+            { text: "ao lado de / entre", pl: "obok / między" },
+            { text: "diante de / detrás de", pl: "przed / za" },
+            { text: "dentro de / no medio de", pl: "w / na środku" },
+            { text: "buscar / atopar", pl: "szukać / znaleźć" },
+            { text: "Pon… / Colle…", pl: "Połóż… / Weź…" },
+            { text: "Ven! / Fai…!", pl: "Chodź! / Zrób…!" },
+            { text: "Non sei.", pl: "Nie wiem." },
+          ],
+        },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "O cuarto novo de Xoán",
+      titlePl: "Nowy pokój Xoána",
+      context: "Sobota. Rodzina Xoána przeprowadziła się do nowego mieszkania. Carla i Brais pomagają Xoánowi urządzić jego pierwszy własny pokój.",
+      cast: { "Xoán": "m", Carla: "f", Brais: "m" },
+      lines: [
+        { speaker: "Xoán", text: "Benvidos! Vivimos no quinto esquerda… e hai ascensor!", pl: "Witajcie! Mieszkamy na piątym piętrze, drzwi po lewej… i jest winda!" },
+        { speaker: "Carla", text: "Que sorte! E cal é o teu cuarto?", pl: "Co za szczęście! A który to twój pokój?" },
+        { speaker: "Xoán", text: "Este, ao lado do baño. Por fin teño un cuarto só para min! As miñas irmás están no outro.", pl: "Ten, obok łazienki. Wreszcie mam pokój tylko dla siebie! Moje siostry są w tamtym." },
+        { speaker: "Brais", text: "Ben, onde poñemos a cama?", pl: "Dobra, gdzie stawiamy łóżko?" },
+        { speaker: "Xoán", text: "Diante da fiestra. Non, agarda… ao lado da fiestra.", pl: "Przed oknem. Nie, czekaj… obok okna." },
+        { speaker: "Carla", text: "E a mesa? Hai moita luz aquí, á esquerda.", pl: "A biurko? Tutaj, po lewej, jest dużo światła." },
+        { speaker: "Xoán", text: "Perfecto. Pon a mesa aí. E o xadrez, enriba da mesa.", pl: "Idealnie. Postaw je tam. A szachy na biurku." },
+        { speaker: "Brais", text: "E este póster? É do Celta! Aquí non, home!", pl: "A ten plakat? Jest Celty! Tylko nie tutaj, człowieku!" },
+        { speaker: "Xoán", text: "Si, aquí, enriba da cama! E ti, Brais, ven e axúdame co armario.", pl: "Tak, tutaj, nad łóżkiem! A ty, Brais, chodź i pomóż mi z szafą." },
+        { speaker: "Carla", text: "Xoán, na caixa hai un plátano… e moitas cartas. Onde as poño?", pl: "Xoán, w pudle jest banan… i mnóstwo kart. Gdzie je położyć?" },
+        { speaker: "Xoán", text: "O plátano, para min. Teño fame! As cartas, no andel.", pl: "Banan dla mnie. Jestem głodny! Karty na półkę." },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-6-4-dialogue",
+        kind: "choice",
+        skill: "Czytanie",
+        title: "Verdadeiro ou falso?",
+        instruction: "Na podstawie dialogu zdecyduj: zdanie jest prawdziwe (verdadeiro) czy fałszywe (falso)?",
+        items: [
+          { prompt: "Xoán vive no quinto esquerda.", speak: "Xoán vive no quinto esquerda.", options: ["verdadeiro", "falso"], answer: 0 },
+          { prompt: "O edificio non ten ascensor.", speak: "O edificio non ten ascensor.", options: ["verdadeiro", "falso"], answer: 1, explanation: "Xoán mówi: e hai ascensor! – jest winda." },
+          { prompt: "O cuarto de Xoán está ao lado da cociña.", speak: "O cuarto de Xoán está ao lado da cociña.", options: ["verdadeiro", "falso"], answer: 1, explanation: "Pokój jest obok łazienki – ao lado do baño." },
+          { prompt: "A cama está ao lado da fiestra.", speak: "A cama está ao lado da fiestra.", options: ["verdadeiro", "falso"], answer: 0 },
+          { prompt: "O póster é do Deportivo.", speak: "O póster é do Deportivo.", options: ["verdadeiro", "falso"], answer: 1, explanation: "To plakat Celty – do Celta." },
+          { prompt: "As cartas están na caixa.", speak: "As cartas están na caixa.", options: ["verdadeiro", "falso"], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-6-4-listen",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Escoita e entende",
+        instruction: "Kliknij ▶, posłuchaj i wybierz właściwe znaczenie.",
+        items: [
+          { audio: "Vivimos no segundo dereita.", options: ["Mieszkamy na drugim piętrze, drzwi po prawej.", "Mieszkamy na trzecim piętrze, drzwi po lewej.", "Mieszkają na drugim piętrze."], answer: 0 },
+          { audio: "O piso ten dous dormitorios.", options: ["Mieszkanie ma dwie łazienki.", "Mieszkanie ma dwie sypialnie.", "Dom ma dwa piętra."], answer: 1 },
+          { audio: "As chaves están debaixo do espello.", options: ["Klucze są obok lustra.", "Klucze są za lustrem.", "Klucze są pod lustrem."], answer: 2 },
+          { audio: "Non hai ningunha cadeira.", options: ["Nie ma żadnego krzesła.", "Krzesła tam nie ma.", "Nie siadaj na krześle."], answer: 0 },
+          { audio: "Ven á cociña!", options: ["Idę do kuchni!", "Chodź do kuchni!", "Zrób coś w kuchni!"], answer: 1 },
+          { audio: "Pecha a fiestra, por favor.", options: ["Otwórz okno, proszę.", "Popatrz przez okno, proszę.", "Zamknij okno, proszę."], answer: 2 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-6-4-mixed",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "Cal é a frase correcta?",
+        instruction: "Wybierz poprawne zdanie. Uważaj na typowe błędy!",
+        items: [
+          { prompt: "„Mieszkam w mieszkaniu.”", options: ["Vivo en un piso.", "Vivo nun piso.", "Vivo a un piso."], answer: 1, speakOptions: true, explanation: "en + un = nun – piszemy razem." },
+          { prompt: "„Mieszkamy na trzecim piętrze.”", options: ["Vivimos no terceiro.", "Vivimos na terceira.", "Vivimos no tres."], answer: 0, speakOptions: true },
+          { prompt: "„Kot jest pod łóżkiem.”", options: ["O gato está debaixo de a cama.", "O gato está debaixo da cama.", "O gato hai debaixo da cama."], answer: 1, speakOptions: true },
+          { prompt: "„W lodówce jest mleko.”", options: ["O leite hai na neveira.", "Na neveira está leite.", "Na neveira hai leite."], answer: 2, speakOptions: true },
+          { prompt: "„Gdzie są moje buty?”", options: ["Onde están os meus zapatos?", "Onde hai os meus zapatos?", "Onde son os meus zapatos?"], answer: 0, speakOptions: true, explanation: "Konkretne rzeczy, miejsce → están." },
+          { prompt: "„Chodź tutaj!”", options: ["Vén aquí!", "Ven aquí!", "Vir aquí!"], answer: 1, speakOptions: true, explanation: "Polecenie: Ven! (bez kreski). vén = on przychodzi." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-6-4-fill",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "Uzupełnij zdania",
+        instruction: "Wpisz brakujące słowo. Podpowiedź w nawiasie.",
+        items: [
+          { before: "Os meus avós", after: "en Cracovia.", answers: ["viven"], hint: "(vivir)" },
+          { before: "Vivo no", after: "andar.", answers: ["segundo"], hint: "(2.º)" },
+          { before: "A lámpada está ao lado", after: "cama.", answers: ["da"], hint: "(de + a)" },
+          { before: "Na caixa", after: "un plátano.", answers: ["hai"], hint: "(jest)" },
+          { before: "Onde", after: "as chaves?", answers: ["están"], hint: "(estar)" },
+          { before: "", after: "os deberes, Daniel!", answers: ["Fai"], hint: "(facer – polecenie)" },
+          { before: "", after: "o móbil na mochila.", answers: ["Pon"], hint: "(pór – polecenie)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-6-4-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["casa", "nunha", "Viven", "xardín", "con"], answer: "Viven nunha casa con xardín.", pl: "Mieszkają w domu z ogrodem." },
+          { words: ["está", "entre", "O", "o", "andel", "armario", "e", "porta", "a"], answer: "O andel está entre o armario e a porta.", pl: "Półka jest między szafą a drzwiami." },
+          { words: ["hai", "Non", "móbil", "ningún"], answer: "Non hai ningún móbil.", pl: "Nie ma żadnego telefonu." },
+          { words: ["axúdame,", "Ven", "favor", "e", "por"], answer: "Ven e axúdame, por favor.", pl: "Chodź i pomóż mi, proszę." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-6-4-test",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Test: rozdział 6",
+        instruction: "10 pytań z całego rozdziału. Jeśli odpowiesz dobrze na co najmniej 8 – rozdział 6 zaliczony!",
+        items: [
+          { prompt: "Eu ___ en Santiago.", options: ["vive", "vivo", "vivimos"], answer: 1, speakOptions: true },
+          { prompt: "**a cociña** to…", options: ["kuchnia", "łazienka", "jadalnia"], answer: 0 },
+          { prompt: "Adres „3.º dereita” czytamy:", options: ["tres dereita", "terceiro dereita", "terceira dereito"], answer: 1, speakOptions: true },
+          { prompt: "**o armario** to…", options: ["lustro", "biurko", "szafa"], answer: 2 },
+          { prompt: "O can está ___ sofá. (pod)", options: ["debaixo do", "enriba do", "diante do"], answer: 0, speakOptions: true },
+          { prompt: "Eu ___ no meu cuarto.", options: ["está", "estou", "estás"], answer: 1, speakOptions: true },
+          { prompt: "Na mochila ___ tres cadernos.", options: ["están", "está", "hai"], answer: 2, speakOptions: true },
+          { prompt: "„Odrób lekcje!” – ___ os deberes!", options: ["Face", "Fai", "Facer"], answer: 1, speakOptions: true },
+          {
+            prompt: "Co to jest hórreo?",
+            options: ["galicyjski spichlerz na słupkach", "przeszklony balkon", "otwarte palenisko"],
+            answer: 0,
+            explanation: "Przeszklony balkon to a galería, a palenisko – a lareira.",
+          },
+          {
+            prompt: "Które miasto nazywa się „cidade de cristal” dzięki przeszklonym balkonom?",
+            options: ["Vigo", "A Coruña", "Ourense"],
+            answer: 1,
+            explanation: "A Coruña – szklane miasto, dzięki galeriom.",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-6-4-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "Agora ti! A miña casa",
+        instruction:
+          "Nagraj (albo napisz) wiadomość głosową dla Xoána (7–9 zdań): gdzie mieszkasz, jak wygląda twoje mieszkanie lub dom i twój pokój. Potem kliknij „Posłuchaj mojego tekstu”, przeczytaj go na głos razem z lektorem i porównaj z przykładem.",
+        checklist: [
+          "gdzie mieszkasz: vivo en… nun piso / nunha casa, no … andar",
+          "jakie są pomieszczenia: o piso ten…, hai…",
+          "twój pokój: meble i gdzie stoją (enriba de, ao lado de, entre…)",
+          "do / da co najmniej raz",
+          "jedno polecenie na koniec: Ven á miña casa! / Chámame!",
+        ],
+        placeholder: "Ola, Xoán! Vivo en…",
+        model:
+          "Ola, Xoán! Vivo en Cracovia, nun piso no cuarto andar. O edificio é vello, pero ten ascensor. O piso ten tres dormitorios, un salón, unha cociña e un baño. O meu cuarto está ao lado da cociña. A cama está diante da fiestra e a mesa está á dereita da cama. Os meus libros están no andel, entre o armario e a porta. Enriba da cama hai un póster do Vístula Cracovia! Ven á miña casa no verán!",
+        modelPl:
+          "Cześć, Xoán! Mieszkam w Krakowie, w mieszkaniu na czwartym piętrze. Budynek jest stary, ale ma windę. Mieszkanie ma trzy sypialnie, salon, kuchnię i łazienkę. Mój pokój jest obok kuchni. Łóżko stoi przed oknem, a biurko na prawo od łóżka. Moje książki są na półce między szafą a drzwiami. Nad łóżkiem wisi plakat Wisły Kraków! Przyjedź do mnie latem!",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Opowiadam, gdzie i w czym mieszkam – z piętrem i adresem.",
+        "Nazywam pomieszczenia i meble.",
+        "Mówię, gdzie co jest: estar + przyimki miejsca + do / da.",
+        "Odróżniam hai od está / están.",
+        "Wydaję proste polecenia: pon, mira, ven, fai.",
+      ],
+    },
+  ],
+};

@@ -1,0 +1,286 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "ripasso-unita-7",
+  chapter: 7,
+  number: 4,
+  title: "Ripasso – Unità 7",
+  titlePl: "Powtórka z rozdziału 7",
+  intro:
+    "To lekcja powtórkowa – zrób ją dzień lub dwa po skończeniu rozdziału 7. Przejrzyj ściągi i słowniczek, rozwiąż zadania, a na końcu napisz test. Jeśli coś pójdzie słabo, wróć do właściwej lekcji: ubrania, kolory i portare – lekcja 1 („Cosa indossi oggi?”), zakupy, ceny, questo / quello i vorrei – lekcja 2 („Quanto costa?”), porównania, quale i preferire – lekcja 3 („Un regalo per Luca”).",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "opisać, co ktoś ma na sobie – z kolorami we właściwej formie,",
+        "zrobić zakupy: poprosić, przymierzyć, zapytać o cenę i rozmiar,",
+        "wskazać rzecz: questo, questa, quel, quella, quei, quelle,",
+        "porównać rzeczy i zapytać quale preferisci?",
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: kolory i portare",
+      paragraphs: [
+        "Kolor stoi **po rzeczowniku** i pasuje do niego. Na -o: rosso, rossa, rossi, rosse (bianco → bianchi, bianche). Na -e: verde / verdi, marrone / marroni. **blu, rosa, viola** – nigdy się nie zmieniają. → lekcja 1",
+        "**portare / indossare** (nosić, mieć na sobie) – zwykłe czasowniki na -are. **i pantaloni, i jeans** – liczba mnoga: I miei jeans **sono** neri. → lekcja 1",
+        "Pytanie o kolor: **Di che colore è** il tuo maglione? / **Di che colore sono** le tue scarpe? → lekcja 1",
+      ],
+      table: {
+        headers: ["on", "ona", "oni", "one"],
+        rows: [
+          { cells: ["nero", "nera", "neri", "nere"], speak: "nero, nera, neri, nere" },
+          { cells: ["bianco", "bianca", "bianchi", "bianche"], speak: "bianco, bianca, bianchi, bianche" },
+          { cells: ["verde", "verde", "verdi", "verdi"], speak: "verde, verdi" },
+          { cells: ["marrone", "marrone", "marroni", "marroni"], speak: "marrone, marroni" },
+          { cells: ["blu", "blu", "blu", "blu"], speak: "blu" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: w sklepie – questo / quello, vorrei, ceny",
+      paragraphs: [
+        "Ten / ta: **questo** maglione, **questa** gonna, **questi** pantaloni, **queste** scarpe. Tamten / tamta (jak rodzajnik): **quel** cappotto, **quella** felpa, **quei** jeans, **quelle** scarpe. → lekcja 2",
+        "Grzecznie: **Vorrei** una maglietta, per favore. **Posso provare?** Rozmiar: **Che taglia porti?** – Porto la M. Buty: **Che numero porti?** → lekcja 2",
+        "Cena: **Quanto costa / costano?** – 29,90 € = ventinove euro e novanta; 100 € = cento; 120 € = centoventi. **euro** się nie zmienia! Za: **troppo** caro / grande / piccolo. → lekcja 2",
+      ],
+      table: {
+        headers: ["", "blisko (ten)", "dalej (tamten)"],
+        rows: [
+          { cells: ["il", "questo maglione", "quel maglione"], speak: "questo maglione, quel maglione" },
+          { cells: ["la", "questa gonna", "quella gonna"], speak: "questa gonna, quella gonna" },
+          { cells: ["i", "questi pantaloni", "quei pantaloni"], speak: "questi pantaloni, quei pantaloni" },
+          { cells: ["le", "queste scarpe", "quelle scarpe"], speak: "queste scarpe, quelle scarpe" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: porównania, quale i preferire",
+      paragraphs: [
+        "**più** … **di** (bardziej niż), **meno** … **di** (mniej niż), **così** … **come** (tak jak). Pamiętaj: di + la = **della**, di + il = **del**. **buono → migliore**, **cattivo → peggiore**. → lekcja 3",
+        "**Quale?** / **Quali?** – gdy wybieramy. Przed è: **Qual è…?** → lekcja 3",
+        "**preferire** (-isc-): preferisco, preferisci, preferisce, preferiamo, preferite, preferiscono. Dla kogo: **per** Luca, **per te**. → lekcja 3",
+      ],
+      table: {
+        headers: ["", "przykład"],
+        rows: [
+          { cells: ["più … di", "La giacca è più cara del maglione."], speak: "La giacca è più cara del maglione." },
+          { cells: ["meno … di", "Porta Portese è meno cara dei negozi."], speak: "Porta Portese è meno cara dei negozi." },
+          { cells: ["così … come", "Marco è così alto come Luca."], speak: "Marco è così alto come Luca." },
+          { cells: ["il migliore", "È il regalo migliore!"], speak: "È il regalo migliore!" },
+        ],
+      },
+    },
+    {
+      type: "vocab",
+      title: "Najważniejsze słowa i zwroty",
+      groups: [
+        {
+          title: "Ubrania i kolory (lekcja 1)",
+          items: [
+            { text: "la maglietta / il maglione / la felpa", pl: "koszulka / sweter / bluza" },
+            { text: "la camicia / il vestito / la gonna", pl: "koszula / sukienka / spódnica" },
+            { text: "i pantaloni / i jeans", pl: "spodnie / dżinsy" },
+            { text: "la giacca / il cappotto", pl: "kurtka / płaszcz" },
+            { text: "le scarpe / gli stivali", pl: "buty / kozaki" },
+            { text: "il berretto / la sciarpa / i guanti", pl: "czapka / szalik / rękawiczki" },
+            { text: "rosso, bianco, nero, giallo, grigio, azzurro", pl: "czerwony, biały, czarny, żółty, szary, błękitny" },
+            { text: "verde, marrone, blu, rosa, viola", pl: "zielony, brązowy, granatowy, różowy, fioletowy" },
+            { text: "portare / indossare", pl: "nosić, mieć na sobie" },
+          ],
+        },
+        {
+          title: "W sklepie (lekcja 2)",
+          items: [
+            { text: "il commesso / la commessa", pl: "sprzedawca / sprzedawczyni" },
+            { text: "la taglia / il numero", pl: "rozmiar / rozmiar buta" },
+            { text: "provare / il camerino", pl: "przymierzyć / przymierzalnia" },
+            { text: "Vorrei…", pl: "Chciałbym / Chciałabym…" },
+            { text: "Quanto costa? / Quanto costano?", pl: "Ile kosztuje? / Ile kosztują?" },
+            { text: "caro / economico", pl: "drogi / tani" },
+            { text: "troppo grande / piccolo / caro", pl: "za duży / za mały / za drogi" },
+            { text: "Lo prendo. / La prendo.", pl: "Biorę go. / Biorę ją." },
+            { text: "i saldi / in offerta", pl: "wyprzedaż / w promocji" },
+          ],
+        },
+        {
+          title: "Prezenty i porównania (lekcja 3)",
+          items: [
+            { text: "il regalo / regalare", pl: "prezent / dawać w prezencie" },
+            { text: "il compleanno / la torta", pl: "urodziny / tort" },
+            { text: "Per chi è? – È per te.", pl: "Dla kogo to? – Dla ciebie." },
+            { text: "più … di / meno … di / così … come", pl: "bardziej niż / mniej niż / tak jak" },
+            { text: "migliore / peggiore / il migliore", pl: "lepszy / gorszy / najlepszy" },
+            { text: "Quale preferisci?", pl: "Który wolisz?" },
+            { text: "Porta Portese / lo sconto", pl: "pchli targ w Rzymie / zniżka" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "Un berretto per Cracovia",
+      titlePl: "Czapka na Kraków",
+      context: "Środa po południu. Laura jedzie na Święta do Krakowa i potrzebuje ciepłych rzeczy. Giulia idzie z nią do sklepu.",
+      cast: { Laura: "f", Giulia: "f", Commessa: "f" },
+      lines: [
+        { speaker: "Giulia", text: "Allora, Laura, cosa cerchi?", pl: "No to, Lauro, czego szukasz?" },
+        { speaker: "Laura", text: "Un berretto e un paio di guanti. A Cracovia, a dicembre, c'è la neve!", pl: "Czapki i rękawiczek. W Krakowie w grudniu jest śnieg!" },
+        { speaker: "Commessa", text: "Buonasera, ragazze! Posso aiutarvi?", pl: "Dobry wieczór, dziewczyny! Mogę wam pomóc?" },
+        { speaker: "Laura", text: "Buonasera. Vorrei un berretto, per favore.", pl: "Dobry wieczór. Chciałabym czapkę, poproszę." },
+        { speaker: "Commessa", text: "Di che colore? Ho questo berretto rosso e quel berretto grigio.", pl: "W jakim kolorze? Mam tę czerwoną czapkę i tamtą szarą." },
+        { speaker: "Giulia", text: "Il berretto rosso è più bello di quello grigio!", pl: "Czerwona czapka jest ładniejsza od szarej!" },
+        { speaker: "Laura", text: "Sì, ma è più caro. Quanto costa?", pl: "Tak, ale droższa. Ile kosztuje?" },
+        { speaker: "Commessa", text: "Il rosso costa diciannove euro e il grigio quattordici.", pl: "Czerwona kosztuje dziewiętnaście euro, a szara czternaście." },
+        { speaker: "Laura", text: "Prendo il rosso. E quanto costano questi guanti bianchi?", pl: "Biorę czerwoną. A ile kosztują te białe rękawiczki?" },
+        { speaker: "Commessa", text: "Sono in offerta: nove euro e novanta.", pl: "Są w promocji: dziewięć euro dziewięćdziesiąt." },
+        { speaker: "Giulia", text: "Rosso e bianco… Sono i colori della bandiera polacca!", pl: "Czerwony i biały… To kolory polskiej flagi!" },
+        { speaker: "Laura", text: "È vero! Perfetti per Cracovia. Prendo anche i guanti!", pl: "To prawda! Idealne do Krakowa. Biorę też rękawiczki!" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-7-4-dialogue",
+        kind: "choice",
+        skill: "Słuchanie",
+        title: "Hai capito? – Zrozumiałeś/-aś?",
+        instruction: "Odpowiedz na pytania do dialogu „Un berretto per Cracovia”.",
+        items: [
+          { prompt: "Cosa cerca Laura?", speak: "Cosa cerca Laura?", options: ["un cappotto e gli stivali", "un berretto e i guanti", "un maglione e i jeans"], answer: 1, speakOptions: true },
+          { prompt: "Quanto costa il berretto grigio?", speak: "Quanto costa il berretto grigio?", options: ["14 €", "19 €", "9,90 €"], answer: 0 },
+          { prompt: "Quale berretto compra Laura?", speak: "Quale berretto compra Laura?", options: ["il grigio", "il bianco", "il rosso"], answer: 2, speakOptions: true },
+          { prompt: "Di che colore sono i guanti?", speak: "Di che colore sono i guanti?", options: ["bianchi", "rossi", "grigi"], answer: 0, speakOptions: true },
+          { prompt: "Ile Laura płaci w sumie?", options: ["23,90 €", "28,90 €", "33,90 €"], answer: 1, explanation: "19 € + 9,90 € = 28,90 €." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-7-4-colors",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "Kolory we właściwej formie",
+        instruction: "Wpisz kolor z nawiasu w poprawnej formie.",
+        items: [
+          { before: "Laura porta un vestito", after: ".", answers: ["verde"], hint: "(verde)" },
+          { before: "Ho le scarpe da ginnastica", after: ".", answers: ["bianche"], hint: "(bianco)" },
+          { before: "La professoressa porta una gonna", after: ".", answers: ["nera"], hint: "(nero)" },
+          { before: "Olena ha gli stivali", after: ".", answers: ["marroni"], hint: "(marrone)" },
+          { before: "Marco porta un cappellino", after: ".", answers: ["rosso"], hint: "(rosso)" },
+          { before: "Giulia porta una felpa", after: ".", answers: ["grigia"], hint: "(grigio)" },
+          { before: "Sono dei calzini", after: ".", answers: ["blu"], hint: "(blu)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-7-4-shop",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "questo / quello, quale, porównania",
+        instruction: "Wybierz poprawną odpowiedź.",
+        items: [
+          { prompt: "Quanto costa ___ giacca? (ta)", options: ["questo", "questa", "questi"], answer: 1 },
+          { prompt: "Vorrei ___ pantaloni. (te)", options: ["questi", "queste", "questo"], answer: 0 },
+          { prompt: "___ scarpe sono troppo care. (tamte)", options: ["Quella", "Quei", "Quelle"], answer: 2 },
+          { prompt: "___ preferisci, la rossa o la blu?", options: ["Cosa", "Quale", "Quali"], answer: 1 },
+          { prompt: "La maglietta (10 €) è ___ cara del maglione (30 €).", options: ["più", "meno", "così"], answer: 1 },
+          { prompt: "È il regalo ___.", options: ["più buono", "migliore", "buono di"], answer: 1 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-7-4-prices",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Ceny",
+        instruction: "Kliknij ▶, posłuchaj i wybierz właściwą cenę.",
+        items: [
+          { audio: "Costa diciannove euro.", options: ["9 €", "19 €", "90 €"], answer: 1 },
+          { audio: "Costa quattordici euro e cinquanta.", options: ["14,50 €", "40,50 €", "4,50 €"], answer: 0 },
+          { audio: "Costano settanta euro.", options: ["60 €", "17 €", "70 €"], answer: 2 },
+          { audio: "Costa centocinquanta euro.", options: ["105 €", "150 €", "115 €"], answer: 1 },
+          { audio: "Costa cento euro.", options: ["100 €", "110 €", "10 €"], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-7-4-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["camicia", "porta", "bianca", "Luca", "una"], answer: "Luca porta una camicia bianca.", pl: "Luca ma na sobie białą koszulę." },
+          { words: ["provare", "vestito", "Vorrei", "questo"], answer: "Vorrei provare questo vestito.", pl: "Chciałabym przymierzyć tę sukienkę." },
+          { words: ["costa", "Quanto"], answer: "Quanto costa?", pl: "Ile to kosztuje?" },
+          { words: ["meno", "La", "cara", "gonna", "è", "del", "vestito"], answer: "La gonna è meno cara del vestito.", pl: "Spódnica jest tańsza niż sukienka." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-7-4-test",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "Test: rozdział 7",
+        instruction: "10 pytań z całego rozdziału: słówka, gramatyka i kultura. 8 dobrych odpowiedzi na 10 = rozdział zaliczony!",
+        items: [
+          { prompt: "„czerwona sukienka”", options: ["un rosso vestito", "un vestito rosso", "un vestito rossa"], answer: 1, speakOptions: true },
+          { prompt: "„białe buty”", options: ["le scarpe bianci", "le scarpe bianche", "le bianche scarpe"], answer: 1, speakOptions: true },
+          { prompt: "„granatowe skarpetki”", options: ["i calzini blu", "i calzini bli", "i calzini blui"], answer: 0, speakOptions: true },
+          { prompt: "I miei jeans ___ neri.", options: ["è", "sono", "ha"], answer: 1, explanation: "i jeans – liczba mnoga." },
+          { prompt: "Grzecznie w sklepie: „Chciałabym ten sweter.”", options: ["Voglio questo maglione!", "Vorrei questo maglione, per favore.", "Dammi questo maglione."], answer: 1, speakOptions: true },
+          { prompt: "Mi piace ___ cappotto. (tamten)", options: ["quello", "quel", "quella"], answer: 1 },
+          { prompt: "120 € to…", options: ["cento venti euri", "centoventi euro", "centi venti euro"], answer: 1, speakOptions: true },
+          { prompt: "___ preferisci, queste o quelle?", options: ["Quale", "Quali", "Qual"], answer: 1 },
+          { prompt: "„Ten prezent jest lepszy.”", options: ["Questo regalo è più buono.", "Questo regalo è migliore.", "Questo regalo è così buono."], answer: 1, speakOptions: true },
+          { prompt: "Porta Portese w Rzymie działa…", options: ["w niedziele rano", "codziennie wieczorem", "tylko w sierpniu"], answer: 0, explanation: "Lekcja 3 – Cultura." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-7-4-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "Adesso tu! Moje zakupy – wiadomość do Oleny",
+        instruction:
+          "Napisz wiadomość do Oleny (8–10 zdań) o dzisiejszych zakupach: co kupujesz, w jakim kolorze, ile to kosztuje i co jest lepsze. Potem kliknij „Posłuchaj mojego tekstu” i przeczytaj go na głos.",
+        checklist: [
+          "napisz, gdzie jesteś i co kupujesz (oggi sono in…, compro…)",
+          "opisz co najmniej trzy ubrania z kolorami w poprawnej formie",
+          "podaj ceny słowami",
+          "użyj questo / questa / quel / quella i troppo",
+          "porównaj dwie rzeczy (più … di / meno … di) i zapytaj Olenę quale preferisci?",
+        ],
+        placeholder: "Ciao Olena! Oggi sono in…",
+        model:
+          "Ciao Olena! Oggi sono in un negozio con Giulia. Compro un berretto rosso e i guanti bianchi per Cracovia. Il berretto costa diciannove euro. C'è anche un berretto grigio: è meno caro, ma quello rosso è più bello. I guanti costano nove euro e novanta, sono in offerta. Giulia prova una giacca viola, ma è troppo grande. Queste cose sono perfette per l'inverno polacco! E tu? Qual è il tuo colore preferito? Un abbraccio, Laura",
+        modelPl:
+          "Cześć, Oleno! Dzisiaj jestem w sklepie z Giulią. Kupuję czerwoną czapkę i białe rękawiczki do Krakowa. Czapka kosztuje dziewiętnaście euro. Jest też szara czapka: tańsza, ale czerwona jest ładniejsza. Rękawiczki kosztują dziewięć euro dziewięćdziesiąt, są w promocji. Giulia przymierza fioletową kurtkę, ale jest za duża. Te rzeczy są idealne na polską zimę! A ty? Jaki jest twój ulubiony kolor? Ściskam, Laura",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Umiem opisać, co ktoś ma na sobie – z kolorami w poprawnej formie.",
+        "Umiem zrobić zakupy: vorrei…, posso provare?, porto la…, quanto costa?",
+        "Umiem przeczytać ceny w euro (cento, centoventi).",
+        "Umiem użyć questo, questa i quel, quella, quei, quelle.",
+        "Umiem porównać rzeczy (più … di, meno … di, così … come, migliore) i zapytać quale preferisci?",
+      ],
+    },
+  ],
+};

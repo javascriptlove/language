@@ -1,0 +1,313 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "revisao-unidade-5",
+  chapter: 5,
+  number: 4,
+  title: "Revisão – Unidade 5",
+  titlePl: "Powtórka z rozdziału 5",
+  intro:
+    "Powtarzamy wszystko o codziennym dniu! Zrób tę lekcję dzień lub dwa po skończeniu rozdziału 5. Przejrzyj ściągi i słowniczek, rozwiąż zadania, a na koniec napisz test. Jeśli coś pójdzie słabo, wróć do lekcji: czasowniki zwrotne i godziny – „Levanto-me às sete”, ir, sair i transport – „Como vais para a escola?”, weekend, posiłki, comer i beber – „Ao fim de semana descanso”.",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "opowiedzieć o swoim dniu z czasownikami zwrotnymi: levanto-me, deito-me, visto-me,",
+        "postawić zaimek we właściwym miejscu: levanto-me, ale não me levanto,",
+        "odmienić ir, sair, comer i beber,",
+        "powiedzieć, jak dojeżdżasz do szkoły i ile to trwa,",
+        "nazwać posiłki i użyć antes de / depois de.",
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: czasowniki zwrotne",
+      paragraphs: [
+        "W zdaniu twierdzącym zaimek stoi **za** czasownikiem, z łącznikiem: levanto**-me**, levantas**-te**, levanta**-se**, levantamo**-nos** (bez -s!), levantam**-se**. (Lekcja „Levanto-me às sete”)",
+        "Po **não**, **nunca** i słowach pytających (**que, quando, a que horas, onde**) zaimek idzie **przed** czasownik: **Não me** levanto. **A que horas te** deitas? W Brazylii zaimek stoi przed czasownikiem prawie zawsze: eu me levanto.",
+        "Uwaga: **acordar** (budzić się) i **tomar duche** (brać prysznic) są **bez** zaimka. **vestir** i **dormir** mają nieregularną formę „ja”: **visto**-me, **durmo**.",
+      ],
+      table: {
+        headers: ["po portugalsku", "po polsku"],
+        rows: [
+          { cells: ["Acordo às sete e levanto-me às sete e dez.", "Budzę się o siódmej i wstaję dziesięć po siódmej."], speak: "Acordo às sete e levanto-me às sete e dez." },
+          { cells: ["A que horas te deitas?", "O której kładziesz się spać?"], speak: "A que horas te deitas?" },
+          { cells: ["Deito-me por volta das dez.", "Kładę się około dziesiątej."], speak: "Deito-me por volta das dez." },
+          { cells: ["Ao domingo não me levanto cedo.", "W niedzielę nie wstaję wcześnie."], speak: "Ao domingo não me levanto cedo." },
+          { cells: ["Vestimo-nos depressa.", "Ubieramy się szybko."], speak: "Vestimo-nos depressa." },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: ir, sair, comer, beber",
+      paragraphs: [
+        "**ir** – iść i jechać: vou, vais, vai, vamos, vão. Czym? **de** autocarro, **de** metro, **de** comboio, ale pieszo – **a pé**. **sair** – wychodzić: saio, sais, sai, saímos, saem. (Lekcja „Como vais para a escola?”)",
+        "Ile to trwa? **Quanto tempo demoras?** – **Demoro** meia hora. Po kolei: **primeiro, depois, a seguir, por fim**.",
+        "Czasowniki na **-er**: como, comes, come, comemos, comem. Posiłki: **ao** pequeno-almoço, **ao** almoço, **ao** lanche, **ao** jantar. **antes de / depois de** + bezokolicznik albo **do / da** + rzeczownik: antes de dormir, depois do almoço. (Lekcja „Ao fim de semana descanso”)",
+      ],
+      table: {
+        headers: ["osoba", "ir", "sair", "comer"],
+        rows: [
+          { cells: ["eu", "vou", "saio", "como"], speak: "vou, saio, como" },
+          { cells: ["tu", "vais", "sais", "comes"], speak: "vais, sais, comes" },
+          { cells: ["ele / ela", "vai", "sai", "come"], speak: "vai, sai, come" },
+          { cells: ["nós", "vamos", "saímos", "comemos"], speak: "vamos, saímos, comemos" },
+          { cells: ["vocês / eles / elas", "vão", "saem", "comem"], speak: "vão, saem, comem" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: o senhor / a senhora",
+      paragraphs: [
+        "Do nauczyciela albo kogoś starszego mówimy **o senhor / a senhora** albo po prostu **professora**, a czasownik stoi w **3. osobie** – tak jak przy ele / ela: **A que horas se levanta, professora?**",
+        "Zaimek zwrotny jest wtedy **se**: A senhora levanta**-se** cedo? A que horas **se** deita?",
+      ],
+      table: {
+        headers: ["do kolegi (tu)", "do nauczycielki (a senhora)"],
+        rows: [
+          { cells: ["A que horas te levantas?", "A que horas se levanta, professora?"], speak: "A que horas te levantas? A que horas se levanta, professora?" },
+          { cells: ["Como vais para a escola?", "Como vai para a escola?"], speak: "Como vais para a escola? Como vai para a escola?" },
+          { cells: ["O que comes ao almoço?", "O que come ao almoço?"], speak: "O que comes ao almoço? O que come ao almoço?" },
+        ],
+      },
+    },
+    {
+      type: "vocab",
+      title: "Najważniejsze słówka rozdziału 5",
+      groups: [
+        {
+          title: "Mój dzień",
+          items: [
+            { text: "acordar / levantar-se", pl: "budzić się / wstawać" },
+            { text: "tomar duche / lavar-se", pl: "brać prysznic / myć się" },
+            { text: "lavar os dentes / pentear-se", pl: "myć zęby / czesać się" },
+            { text: "vestir-se (visto-me)", pl: "ubierać się" },
+            { text: "deitar-se / dormir (durmo)", pl: "kłaść się spać / spać" },
+            { text: "de manhã / à tarde / à noite", pl: "rano / po południu / wieczorem" },
+            { text: "por volta das dez", pl: "około dziesiątej" },
+            { text: "cedo / tarde", pl: "wcześnie / późno" },
+            { text: "Despacha-te!", pl: "Pospiesz się!" },
+          ],
+        },
+        {
+          title: "Droga do szkoły",
+          items: [
+            { text: "a pé / de autocarro / de metro", pl: "pieszo / autobusem / metrem" },
+            { text: "de comboio / de elétrico / de carro", pl: "pociągiem / tramwajem / samochodem" },
+            { text: "sair de casa", pl: "wychodzić z domu" },
+            { text: "apanhar o autocarro", pl: "wsiadać do autobusu" },
+            { text: "Quanto tempo demoras?", pl: "Ile czasu ci to zajmuje?" },
+            { text: "primeiro / depois / a seguir / por fim", pl: "najpierw / potem / następnie / na koniec" },
+            { text: "perto de / longe de", pl: "blisko / daleko od" },
+          ],
+        },
+        {
+          title: "Posiłki i weekend",
+          items: [
+            { text: "o pequeno-almoço / o almoço", pl: "śniadanie / obiad" },
+            { text: "o lanche / o jantar", pl: "podwieczorek / kolacja" },
+            { text: "comer / beber", pl: "jeść / pić" },
+            { text: "a sopa / a sobremesa", pl: "zupa / deser" },
+            { text: "ao fim de semana", pl: "w weekendy" },
+            { text: "dormir até tarde / ficar em casa", pl: "spać do późna / zostać w domu" },
+            { text: "antes de / depois de", pl: "przed / po" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "Entrevista com a professora Costa",
+      titlePl: "Wywiad z nauczycielką, panią Costą",
+      context: "Carla i Rafael piszą artykuł do szkolnej gazetki (o jornal da escola). Przeprowadzają wywiad z profesorą Costą. Uwaga: mówią do niej w 3. osobie!",
+      cast: { Carla: "f", Rafael: "m", "Professora Costa": "f" },
+      lines: [
+        { speaker: "Carla", text: "Bom dia, professora! Podemos fazer umas perguntas para o jornal da escola?", pl: "Dzień dobry, pani profesor! Możemy zadać kilka pytań do szkolnej gazetki?" },
+        { speaker: "Professora Costa", text: "Claro! Podem perguntar.", pl: "Oczywiście! Pytajcie." },
+        { speaker: "Carla", text: "A que horas se levanta?", pl: "O której pani wstaje?" },
+        { speaker: "Professora Costa", text: "Levanto-me às seis e um quarto. Moro em Cascais, longe da escola.", pl: "Wstaję kwadrans po szóstej. Mieszkam w Cascais, daleko od szkoły." },
+        { speaker: "Rafael", text: "E como vai para a escola?", pl: "A jak pani dojeżdża do szkoły?" },
+        { speaker: "Professora Costa", text: "Primeiro vou de comboio até ao Cais do Sodré. Depois apanho o metro. Demoro cinquenta minutos.", pl: "Najpierw jadę pociągiem do Cais do Sodré. Potem wsiadam do metra. Jadę pięćdziesiąt minut." },
+        { speaker: "Carla", text: "Cinquenta minutos! E o que faz no comboio?", pl: "Pięćdziesiąt minut! A co pani robi w pociągu?" },
+        { speaker: "Professora Costa", text: "Leio. E às vezes corrijo os vossos testes!", pl: "Czytam. A czasami poprawiam wasze sprawdziany!" },
+        { speaker: "Rafael", text: "E ao fim de semana? A senhora descansa?", pl: "A w weekend? Pani odpoczywa?" },
+        { speaker: "Professora Costa", text: "Descanso! Ao sábado não me levanto antes das nove. Ao domingo almoço com a família e à tarde passeio na praia.", pl: "Odpoczywam! W sobotę nie wstaję przed dziewiątą. W niedzielę jem obiad z rodziną, a po południu spaceruję po plaży." },
+        { speaker: "Carla", text: "Muito obrigada, professora!", pl: "Bardzo dziękujemy, pani profesor!" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "pt-5-4-dialogue",
+        kind: "choice",
+        skill: "Czytanie",
+        title: "Verdadeiro ou falso?",
+        instruction: "Na podstawie wywiadu zdecyduj: zdanie jest prawdziwe (verdadeiro) czy fałszywe (falso)?",
+        items: [
+          { prompt: "A professora Costa levanta-se às seis e um quarto.", speak: "A professora Costa levanta-se às seis e um quarto.", options: ["verdadeiro", "falso"], answer: 0 },
+          { prompt: "A professora mora perto da escola.", speak: "A professora mora perto da escola.", options: ["verdadeiro", "falso"], answer: 1, explanation: "Mieszka w Cascais, daleko od szkoły – longe da escola." },
+          { prompt: "A professora vai de comboio e de metro.", speak: "A professora vai de comboio e de metro.", options: ["verdadeiro", "falso"], answer: 0 },
+          { prompt: "Ela demora meia hora.", speak: "Ela demora meia hora.", options: ["verdadeiro", "falso"], answer: 1, explanation: "Jedzie pięćdziesiąt minut – cinquenta minutos." },
+          { prompt: "Ao sábado, a professora levanta-se às sete.", speak: "Ao sábado, a professora levanta-se às sete.", options: ["verdadeiro", "falso"], answer: 1, explanation: "W sobotę nie wstaje przed dziewiątą." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "pt-5-4-listen",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Posłuchaj i zrozum",
+        instruction: "Kliknij ▶, posłuchaj i wybierz właściwą odpowiedź.",
+        items: [
+          { audio: "Visto-me e penteio-me.", options: ["Ubieram się i czeszę.", "Myję się i czeszę.", "Ubieram się i myję zęby."], answer: 0 },
+          { audio: "Não me deito tarde.", options: ["Nie wstaję późno.", "Nie kładę się późno.", "Kładę się późno."], answer: 1 },
+          { audio: "Vamos de elétrico.", options: ["Jedziemy pociągiem.", "Idziemy pieszo.", "Jedziemy tramwajem."], answer: 2 },
+          { audio: "Saem de casa às oito.", options: ["Wychodzą z domu o ósmej.", "Wychodzę z domu o ósmej.", "Wracają do domu o ósmej."], answer: 0 },
+          { audio: "Ao lanche como uma torrada.", options: ["Na śniadanie jem tosta.", "Na podwieczorek jem tosta.", "Na kolację jem tosta."], answer: 1 },
+          { audio: "Depois do jantar leio.", options: ["Przed kolacją czytam.", "Po obiedzie czytam.", "Po kolacji czytam."], answer: 2 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "pt-5-4-reflexive",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "Gdzie stoi zaimek?",
+        instruction: "Wybierz zdanie poprawne w Portugalii.",
+        items: [
+          { prompt: "„Wstaję o siódmej.”", options: ["Me levanto às sete.", "Levanto-me às sete.", "Levanto às sete."], answer: 1, speakOptions: true },
+          { prompt: "„O której się kładziesz?”", options: ["A que horas deitas-te?", "A que horas te deitas?", "A que horas se deitas?"], answer: 1, speakOptions: true, explanation: "a que horas przyciąga zaimek przed czasownik." },
+          { prompt: "„Budzę się o szóstej.”", options: ["Acordo-me às seis.", "Me acordo às seis.", "Acordo às seis."], answer: 2, speakOptions: true, explanation: "acordar jest bez zaimka." },
+          { prompt: "„Wstajemy wcześnie.”", options: ["Levantamos-nos cedo.", "Levantamo-nos cedo.", "Nos levantamos cedo."], answer: 1, speakOptions: true, explanation: "W formie „my” czasownik gubi -s: levantamo-nos." },
+          { prompt: "„Daniel się nie czesze.”", options: ["O Daniel não penteia-se.", "O Daniel não se penteia.", "O Daniel se não penteia."], answer: 1, speakOptions: true },
+          { prompt: "„O której pani wstaje?” (do nauczycielki)", options: ["A que horas te levantas, professora?", "A que horas se levanta, professora?", "A que horas levanta-se, professora?"], answer: 1, speakOptions: true },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "pt-5-4-verbs",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "ir, sair, comer, beber",
+        instruction: "Wpisz właściwą formę czasownika z nawiasu.",
+        items: [
+          { before: "Eu", after: "para a escola a pé.", answers: ["vou"], hint: "(ir)" },
+          { before: "Os meus pais", after: "de carro.", answers: ["vão"], hint: "(ir)" },
+          { before: "A que horas", after: "de casa, Inês?", answers: ["sais"], hint: "(sair – tu)" },
+          { before: "Nós", after: "da escola às cinco.", answers: ["saímos"], hint: "(sair)" },
+          { before: "Ao almoço o Tiago", after: "sopa.", answers: ["come"], hint: "(comer)" },
+          { before: "Vocês", after: "sumo ou água?", answers: ["bebem"], hint: "(beber)" },
+          { before: "Eu", after: "vinte minutos.", answers: ["demoro"], hint: "(demorar)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "pt-5-4-words",
+        kind: "fill",
+        skill: "Pisanie",
+        title: "Brakujące słowa",
+        instruction: "Wpisz brakujące słowo. Polska podpowiedź jest w nawiasie.",
+        items: [
+          { before: "Vou para a escola", after: "pé.", answers: ["a"] },
+          { before: "Lavo os dentes antes", after: "dormir.", answers: ["de"] },
+          { before: "Depois", after: "almoço descanso.", answers: ["do"] },
+          { before: "Deito-me por volta", after: "onze.", answers: ["das"] },
+          { before: "", after: "apanho o autocarro, depois vou a pé.", answers: ["Primeiro", "primeiro"], hint: "(najpierw)" },
+          { before: "Às oito e meia tomo o", after: ".", answers: ["pequeno-almoço"], hint: "(śniadanie)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "pt-5-4-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["levantas", "horas", "que", "te", "A"], answer: "A que horas te levantas?", pl: "O której wstajesz?" },
+          { words: ["deito", "Nunca", "tarde", "me"], answer: "Nunca me deito tarde.", pl: "Nigdy nie kładę się późno." },
+          { words: ["comboio", "Vamos", "Porto", "de", "ao"], answer: "Vamos ao Porto de comboio.", pl: "Jedziemy do Porto pociągiem." },
+          { words: ["sopa", "jantar", "Ao", "comemos"], answer: "Ao jantar comemos sopa.", pl: "Na kolację jemy zupę." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "pt-5-4-test",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Test: rozdział 5",
+        instruction: "10 pytań z całego rozdziału. Jeśli odpowiesz dobrze na co najmniej 8 – rozdział 5 zaliczony!",
+        items: [
+          { prompt: "**deitar-se** to…", options: ["wstawać", "kłaść się spać", "ubierać się"], answer: 1 },
+          { prompt: "Jak jest „ubieram się”?", options: ["vesto-me", "visto-me", "veste-me"], answer: 1, speakOptions: true },
+          { prompt: "Nós ___ às sete.", options: ["levantamos-nos", "levantamo-nos", "levantam-se"], answer: 1, speakOptions: true },
+          { prompt: "„Pieszo” to…", options: ["de pé", "a pé", "com pé"], answer: 1, speakOptions: true },
+          { prompt: "Os alunos ___ de autocarro.", options: ["vai", "vamos", "vão"], answer: 2, speakOptions: true },
+          { prompt: "Jak jest „wychodzę”?", options: ["saio", "sao", "saimo"], answer: 0, speakOptions: true },
+          { prompt: "Posiłek około 17:00 to…", options: ["o almoço", "o lanche", "o jantar"], answer: 1, speakOptions: true },
+          { prompt: "„Po obiedzie” to…", options: ["depois de almoço", "depois do almoço", "depois o almoço"], answer: 1, speakOptions: true },
+          {
+            prompt: "Co Brazylijczyk nazywa **ônibus**?",
+            options: ["pociąg", "autobus", "tramwaj"],
+            answer: 1,
+            explanation: "W Portugalii autobus to o autocarro.",
+          },
+          {
+            prompt: "Czym jest **o bacalhau**?",
+            options: ["portugalską zupą z jarmużem", "suszonym, solonym dorszem", "babeczką z kremem"],
+            answer: 1,
+            explanation: "Zupa z jarmużem to caldo verde, a babeczka – pastel de nata.",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "pt-5-4-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "Agora tu! Mój dzień od rana do wieczora",
+        instruction:
+          "Napisz e-mail do kolegi lub koleżanki z Portugalii (7–9 zdań) o swoim zwykłym dniu szkolnym i o weekendzie. Potem kliknij „Posłuchaj mojego tekstu”, przeczytaj go na głos razem z lektorem i porównaj z przykładem.",
+        checklist: [
+          "napisz, o której się budzisz, wstajesz i kładziesz spać (acordo, levanto-me, deito-me)",
+          "napisz, jak dojeżdżasz do szkoły i ile to trwa (vou de…, demoro…)",
+          "nazwij posiłki i napisz, co jesz i pijesz",
+          "użyj primeiro, depois albo antes de / depois de",
+          "napisz, czym różni się twój weekend (ao fim de semana não me levanto…)",
+        ],
+        placeholder: "Olá! Num dia normal acordo às…",
+        model:
+          "Olá, Inês! Num dia normal acordo às seis e meia e levanto-me logo. Tomo duche, visto-me e tomo o pequeno-almoço: como pão e bebo chá. Saio de casa às sete e um quarto. Primeiro vou a pé e depois apanho o autocarro. Demoro vinte minutos. Ao almoço como na cantina. Depois das aulas faço os trabalhos de casa. Deito-me por volta das dez. Ao fim de semana não me levanto cedo e almoço com os meus avós. Beijinhos!",
+        modelPl:
+          "Cześć, Inês! W zwykły dzień budzę się o wpół do siódmej i od razu wstaję. Biorę prysznic, ubieram się i jem śniadanie: jem chleb i piję herbatę. Wychodzę z domu kwadrans po siódmej. Najpierw idę pieszo, a potem wsiadam do autobusu. Jadę dwadzieścia minut. Obiad jem w stołówce. Po lekcjach odrabiam zadania. Kładę się około dziesiątej. W weekend nie wstaję wcześnie i jem obiad z dziadkami. Buziaki!",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Opowiadam o swoim dniu z czasownikami zwrotnymi: levanto-me, visto-me, deito-me.",
+        "Wiem, kiedy zaimek stoi przed czasownikiem: não me levanto, a que horas te deitas?",
+        "Odmieniam ir, sair, comer i beber.",
+        "Mówię, jak dojeżdżam do szkoły i ile to trwa: vou de autocarro, demoro vinte minutos.",
+        "Znam posiłki i używam antes de / depois de.",
+        "Umiem zadać pytania nauczycielowi w 3. osobie: A que horas se levanta?",
+      ],
+    },
+  ],
+};

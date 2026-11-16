@@ -1,0 +1,288 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "repas-unitat-6",
+  chapter: 6,
+  number: 4,
+  title: "Repàs – Unitat 6",
+  titlePl: "Powtórka z rozdziału 6",
+  intro:
+    "Powtarzamy wszystko o domu! Zrób tę lekcję dzień lub dwa po skończeniu rozdziału 6. Przejrzyj ściągi i słowniczek, rozwiąż zadania, a na koniec napisz test. Jeśli coś pójdzie słabo, wróć do lekcji: viure, pomieszczenia i liczebniki porządkowe – „Visc en un pis”, meble, przyimki miejsca i del – „A la meva habitació”, hi ha czy és i polecenia – „On és el meu mòbil?”.",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "opowiedzieć, gdzie i w czym mieszkasz,",
+        "nazwać pomieszczenia i meble,",
+        "używać liczebników porządkowych i podać adres,",
+        "powiedzieć, gdzie coś jest, z przyimkami miejsca i del / dels,",
+        "odróżnić hi ha od és / són,",
+        "wydawać proste polecenia: posa, mira, vine, fes.",
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: viure, pomieszczenia, piętra",
+      paragraphs: [
+        "**viure**: **visc**, vius, viu, vivim, viviu, viuen. **en un** pis / **en una** casa, **a** Barcelona, **al** carrer de…, **al** tercer (pis). (Lekcja „Visc en un pis”)",
+        "Liczebniki porządkowe mają rodzaj: **primer / primera**, **segon / segona**, **tercer / tercera**, **quart / quarta**, potem **-è / -ena**: cinquè / cinquena. Adres **4t 2a** = quart pis, segona porta.",
+        "**l'habitació** to sypialnia – Katalończyk pyta **Quantes habitacions té?** i liczy tylko pokoje do spania.",
+      ],
+      table: {
+        headers: ["", "męski (el pis)", "żeński (la porta)"],
+        rows: [
+          { cells: ["1", "primer", "primera"], speak: "primer, primera" },
+          { cells: ["2", "segon", "segona"], speak: "segon, segona" },
+          { cells: ["3", "tercer", "tercera"], speak: "tercer, tercera" },
+          { cells: ["4", "quart", "quarta"], speak: "quart, quarta" },
+          { cells: ["5", "cinquè", "cinquena"], speak: "cinquè, cinquena" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: gdzie co jest?",
+      paragraphs: [
+        "Przy miejscu używamy **ser**: **On és** el llibre? – **És a** la taula. **On són** les claus? – **Són a** la bossa. Krótko: **Hi és. / No hi és.** (Lekcja „A la meva habitació”)",
+        "Przyimki: **a sobre de** (na), **a sota de** (pod), **al costat de** (obok), **davant de** (przed), **darrere de** (za), **dins de** (w), **entre … i …** (między). **de + el = del**, **de + els = dels**; ale **de la**, **de les**, **de l'**.",
+        "**hi ha** + un / una / liczba / cap – coś w ogóle jest: **Hi ha un** gat a la bossa! **és / són** + el / la / el meu… – gdzie jest konkretna rzecz: **El** meu mòbil **és** a la nevera. (Lekcja „On és el meu mòbil?”)",
+      ],
+      table: {
+        headers: ["po katalońsku", "po polsku"],
+        rows: [
+          { cells: ["La Mixa és a sobre de l'armari.", "Mixa jest na szafie."], speak: "La Mixa és a sobre de l'armari." },
+          { cells: ["Les sabates són a sota del llit.", "Buty są pod łóżkiem."], speak: "Les sabates són a sota del llit." },
+          { cells: ["Al rebedor no hi ha cap bossa.", "W przedpokoju nie ma żadnej torby."], speak: "Al rebedor no hi ha cap bossa." },
+          { cells: ["Hi ha dos llibres a la taula.", "Na stole są dwie książki."], speak: "Hi ha dos llibres a la taula." },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: polecenia",
+      paragraphs: [
+        "Polecenie do jednej osoby = forma **ell / ella**: mira → **Mira!**, busca → **Busca!**, posa → **Posa!**, obre → **Obre!**, tanca → **Tanca!**",
+        "Nieregularne: **Vine!** (venir), **Fes!** (fer), **Digues!** (dir), **Seu!** (seure). Gotowe zwroty z zaimkiem: **Ajuda'm!**, **Truca'm!**, **Espera'm!**",
+        "Grzeczniej: dodaj **si us plau**. Odpowiedź na polecenie: **Ara mateix!** – Już!",
+      ],
+    },
+    {
+      type: "vocab",
+      title: "Najważniejsze słówka rozdziału 6",
+      groups: [
+        {
+          title: "Dom i mieszkanie",
+          items: [
+            { text: "el pis / la casa", pl: "mieszkanie / dom" },
+            { text: "l'edifici / l'ascensor", pl: "budynek / winda" },
+            { text: "l'escala / la porta", pl: "schody / drzwi" },
+            { text: "el rebedor / el menjador", pl: "przedpokój / jadalnia, salon" },
+            { text: "la cuina / el bany", pl: "kuchnia / łazienka" },
+            { text: "l'habitació", pl: "pokój, sypialnia" },
+            { text: "el balcó / el terrat", pl: "balkon / taras na dachu" },
+            { text: "el jardí", pl: "ogród" },
+          ],
+        },
+        {
+          title: "Meble i rzeczy",
+          items: [
+            { text: "el llit / l'armari", pl: "łóżko / szafa" },
+            { text: "l'escriptori / la cadira", pl: "biurko / krzesło" },
+            { text: "la prestatgeria / la làmpada", pl: "regał / lampa" },
+            { text: "la catifa / el mirall", pl: "dywan / lustro" },
+            { text: "el sofà / la nevera", pl: "kanapa / lodówka" },
+            { text: "la paret / el terra", pl: "ściana / podłoga" },
+            { text: "la finestra", pl: "okno" },
+          ],
+        },
+        {
+          title: "Gdzie? Polecenia",
+          items: [
+            { text: "a sobre de / a sota de", pl: "na / pod" },
+            { text: "al costat de / entre", pl: "obok / między" },
+            { text: "davant de / darrere de", pl: "przed / za" },
+            { text: "dins de / al mig de", pl: "w / na środku" },
+            { text: "buscar / trobar", pl: "szukać / znaleźć" },
+            { text: "Posa… / Agafa…", pl: "Połóż… / Weź…" },
+            { text: "Vine! / Fes…!", pl: "Chodź! / Zrób…!" },
+            { text: "No ho sé.", pl: "Nie wiem." },
+          ],
+        },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "L'habitació nova del Pau",
+      titlePl: "Nowy pokój Pau",
+      context: "Sobota. Rodzina Pau przeprowadziła się do nowego mieszkania w dzielnicy Sants. Carla i Jordi pomagają Pau urządzić jego pierwszy własny pokój.",
+      cast: { Pau: "m", Carla: "f", Jordi: "m" },
+      lines: [
+        { speaker: "Pau", text: "Benvinguts! Vivim al cinquè primera… i hi ha ascensor!", pl: "Witajcie! Mieszkamy na piątym piętrze, pierwsze drzwi… i jest winda!" },
+        { speaker: "Carla", text: "Quina sort! I quina és la teva habitació?", pl: "Co za szczęście! A który to twój pokój?" },
+        { speaker: "Pau", text: "Aquesta, al costat del bany. Per fi tinc una habitació per a mi sol!", pl: "Ten, obok łazienki. Wreszcie mam pokój tylko dla siebie!" },
+        { speaker: "Jordi", text: "Bé, on posem el llit?", pl: "Dobra, gdzie stawiamy łóżko?" },
+        { speaker: "Pau", text: "Davant de la finestra. No, espera… al costat de la finestra.", pl: "Przed oknem. Nie, czekaj… obok okna." },
+        { speaker: "Carla", text: "I l'escriptori? Hi ha molta llum aquí, a l'esquerra.", pl: "A biurko? Tutaj, po lewej, jest dużo światła." },
+        { speaker: "Pau", text: "Perfecte. Posa'l allà. I la bateria, entre l'armari i la porta.", pl: "Idealnie. Postaw je tam. A perkusję między szafą a drzwiami." },
+        { speaker: "Jordi", text: "I aquest pòster? És del València! Aquí no, home!", pl: "A ten plakat? Jest Valencii! Tylko nie tutaj, człowieku!" },
+        { speaker: "Pau", text: "Sí, aquí, a sobre del llit! I tu, Jordi, vine i ajuda'm amb l'armari.", pl: "Tak, tutaj, nad łóżkiem! A ty, Jordi, chodź i pomóż mi z szafą." },
+        { speaker: "Carla", text: "Pau, a la caixa hi ha un plàtan… i unes baquetes. On les poso?", pl: "Pau, w pudle jest banan… i pałeczki do perkusji. Gdzie je położyć?" },
+        { speaker: "Pau", text: "El plàtan, per a mi. Tinc gana! Les baquetes, a sobre de la bateria.", pl: "Banan dla mnie. Jestem głodny! Pałeczki na perkusję." },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-6-4-dialogue",
+        kind: "choice",
+        skill: "Czytanie",
+        title: "Cert o fals?",
+        instruction: "Na podstawie dialogu zdecyduj: zdanie jest prawdziwe (cert) czy fałszywe (fals)?",
+        items: [
+          { prompt: "El Pau viu al cinquè primera.", speak: "El Pau viu al cinquè primera.", options: ["cert", "fals"], answer: 0 },
+          { prompt: "L'edifici no té ascensor.", speak: "L'edifici no té ascensor.", options: ["cert", "fals"], answer: 1, explanation: "Pau mówi: i hi ha ascensor! – jest winda." },
+          { prompt: "L'habitació del Pau és al costat de la cuina.", speak: "L'habitació del Pau és al costat de la cuina.", options: ["cert", "fals"], answer: 1, explanation: "Pokój jest obok łazienki – al costat del bany." },
+          { prompt: "El llit és al costat de la finestra.", speak: "El llit és al costat de la finestra.", options: ["cert", "fals"], answer: 0 },
+          { prompt: "El pòster és del Barça.", speak: "El pòster és del Barça.", options: ["cert", "fals"], answer: 1, explanation: "To plakat Valencii – del València." },
+          { prompt: "Les baquetes són a la caixa.", speak: "Les baquetes són a la caixa.", options: ["cert", "fals"], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-6-4-listen",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Escolta i entén",
+        instruction: "Kliknij ▶, posłuchaj i wybierz właściwe znaczenie.",
+        items: [
+          { audio: "Vivim al segon tercera.", options: ["Mieszkamy na drugim piętrze, trzecie drzwi.", "Mieszkamy na trzecim piętrze, drugie drzwi.", "Mieszkają na drugim piętrze."], answer: 0 },
+          { audio: "El pis té dues habitacions.", options: ["Mieszkanie ma dwie łazienki.", "Mieszkanie ma dwa pokoje.", "Dom ma dwa piętra."], answer: 1 },
+          { audio: "Les claus són a sota del mirall.", options: ["Klucze są obok lustra.", "Klucze są za lustrem.", "Klucze są pod lustrem."], answer: 2 },
+          { audio: "No hi ha cap cadira.", options: ["Nie ma żadnego krzesła.", "Krzesła tam nie ma.", "Nie siadaj na krześle."], answer: 0 },
+          { audio: "Vine a la cuina!", options: ["Idę do kuchni!", "Chodź do kuchni!", "Zrób coś w kuchni!"], answer: 1 },
+          { audio: "Tanca la finestra, si us plau.", options: ["Otwórz okno, proszę.", "Popatrz przez okno, proszę.", "Zamknij okno, proszę."], answer: 2 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-6-4-mixed",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "Quina frase és correcta?",
+        instruction: "Wybierz poprawne zdanie. Uważaj na typowe błędy Polaków!",
+        items: [
+          { prompt: "„Mieszkam w mieszkaniu.”", options: ["Visc a un pis.", "Visc en un pis.", "Vivo en un pis."], answer: 1, speakOptions: true },
+          { prompt: "„Mieszkamy na trzecim piętrze.”", options: ["Vivim al tercer.", "Vivim a la tercera.", "Vivim al tres."], answer: 0, speakOptions: true },
+          { prompt: "„Kot jest pod łóżkiem.”", options: ["El gat és a sota de el llit.", "El gat és a sota del llit.", "El gat hi ha a sota del llit."], answer: 1, speakOptions: true },
+          { prompt: "„W lodówce jest mleko.”", options: ["La llet hi ha a la nevera.", "A la nevera és llet.", "A la nevera hi ha llet."], answer: 2, speakOptions: true },
+          { prompt: "„Gdzie są moje buty?”", options: ["On són les meves sabates?", "On hi ha les meves sabates?", "On és les meves sabates?"], answer: 0, speakOptions: true, explanation: "Konkretne rzeczy (les meves) w liczbie mnogiej → són." },
+          { prompt: "„Chodź tutaj!”", options: ["Vé aquí!", "Vine aquí!", "Venir aquí!"], answer: 1, speakOptions: true },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-6-4-fill",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "Uzupełnij zdania",
+        instruction: "Wpisz brakujące słowo. Podpowiedź w nawiasie.",
+        items: [
+          { before: "Els meus avis", after: "a Cracòvia.", answers: ["viuen"], hint: "(viure)" },
+          { before: "Visc al", after: "pis.", answers: ["segon"], hint: "(2n)" },
+          { before: "La làmpada és al costat", after: "llit.", answers: ["del"], hint: "(de + el)" },
+          { before: "A la caixa", after: "un plàtan.", answers: ["hi ha"], hint: "(jest)" },
+          { before: "On", after: "les claus?", answers: ["són"], hint: "(ser)" },
+          { before: "", after: "els deures, Daniel!", answers: ["Fes"], hint: "(fer – polecenie)" },
+          { before: "", after: "el mòbil a la motxilla.", answers: ["Posa"], hint: "(posar – polecenie)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-6-4-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["casa", "en", "Viuen", "jardí", "una", "amb"], answer: "Viuen en una casa amb jardí.", pl: "Mieszkają w domu z ogrodem." },
+          { words: ["és", "entre", "La", "l'armari", "bateria", "i", "porta", "la"], answer: "La bateria és entre l'armari i la porta.", pl: "Perkusja jest między szafą a drzwiami." },
+          { words: ["hi", "No", "mòbil", "cap", "ha"], answer: "No hi ha cap mòbil.", pl: "Nie ma żadnego telefonu." },
+          { words: ["ajuda'm,", "Vine", "plau", "i", "si", "us"], answer: "Vine i ajuda'm, si us plau.", pl: "Chodź i pomóż mi, proszę." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-6-4-test",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Test: rozdział 6",
+        instruction: "10 pytań z całego rozdziału. Jeśli odpowiesz dobrze na co najmniej 8 – rozdział 6 zaliczony!",
+        items: [
+          { prompt: "Jo ___ a Barcelona.", options: ["viu", "visc", "vivo"], answer: 1, speakOptions: true },
+          { prompt: "**la cuina** to…", options: ["kuchnia", "łazienka", "jadalnia"], answer: 0 },
+          { prompt: "Adres „3r 2a” czytamy:", options: ["tres dues", "tercer segona", "tercera segon"], answer: 1, speakOptions: true },
+          { prompt: "**l'armari** to…", options: ["lustro", "biurko", "szafa"], answer: 2 },
+          { prompt: "El gos és ___ sofà. (pod)", options: ["a sota del", "a sobre del", "davant del"], answer: 0, speakOptions: true },
+          { prompt: "Els llibres són al costat ___ ordinador.", options: ["de el", "de l'", "del"], answer: 1, speakOptions: true, explanation: "l'ordinador → de l'ordinador." },
+          { prompt: "A la motxilla ___ tres llibretes.", options: ["són", "és", "hi ha"], answer: 2, speakOptions: true },
+          { prompt: "„Odrób lekcje!” – ___ els deures!", options: ["Fa", "Fes", "Fer"], answer: 1, speakOptions: true },
+          {
+            prompt: "Co znaczy „fer dissabte”?",
+            options: ["robić zakupy w sobotę", "gruntownie sprzątać dom", "iść na sobotni mecz"],
+            answer: 1,
+            explanation: "Dosłownie „robić sobotę” – wielkie porządki w domu.",
+          },
+          {
+            prompt: "Jak nazywają się ścięte narożniki kamienic w barcelońskiej dzielnicy Eixample?",
+            options: ["els terrats", "els xamfrans", "els balcons"],
+            answer: 1,
+            explanation: "els xamfrans – dzięki nim skrzyżowania w Eixample są szerokie i jasne.",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-6-4-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "Ara tu! Casa meva",
+        instruction:
+          "Nagraj (albo napisz) wiadomość głosową dla Pau (7–9 zdań): gdzie mieszkasz, jak wygląda twoje mieszkanie lub dom i twój pokój. Potem kliknij „Posłuchaj mojego tekstu”, przeczytaj go na głos razem z lektorem i porównaj z przykładem.",
+        checklist: [
+          "gdzie mieszkasz: visc a… en un pis / en una casa, al … pis",
+          "jakie są pomieszczenia: el pis té…, hi ha…",
+          "twój pokój: meble i gdzie stoją (a sobre de, al costat de, entre…)",
+          "del / dels co najmniej raz",
+          "jedno polecenie na koniec: Vine a casa meva! / Truca'm!",
+        ],
+        placeholder: "Hola, Pau! Visc a…",
+        model:
+          "Hola, Pau! Visc a Cracòvia, en un pis, al quart. L'edifici és vell, però té ascensor. El pis té tres habitacions, un menjador, una cuina i un bany. La meva habitació és al costat de la cuina. El llit és davant de la finestra i l'escriptori és a la dreta del llit. Els meus llibres són a la prestatgeria, entre l'armari i la porta. A sobre del llit hi ha un pòster del Vístula Cracòvia! Vine a casa meva a l'estiu!",
+        modelPl:
+          "Cześć, Pau! Mieszkam w Krakowie, w mieszkaniu na czwartym piętrze. Budynek jest stary, ale ma windę. Mieszkanie ma trzy pokoje, salon, kuchnię i łazienkę. Mój pokój jest obok kuchni. Łóżko stoi przed oknem, a biurko na prawo od łóżka. Moje książki są na regale między szafą a drzwiami. Nad łóżkiem wisi plakat Wisły Kraków! Przyjedź do mnie latem!",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Opowiadam, gdzie i w czym mieszkam – z piętrem i adresem.",
+        "Nazywam pomieszczenia i meble.",
+        "Mówię, gdzie co jest: przyimki miejsca + del / dels.",
+        "Odróżniam hi ha od és / són.",
+        "Wydaję proste polecenia: posa, mira, vine, fes.",
+      ],
+    },
+  ],
+};

@@ -1,0 +1,296 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "repas-unitat-7",
+  chapter: 7,
+  number: 4,
+  title: "Repàs – Unitat 7",
+  titlePl: "Powtórka z rozdziału 7",
+  intro:
+    "Powtarzamy wszystko o ubraniach i zakupach! Zrób tę lekcję dzień lub dwa po skończeniu rozdziału 7. Przejrzyj ściągi i słowniczek, rozwiąż zadania, a na koniec napisz test. Jeśli coś pójdzie słabo, wróć do lekcji: ubrania, kolory, portar i posar-se – „Què portes avui?”, aquest / aquell, voldria i ceny – „Quant costa?”, porównania i preferir – „Un regal per al Jordi”.",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "nazwać ubrania i opisać strój z kolorami,",
+        "dopasować kolor do rzeczownika,",
+        "zrobić zakupy: voldria, puc emprovar-me…?, quant costa?,",
+        "wskazywać rzeczy: aquest / aquell,",
+        "liczyć do 1000 i podawać ceny,",
+        "porównywać: més … que, menys … que, tan … com, millor, pitjor.",
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: ubrania i kolory",
+      paragraphs: [
+        "Kolor stoi **po rzeczowniku** i zgadza się z nim: un jersei **blau**, una faldilla **blava**, uns texans **blaus**, unes botes **blaves**. Uważaj: **groc / groga / grocs / grogues**, **blanc / blanca / blancs / blanques**, **gris / grisa / grisos / grises**. Bez zmiany rodzaju: **marró, rosa, lila, taronja**. (Lekcja „Què portes avui?”)",
+        "**portar** = mieć na sobie: **Porto** una dessuadora. **posar-se** = zakładać: **Em poso** l'abric. Polecenie: **Posa't** la bufanda! Zdejmować: **em trec** la jaqueta.",
+      ],
+      table: {
+        headers: ["", "męski", "żeński", "męski l.mn.", "żeński l.mn."],
+        rows: [
+          { cells: ["biały", "blanc", "blanca", "blancs", "blanques"], speak: "blanc, blanca, blancs, blanques" },
+          { cells: ["żółty", "groc", "groga", "grocs", "grogues"], speak: "groc, groga, grocs, grogues" },
+          { cells: ["niebieski", "blau", "blava", "blaus", "blaves"], speak: "blau, blava, blaus, blaves" },
+          { cells: ["czerwony", "vermell", "vermella", "vermells", "vermelles"], speak: "vermell, vermella, vermells, vermelles" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: w sklepie",
+      paragraphs: [
+        "Blisko: **aquest, aquesta, aquests, aquestes**. Daleko: **aquell, aquella, aquells, aquelles**. (Lekcja „Quant costa?”)",
+        "Zwroty: **Voldria…** · **Quina talla fas?** · **Puc emprovar-me aquest jersei?** · **M'està bé / gran / petit.** · **Quant costa? / Quant val?** · **És massa car.** · **Me'l quedo.** · **Puc pagar amb targeta?**",
+        "Liczby: **cent, dos-cents, tres-cents … nou-cents, mil**. Z rzeczownikiem żeńskim: **dues-centes** persones. Cena: 69,90 € = **seixanta-nou euros amb noranta**.",
+      ],
+      table: {
+        headers: ["liczba", "po katalońsku"],
+        rows: [
+          { cells: ["120", "cent vint"], speak: "cent vint" },
+          { cells: ["250", "dos-cents cinquanta"], speak: "dos-cents cinquanta" },
+          { cells: ["500", "cinc-cents"], speak: "cinc-cents" },
+          { cells: ["1000", "mil"], speak: "mil" },
+          { cells: ["19,99 €", "dinou euros amb noranta-nou"], speak: "dinou euros amb noranta-nou" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: porównania",
+      paragraphs: [
+        "**més** + przymiotnik + **que**: més car que. **menys** + przymiotnik + **que**: menys car que. **tan** + przymiotnik + **com**: tan bonic com. (Lekcja „Un regal per al Jordi”)",
+        "Nieregularne: **millor** (lepszy), **pitjor** (gorszy). Ale: més gran, més petit.",
+        "„Który?” = **quin, quina, quins, quines**. **preferir**: prefereixo, prefereixes, prefereix, preferim, preferiu, prefereixen.",
+      ],
+      table: {
+        headers: ["po katalońsku", "po polsku"],
+        rows: [
+          { cells: ["L'abric és més calent que la jaqueta.", "Płaszcz jest cieplejszy niż kurtka."], speak: "L'abric és més calent que la jaqueta." },
+          { cells: ["Les bambes són menys cares que les botes.", "Adidasy są mniej drogie niż kozaki."], speak: "Les bambes són menys cares que les botes." },
+          { cells: ["El Pau és tan alt com el Jordi.", "Pau jest tak samo wysoki jak Jordi."], speak: "El Pau és tan alt com el Jordi." },
+          { cells: ["Quina prefereixes? – La vermella.", "Którą wolisz? – Czerwoną."], speak: "Quina prefereixes? La vermella." },
+        ],
+      },
+    },
+    {
+      type: "vocab",
+      title: "Najważniejsze słówka rozdziału 7",
+      groups: [
+        {
+          title: "Ubrania",
+          items: [
+            { text: "la samarreta / la camisa", pl: "koszulka / koszula" },
+            { text: "el jersei / la dessuadora", pl: "sweter / bluza" },
+            { text: "els pantalons / els texans", pl: "spodnie / dżinsy" },
+            { text: "la faldilla / el vestit", pl: "spódnica / sukienka" },
+            { text: "la jaqueta / l'abric", pl: "kurtka / płaszcz" },
+            { text: "les sabates / les bambes", pl: "buty / adidasy" },
+            { text: "les botes / els mitjons", pl: "kozaki / skarpetki" },
+            { text: "la bufanda / els guants", pl: "szalik / rękawiczki" },
+            { text: "el gorro / la gorra", pl: "czapka (zimowa) / czapka z daszkiem" },
+          ],
+        },
+        {
+          title: "Zakupy",
+          items: [
+            { text: "la botiga / el mercat", pl: "sklep / targ" },
+            { text: "la talla / l'emprovador", pl: "rozmiar / przymierzalnia" },
+            { text: "la caixa / la targeta", pl: "kasa / karta" },
+            { text: "car / barat", pl: "drogi / tani" },
+            { text: "les rebaixes", pl: "wyprzedaż" },
+            { text: "Voldria…", pl: "Chciałbym / Chciałabym…" },
+            { text: "Quant costa? / Quant val?", pl: "Ile kosztuje?" },
+            { text: "Me'l quedo.", pl: "Biorę go." },
+          ],
+        },
+        {
+          title: "Porównania",
+          items: [
+            { text: "més … que / menys … que", pl: "bardziej … niż / mniej … niż" },
+            { text: "tan … com", pl: "tak … jak" },
+            { text: "millor / pitjor", pl: "lepszy / gorszy" },
+            { text: "preferir (prefereixo)", pl: "woleć" },
+            { text: "el regal", pl: "prezent" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "Gorro i guants",
+      titlePl: "Czapka i rękawiczki",
+      context: "Piątek po lekcjach. Carla i Núria idą do sklepu sportowego w Gràcii. Carla potrzebuje jeszcze czegoś ciepłego na Kraków.",
+      cast: { Dependent: "m", Carla: "f", "Núria": "f" },
+      lines: [
+        { speaker: "Dependent", text: "Bona tarda, noies! Què desitgeu?", pl: "Dzień dobry, dziewczyny! Czym mogę służyć?" },
+        { speaker: "Carla", text: "Bona tarda. Voldria un gorro de llana i uns guants.", pl: "Dzień dobry. Chciałabym wełnianą czapkę i rękawiczki." },
+        { speaker: "Dependent", text: "Els gorros són allà, al costat de la caixa. De quin color el vols?", pl: "Czapki są tam, obok kasy. W jakim kolorze chcesz?" },
+        { speaker: "Núria", text: "Mira aquest gorro gris. És més bonic que aquell negre.", pl: "Popatrz na tę szarą czapkę. Jest ładniejsza niż tamta czarna." },
+        { speaker: "Carla", text: "Sí, però el negre és més calent… Quant costen?", pl: "Tak, ale czarna jest cieplejsza… Ile kosztują?" },
+        { speaker: "Dependent", text: "El gris costa deu euros i el negre, divuit.", pl: "Szara kosztuje dziesięć euro, a czarna osiemnaście." },
+        { speaker: "Carla", text: "Doncs el gris. És tan calent com el negre?", pl: "W takim razie szarą. Jest tak samo ciepła jak czarna?" },
+        { speaker: "Dependent", text: "Gairebé. I els guants vermells també valen deu euros.", pl: "Prawie. A czerwone rękawiczki też kosztują dziesięć euro." },
+        { speaker: "Núria", text: "Gris i vermell… Combinen molt bé amb el teu abric!", pl: "Szary i czerwony… Bardzo pasują do twojego płaszcza!" },
+        { speaker: "Carla", text: "Perfecte. Me'ls quedo tots dos. Vint euros, oi?", pl: "Idealnie. Biorę oba. Dwadzieścia euro, tak?" },
+        { speaker: "Dependent", text: "Exacte. Bon viatge a Polònia!", pl: "Dokładnie. Miłej podróży do Polski!" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-7-4-dialogue",
+        kind: "choice",
+        skill: "Czytanie",
+        title: "Cert o fals?",
+        instruction: "Na podstawie dialogu zdecyduj: zdanie jest prawdziwe (cert) czy fałszywe (fals)?",
+        items: [
+          { prompt: "La Carla vol un gorro i uns guants.", speak: "La Carla vol un gorro i uns guants.", options: ["cert", "fals"], answer: 0 },
+          { prompt: "Els gorros són al costat de la porta.", speak: "Els gorros són al costat de la porta.", options: ["cert", "fals"], answer: 1, explanation: "Czapki są obok kasy – al costat de la caixa." },
+          { prompt: "El gorro negre és més car que el gris.", speak: "El gorro negre és més car que el gris.", options: ["cert", "fals"], answer: 0 },
+          { prompt: "La Carla compra el gorro negre.", speak: "La Carla compra el gorro negre.", options: ["cert", "fals"], answer: 1, explanation: "Carla wybiera szarą czapkę – el gris." },
+          { prompt: "Els guants són vermells.", speak: "Els guants són vermells.", options: ["cert", "fals"], answer: 0 },
+          { prompt: "La Carla paga vint-i-vuit euros.", speak: "La Carla paga vint-i-vuit euros.", options: ["cert", "fals"], answer: 1, explanation: "10 + 10 = 20 – vint euros." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-7-4-listen",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Escolta i entén",
+        instruction: "Kliknij ▶, posłuchaj i wybierz właściwe znaczenie albo cenę.",
+        items: [
+          { audio: "Costa tres-cents quaranta euros.", options: ["304 €", "340 €", "430 €"], answer: 1 },
+          { audio: "Vint-i-nou euros amb cinquanta.", options: ["29,50 €", "25,90 €", "92,50 €"], answer: 0 },
+          { audio: "Aquelles botes són massa cares.", options: ["Te kozaki są za drogie.", "Tamte kozaki są za drogie.", "Tamte kozaki są tanie."], answer: 1 },
+          { audio: "Em poso la jaqueta groga.", options: ["Zdejmuję żółtą kurtkę.", "Mam na sobie żółty sweter.", "Zakładam żółtą kurtkę."], answer: 2 },
+          { audio: "Aquest abric és millor que l'altre.", options: ["Ten płaszcz jest lepszy niż tamten.", "Ten płaszcz jest gorszy niż tamten.", "Ten płaszcz jest tak samo dobry jak tamten."], answer: 0 },
+          { audio: "Quina talla fas?", options: ["Ile kosztuje?", "Jaki rozmiar nosisz?", "Jaki kolor wolisz?"], answer: 1 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-7-4-mixed",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "Quina frase és correcta?",
+        instruction: "Wybierz poprawne zdanie. Uważaj na typowe błędy Polaków!",
+        items: [
+          { prompt: "„Mam na sobie niebieską spódnicę.”", options: ["Porto una blava faldilla.", "Porto una faldilla blau.", "Porto una faldilla blava."], answer: 2, speakOptions: true, explanation: "Kolor stoi po rzeczowniku i zgadza się z nim: blava." },
+          { prompt: "„Białe adidasy”", options: ["les bambes blancs", "les bambes blanques", "les bambes blancas"], answer: 1, speakOptions: true },
+          { prompt: "„Chciałbym tamte rękawiczki.”", options: ["Voldria aquells guants.", "Voldria aquelles guants.", "Voldria aquests guants."], answer: 0, speakOptions: true },
+          { prompt: "„200 euro”", options: ["dues-centes euros", "dos-cents euros", "dos-cent euros"], answer: 1, speakOptions: true },
+          { prompt: "„Ta koszulka jest lepsza.”", options: ["Aquesta samarreta és més bona.", "Aquesta samarreta és millor.", "Aquesta samarreta és més millor."], answer: 1, speakOptions: true },
+          { prompt: "„Jest tak samo droga jak tamta.”", options: ["És tan cara com aquella.", "És tan cara que aquella.", "És més cara com aquella."], answer: 0, speakOptions: true },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-7-4-fill",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "Uzupełnij zdania",
+        instruction: "Wpisz brakujące słowo. Podpowiedź w nawiasie.",
+        items: [
+          { before: "Avui", after: "uns texans negres.", answers: ["porto"], hint: "(portar)" },
+          { before: "La Núria porta una bufanda", after: ".", answers: ["vermella"], hint: "(czerwona)" },
+          { before: "", after: "un abric d'hivern, si us plau.", answers: ["Voldria"], hint: "(chciałabym)" },
+          { before: "Quant", after: "aquestes sabates?", answers: ["costen", "valen"], hint: "(kosztują)" },
+          { before: "El llibre és més barat", after: "la samarreta.", answers: ["que"], hint: "(niż)" },
+          { before: "Jo", after: "el gorro gris.", answers: ["prefereixo"], hint: "(preferir)" },
+          { before: "", after: "jersei t'agrada més?", answers: ["Quin"], hint: "(który)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-7-4-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["emprovar-me", "Puc", "jersei?", "aquest"], answer: "Puc emprovar-me aquest jersei?", pl: "Mogę przymierzyć ten sweter?" },
+          { words: ["grogues", "Porto", "bambes", "unes"], answer: "Porto unes bambes grogues.", pl: "Mam na sobie żółte adidasy." },
+          { words: ["car", "massa", "És"], answer: "És massa car.", pl: "Jest za drogi." },
+          { words: ["calent", "L'abric", "és", "que", "jaqueta", "la", "més"], answer: "L'abric és més calent que la jaqueta.", pl: "Płaszcz jest cieplejszy niż kurtka." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-7-4-test",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Test: rozdział 7",
+        instruction: "10 pytań z całego rozdziału. Jeśli odpowiesz dobrze na co najmniej 8 – rozdział 7 zaliczony!",
+        items: [
+          { prompt: "**la faldilla** to…", options: ["sukienka", "spódnica", "koszula"], answer: 1 },
+          { prompt: "uns texans ___ (niebieskie)", options: ["blaves", "blau", "blaus"], answer: 2, speakOptions: true },
+          { prompt: "una jaqueta ___ (żółta)", options: ["groga", "groca", "groc"], answer: 0, speakOptions: true },
+          { prompt: "A l'hivern em ___ la bufanda.", options: ["porto", "poso", "trec"], answer: 1, speakOptions: true },
+          { prompt: "(daleko) Quant val ___ abric?", options: ["aquest", "aquella", "aquell"], answer: 2, speakOptions: true },
+          { prompt: "500", options: ["cinquanta", "cinc-cents", "cinc-centes"], answer: 1, speakOptions: true },
+          { prompt: "La samarreta és ___ cara que el llibre.", options: ["més", "tan", "com"], answer: 0, speakOptions: true },
+          { prompt: "Jo ___ el blau.", options: ["prefereix", "prefereixo", "prefero"], answer: 1, speakOptions: true },
+          {
+            prompt: "Co znaczy „anar de vint-i-un botó”?",
+            options: ["być bardzo elegancko ubranym", "mieć za dużo guzików", "kupować tanio"],
+            answer: 0,
+            explanation: "Dosłownie „chodzić w dwudziestu jeden guzikach” – być wystrojonym.",
+          },
+          {
+            prompt: "Jakie barwy ma FC Barcelona (blaugrana)?",
+            options: ["biały i czarny", "niebieski i bordowy", "czerwony i żółty"],
+            answer: 1,
+            explanation: "el blau i el grana – niebieski i bordowy.",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "ca-7-4-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "Ara tu! Les meves compres",
+        instruction:
+          "Nagraj (albo napisz) wiadomość głosową dla Núrii (7–9 zdań): opowiedz o zakupach – co kupujesz, w jakim kolorze, za ile i dlaczego właśnie to. Potem kliknij „Posłuchaj mojego tekstu”, przeczytaj go na głos razem z lektorem i porównaj z przykładem.",
+        checklist: [
+          "co potrzebujesz kupić i dlaczego (per a l'hivern, per a una festa…)",
+          "kolory z dobrą końcówką",
+          "ceny słownie (z amb przy centach)",
+          "porównanie: més … que / tan … com / millor",
+          "co wybierasz: prefereixo… / me'l quedo",
+        ],
+        placeholder: "Hola, Núria! Avui vaig de compres…",
+        model:
+          "Hola, Núria! Avui vaig de compres amb la meva mare. Necessito unes botes per a l'hivern. A la botiga hi ha unes botes negres i unes marrons. Les negres costen seixanta euros i les marrons, quaranta-nou euros amb noranta. Les negres són més boniques, però les marrons són tan calentes com les negres i són més barates. Prefereixo les marrons! També compro uns mitjons grocs per a mi i una bufanda blava per al meu germà. Fins demà!",
+        modelPl:
+          "Cześć, Núrio! Dziś idę na zakupy z mamą. Potrzebuję kozaków na zimę. W sklepie są czarne i brązowe kozaki. Czarne kosztują sześćdziesiąt euro, a brązowe czterdzieści dziewięć euro dziewięćdziesiąt. Czarne są ładniejsze, ale brązowe są tak samo ciepłe jak czarne i są tańsze. Wolę brązowe! Kupuję też żółte skarpetki dla siebie i niebieski szalik dla brata. Do jutra!",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Nazywam ubrania i opisuję strój z kolorami.",
+        "Dopasowuję kolor do rzeczownika.",
+        "Robię zakupy: voldria, puc emprovar-me…?, quant costa?",
+        "Wskazuję rzeczy: aquest / aquell.",
+        "Liczę do 1000 i podaję ceny.",
+        "Porównuję: més … que, menys … que, tan … com, millor, pitjor.",
+      ],
+    },
+  ],
+};

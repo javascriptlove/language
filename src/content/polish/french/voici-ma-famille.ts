@@ -1,0 +1,340 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "voici-ma-famille",
+  chapter: 2,
+  number: 1,
+  title: "Voici ma famille",
+  titlePl: "Oto moja rodzina",
+  intro:
+    "Carla pokazuje Léi zdjęcie swojej rodziny z Krakowa, a Hugo przynosi do szkoły fotkę z urodzin babci. Kto jest kim? Czas poznać francuskie słowa na mamę, tatę, babcię i kuzynów.",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "nazwać członków rodziny i domowe zwierzęta,",
+        "powiedzieć „mój, moja, moi” (mon, ma, mes) i „twój, twoja, twoi” (ton, ta, tes),",
+        "przedstawić kogoś: c'est …, ce sont …, voici …,",
+        "rozpoznać rodzajniki le, la, l', les.",
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "La photo de famille",
+      titlePl: "Zdjęcie rodzinne",
+      context: "Przerwa w szkole. Carla pokazuje Léi zdjęcie w telefonie.",
+      cast: { Carla: "f", "Léa": "f" },
+      lines: [
+        { speaker: "Léa", text: "C'est qui, sur la photo ?", pl: "Kto to jest na zdjęciu?" },
+        { speaker: "Carla", text: "C'est ma famille. Voici mon père, Adam, et ma mère, Anna.", pl: "To moja rodzina. Oto mój tata, Adam, i moja mama, Anna." },
+        { speaker: "Léa", text: "Et le garçon, c'est ton frère ?", pl: "A ten chłopiec to twój brat?" },
+        { speaker: "Carla", text: "Oui, c'est mon petit frère, Daniel. Et voici mon chien, Fafik !", pl: "Tak, to mój młodszy brat, Daniel. A to mój pies, Fafik!" },
+        { speaker: "Léa", text: "Il est trop mignon ! Et ce sont tes grands-parents ?", pl: "Jest przesłodki! A to twoi dziadkowie?" },
+        { speaker: "Carla", text: "Oui, ce sont mes grands-parents. Ils habitent à Cracovie.", pl: "Tak, to moi dziadkowie. Mieszkają w Krakowie." },
+        { speaker: "Léa", text: "Et la fille, là ? C'est ta cousine ?", pl: "A ta dziewczyna tutaj? To twoja kuzynka?" },
+        { speaker: "Carla", text: "Non, c'est mon amie Paula. Elle est de Cracovie aussi.", pl: "Nie, to moja przyjaciółka Paula. Ona też jest z Krakowa." },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "L'anniversaire de mamie",
+      titlePl: "Urodziny babci",
+      context: "Hugo pokazuje Carli i Lucasowi zdjęcie z urodzin swojej babci.",
+      cast: { Hugo: "m", Lucas: "m", Carla: "f" },
+      lines: [
+        { speaker: "Hugo", text: "Regardez ! C'est l'anniversaire de ma grand-mère.", pl: "Patrzcie! To urodziny mojej babci." },
+        { speaker: "Lucas", text: "Et la dame, là, c'est ta mère ?", pl: "A ta pani tutaj to twoja mama?" },
+        { speaker: "Hugo", text: "Non, c'est ma tante, Sophie. Et le monsieur, c'est mon oncle, Paul.", pl: "Nie, to moja ciocia, Sophie. A ten pan to mój wujek, Paul." },
+        { speaker: "Carla", text: "Et les enfants, ce sont tes cousins ?", pl: "A dzieci to twoi kuzyni?" },
+        { speaker: "Hugo", text: "Oui, ce sont mes cousins, Théo et Inès.", pl: "Tak, to moi kuzyni, Théo i Inès." },
+        { speaker: "Lucas", text: "Et là, c'est qui ?", pl: "A tutaj kto to jest?" },
+        { speaker: "Hugo", text: "C'est ma sœur, Manon. Et à côté, ce sont mes parents.", pl: "To moja siostra, Manon. A obok to moi rodzice." },
+        { speaker: "Carla", text: "Ta famille est super !", pl: "Twoja rodzina jest super!" },
+      ],
+    },
+    {
+      type: "vocab",
+      title: "Słowniczek",
+      groups: [
+        {
+          title: "Rodzice i dziadkowie",
+          items: [
+            { text: "la famille", pl: "rodzina" },
+            { text: "le père / la mère", pl: "ojciec / matka" },
+            { text: "le papa / la maman", pl: "tata / mama" },
+            { text: "les parents", pl: "rodzice" },
+            { text: "le grand-père / la grand-mère", pl: "dziadek / babcia" },
+            { text: "les grands-parents", pl: "dziadkowie" },
+          ],
+        },
+        {
+          title: "Rodzeństwo i dzieci",
+          items: [
+            { text: "le frère / la sœur", pl: "brat / siostra" },
+            { text: "mon petit frère / ma petite sœur", pl: "mój młodszy brat / moja młodsza siostra" },
+            { text: "le fils / la fille", pl: "syn / córka", note: "w fils nie czytamy l: „fis”; la fille to też „dziewczyna, dziewczynka”" },
+            { text: "l'enfant / les enfants", pl: "dziecko / dzieci" },
+            { text: "le garçon", pl: "chłopiec, chłopak" },
+          ],
+        },
+        {
+          title: "Dalsza rodzina i przyjaciele",
+          items: [
+            { text: "l'oncle / la tante", pl: "wujek / ciocia" },
+            { text: "le cousin / la cousine", pl: "kuzyn / kuzynka" },
+            { text: "les cousins", pl: "kuzyni (też: kuzyni i kuzynki razem)" },
+            { text: "un ami / une amie", pl: "przyjaciel, kolega / przyjaciółka, koleżanka" },
+            { text: "le monsieur / la dame", pl: "pan / pani" },
+          ],
+        },
+        {
+          title: "Zwierzęta",
+          items: [
+            { text: "le chien", pl: "pies" },
+            { text: "le chat", pl: "kot" },
+            { text: "Il est trop mignon !", pl: "Jest przesłodki!" },
+          ],
+        },
+        {
+          title: "Przydatne zwroty",
+          items: [
+            { text: "C'est qui ? / Qui est-ce ?", pl: "Kto to jest?" },
+            { text: "C'est …", pl: "To jest … (jedna osoba lub rzecz)" },
+            { text: "Ce sont …", pl: "To są … (kilka osób lub rzeczy)" },
+            { text: "Voici …", pl: "Oto …" },
+            { text: "sur la photo", pl: "na zdjęciu" },
+            { text: "Regarde ! / Regardez !", pl: "Popatrz! / Popatrzcie!" },
+            { text: "à côté", pl: "obok" },
+            { text: "l'anniversaire", pl: "urodziny" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "grammar",
+      title: "mon, ma, mes – mój, moja, moi",
+      paragraphs: [
+        "Po francusku „mój” ma **trzy** formy. Wybieramy je według rodzaju i liczby **rzeczownika**, a nie według tego, kto mówi: Carla mówi **mon** père, a Hugo mówi **ma** mère.",
+        "**mon** – przed rzeczownikiem rodzaju męskiego (mon frère), **ma** – przed rzeczownikiem rodzaju żeńskiego (ma sœur), **mes** – przed liczbą mnogą, bez względu na rodzaj (mes parents, mes sœurs).",
+        "Tak samo działa „twój”: **ton, ta, tes**.",
+        "Uwaga! Przed samogłoską i niemym h **ma** i **ta** brzmiałyby dziwnie („ma amie”), dlatego mówimy **mon** i **ton** – także przed rzeczownikiem żeńskim: **mon amie** (moja przyjaciółka), **ton école** (twoja szkoła).",
+      ],
+      table: {
+        headers: ["", "rodzaj męski", "rodzaj żeński", "liczba mnoga"],
+        rows: [
+          { cells: ["mój / moja / moi", "mon père", "ma mère", "mes parents"], speak: "mon père, ma mère, mes parents" },
+          { cells: ["twój / twoja / twoi", "ton frère", "ta sœur", "tes cousins"], speak: "ton frère, ta sœur, tes cousins" },
+          { cells: ["przed samogłoską", "mon oncle", "mon amie", "mes amis"], speak: "mon oncle, mon amie, mes amis" },
+        ],
+      },
+      examples: [
+        { text: "Voici mon père et ma mère.", pl: "Oto mój tata i moja mama." },
+        { text: "C'est ta sœur ?", pl: "To twoja siostra?" },
+        { text: "Ce sont mes grands-parents.", pl: "To moi dziadkowie." },
+        { text: "C'est mon amie Paula.", pl: "To moja przyjaciółka Paula." },
+      ],
+      tip: "**mon amie** i **mon ami** brzmią prawie identycznie: „mo-nami”. Słychać tu **liaison** – n łączy się z następną samogłoską. Tak samo **mes amis** czytamy „me-zami”.",
+    },
+    {
+      type: "grammar",
+      title: "c'est, ce sont, voici i rodzajniki le, la, l', les",
+      paragraphs: [
+        "**C'est …** = to jest … – o jednej osobie lub rzeczy: **C'est** mon frère. **Ce sont …** = to są … – o kilku: **Ce sont** mes cousins. **Voici …** = oto … – kiedy coś pokazujemy: **Voici** ma famille.",
+        "Każdy francuski rzeczownik ma rodzaj: męski albo żeński. Rozpoznajemy go po **rodzajniku**: **le** (męski), **la** (żeński), **les** (liczba mnoga). Przed samogłoską i niemym h zamiast le i la piszemy **l'**: **l'oncle**, **l'enfant**.",
+        "Ucz się słówek **zawsze z rodzajnikiem**: nie „frère”, tylko „le frère”. Wtedy od razu wiesz, czy powiedzieć mon, czy ma.",
+      ],
+      table: {
+        headers: ["rodzajnik", "kiedy?", "przykład"],
+        rows: [
+          { cells: ["le", "rodzaj męski", "le père, le chien"], speak: "le père, le chien" },
+          { cells: ["la", "rodzaj żeński", "la mère, la tante"], speak: "la mère, la tante" },
+          { cells: ["l'", "przed samogłoską lub niemym h", "l'oncle, l'enfant"], speak: "l'oncle, l'enfant" },
+          { cells: ["les", "liczba mnoga", "les parents, les cousins"], speak: "les parents, les cousins" },
+        ],
+      },
+      examples: [
+        { text: "C'est ma tante.", pl: "To moja ciocia." },
+        { text: "Ce sont mes parents.", pl: "To moi rodzice." },
+        { text: "Voici le chien de Carla.", pl: "Oto pies Carli." },
+        { text: "C'est l'oncle de Hugo.", pl: "To wujek Hugo." },
+      ],
+      tip: "Po francusku nie ma przypadków, więc „pies **Carli**” to **le chien de Carla** – dosłownie „pies od Carli”.",
+    },
+    {
+      type: "pronunciation",
+      title: "Wymowa",
+      intro: "Te dźwięki usłyszysz w nazwach członków rodziny. Kliknij przykład i powtórz go na głos 3 razy.",
+      items: [
+        { sound: "è, ê", explanation: "czytamy jak polskie, dość otwarte **e**", examples: ["père", "mère", "frère"] },
+        { sound: "œu", explanation: "usta jak do **o**, a mówimy **e**", examples: ["sœur", "ma sœur", "tes sœurs"] },
+        { sound: "-ille", explanation: "zwykle czytamy jak **ij**", examples: ["famille", "fille", "ma famille"] },
+        { sound: "r", explanation: "francuskie r wymawiamy **w gardle**, trochę jak lekkie polskie **h**", examples: ["frère", "grand-mère", "parents"] },
+        { sound: "on, an, en, in", explanation: "samogłoski **nosowe** – nie wymawiamy n na końcu", examples: ["oncle", "tante", "cousin"] },
+        { sound: "liaison", explanation: "nieme n, s z mon, mes, tes czytamy przed samogłoską: **n**, **z**", examples: ["mon amie", "mes amis", "tes enfants"] },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-2-1-listen",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Posłuchaj i zrozum",
+        instruction: "Kliknij ▶, posłuchaj i wybierz polskie znaczenie.",
+        items: [
+          { audio: "ma grand-mère", options: ["moja mama", "moja babcia", "moja ciocia"], answer: 1 },
+          { audio: "mes parents", options: ["moi rodzice", "moi kuzyni", "moi dziadkowie"], answer: 0 },
+          { audio: "C'est ton oncle ?", options: ["To twój tata?", "To twój brat?", "To twój wujek?"], answer: 2 },
+          { audio: "Ce sont mes cousins.", options: ["To moi kuzyni.", "To moje dzieci.", "To moi bracia."], answer: 0 },
+          { audio: "Voici ma sœur.", options: ["Oto moja córka.", "Oto moja kuzynka.", "Oto moja siostra."], answer: 2 },
+          { audio: "C'est mon chien.", options: ["To mój kot.", "To mój pies.", "To mój syn."], answer: 1 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-2-1-family-tree",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Qui est-ce ? – Kto to jest?",
+        instruction: "Rozwiąż rodzinną zagadkę. Wybierz właściwe słowo.",
+        items: [
+          { prompt: "La mère de ma mère, c'est ma …", speak: "La mère de ma mère, c'est ma …", options: ["tante", "grand-mère", "cousine"], answer: 1, speakOptions: true },
+          { prompt: "Le frère de mon père, c'est mon …", speak: "Le frère de mon père, c'est mon …", options: ["oncle", "cousin", "grand-père"], answer: 0, speakOptions: true },
+          { prompt: "Le fils de ma tante, c'est mon …", speak: "Le fils de ma tante, c'est mon …", options: ["frère", "oncle", "cousin"], answer: 2, speakOptions: true },
+          { prompt: "La fille de mes parents (ale nie ja!), c'est ma …", speak: "La fille de mes parents, c'est ma …", options: ["sœur", "mère", "tante"], answer: 0, speakOptions: true },
+          {
+            prompt: "Le père et la mère, ce sont les …",
+            speak: "Le père et la mère, ce sont les …",
+            options: ["enfants", "grands-parents", "parents"],
+            answer: 2,
+            speakOptions: true,
+            explanation: "les parents = rodzice. Tak jak po angielsku – parents.",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-2-1-mon-ma-mes",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "mon, ma czy mes?",
+        instruction: "Wybierz właściwą formę. Patrz na rodzajnik w nawiasie: le = mon, la = ma, les = mes.",
+        items: [
+          { prompt: "___ frère (le frère)", options: ["mon", "ma", "mes"], answer: 0 },
+          { prompt: "___ tante (la tante)", options: ["mon", "ma", "mes"], answer: 1 },
+          { prompt: "___ grands-parents (les grands-parents)", options: ["mon", "ma", "mes"], answer: 2 },
+          {
+            prompt: "___ amie Paula (l'amie)",
+            options: ["mon", "ma", "mes"],
+            answer: 0,
+            explanation: "amie to rodzaj żeński, ale zaczyna się od samogłoski – dlatego mon amie.",
+          },
+          { prompt: "___ cousine (la cousine)", options: ["mes", "mon", "ma"], answer: 2 },
+          { prompt: "___ chats (les chats)", options: ["ma", "mes", "mon"], answer: 1 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-2-1-ton-ta-tes",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "ton, ta, tes – zapytaj o zdjęcie",
+        instruction: "Wpisz ton, ta albo tes. Podpowiedź pokazuje polskie słowo.",
+        items: [
+          { before: "C'est", after: "père ?", answers: ["ton"], hint: "(twój)" },
+          { before: "C'est", after: "sœur ?", answers: ["ta"], hint: "(twoja)" },
+          { before: "Ce sont", after: "parents ?", answers: ["tes"], hint: "(twoi)" },
+          { before: "C'est", after: "grand-mère ?", answers: ["ta"], hint: "(twoja)" },
+          { before: "C'est", after: "amie ?", answers: ["ton"], hint: "(twoja – uwaga, samogłoska!)" },
+          { before: "Ce sont", after: "cousins ?", answers: ["tes"], hint: "(twoi)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-2-1-cest-articles",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "C'est czy ce sont? le, la czy l'?",
+        instruction: "Wybierz brakujące słowo.",
+        items: [
+          { prompt: "___ mes parents.", options: ["C'est", "Ce sont"], answer: 1, speakOptions: true },
+          { prompt: "___ ma tante Sophie.", options: ["C'est", "Ce sont"], answer: 0, speakOptions: true },
+          { prompt: "___ mes cousins, Théo et Inès.", options: ["C'est", "Ce sont"], answer: 1, speakOptions: true },
+          { prompt: "Voici ___ chien de Carla.", options: ["la", "le", "l'"], answer: 1 },
+          { prompt: "C'est ___ oncle de Hugo.", options: ["le", "la", "l'"], answer: 2, explanation: "oncle zaczyna się od samogłoski, więc le → l'." },
+          { prompt: "C'est ___ mère de Léa.", options: ["la", "le", "les"], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-2-1-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["famille", "ma", "Voici"], answer: "Voici ma famille.", pl: "Oto moja rodzina." },
+          { words: ["grands-parents", "Ce", "mes", "sont"], answer: "Ce sont mes grands-parents.", pl: "To moi dziadkowie." },
+          { words: ["frère", "ton", "C'est"], answer: "C'est ton frère ?", pl: "To twój brat?" },
+          { words: ["mère", "et", "père", "Voici", "ma", "mon"], answer: "Voici mon père et ma mère.", pl: "Oto mój tata i moja mama." },
+        ],
+      },
+    },
+    {
+      type: "culture",
+      title: "Culture – mamie, papi i nazwisko bez końcówek",
+      paragraphs: [
+        "W domu Francuzi rzadko mówią „ma grand-mère”. Babcia to zwykle **mamie**, a dziadek – **papi** (albo **papy**). Dzieci mówią też **tonton** na wujka i **tata** albo **tatie** na ciocię. Uważaj: francuska **tata** to ciocia, a nie tata!",
+        "Polskie nazwiska często mają formę męską i żeńską: pan Kowalski, pani Kowalska. Francuskie nazwiska się **nie zmieniają**: Monsieur Martin, Madame Martin. A całą rodzinę nazywamy **les Martin** – bez -s na końcu nazwiska.",
+        "Od 2005 roku rodzice we Francji mogą wybrać, czy dziecko dostanie nazwisko taty, mamy, czy oba nazwiska.",
+      ],
+      examples: [
+        { text: "mamie / papi", pl: "babcia / dziadek (czule)" },
+        { text: "tonton / tatie", pl: "wujek / ciocia (czule)" },
+        { text: "les Martin", pl: "Martinowie, rodzina Martin" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "fr-2-1-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "À toi ! Pokaż swoje zdjęcie rodzinne",
+        instruction:
+          "Wyobraź sobie, że pokazujesz koledze zdjęcie rodziny. Napisz 4–5 zdań, posłuchaj ich i przeczytaj na głos razem z lektorem.",
+        checklist: [
+          "zacznij od „Voici ma famille”",
+          "przedstaw rodziców (mon père, ma mère)",
+          "przedstaw rodzeństwo, dziadków albo kuzynów (c'est … / ce sont …)",
+          "jeśli masz zwierzę – przedstaw je też",
+        ],
+        placeholder: "Voici ma famille. C'est mon …",
+        model:
+          "Voici ma famille. C'est mon père, Adam, et c'est ma mère, Anna. Voici mon petit frère, Daniel. Ce sont mes grands-parents. Et voici mon chien, Fafik !",
+        modelPl:
+          "Oto moja rodzina. To mój tata, Adam, a to moja mama, Anna. Oto mój młodszy brat, Daniel. To moi dziadkowie. A to mój pies, Fafik!",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Umiem nazwać po francusku członków mojej rodziny.",
+        "Wiem, kiedy powiedzieć mon, ma, mes i ton, ta, tes.",
+        "Wiem, dlaczego mówimy mon amie, a nie ma amie.",
+        "Umiem przedstawić kogoś: c'est …, ce sont …, voici ….",
+        "Rozpoznaję rodzajniki le, la, l', les.",
+      ],
+    },
+  ],
+};

@@ -1,0 +1,358 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "ola-como-te-chamas",
+  chapter: 1,
+  number: 1,
+  title: "Ola! Como te chamas?",
+  titlePl: "Cześć! Jak masz na imię?",
+  intro:
+    "Carla z Krakowa właśnie przeprowadziła się z rodziną do Santiago de Compostela, bo jej tata dostał tu pracę. Pierwszy dzień w galicyjskiej szkole: Antía i Brais poznają się na przerwie, a Carla poznaje swoją wychowawczynię.",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "przywitać się i pożegnać o różnych porach dnia,",
+        "przedstawić się i zapytać kogoś o imię (Chámome…, Como te chamas?),",
+        "zapytać, jak ktoś się czuje, i odpowiedzieć,",
+        "wybrać formę ti (do kolegi) lub vostede (do dorosłego),",
+        "przeczytać kilka liter, które po galicyjsku brzmią inaczej niż po polsku.",
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "No patio",
+      titlePl: "Na szkolnym podwórku",
+      context: "Przerwa na szkolnym dziedzińcu. Antía jest nowa w tej szkole – przeprowadziła się z Vigo. Zagaduje Braisa.",
+      cast: { "Antía": "f", Brais: "m" },
+      lines: [
+        { speaker: "Antía", text: "Ola! Chámome Antía. Como te chamas?", pl: "Cześć! Mam na imię Antía. Jak masz na imię?" },
+        { speaker: "Brais", text: "Ola, Antía! Chámome Brais. Encantado.", pl: "Cześć, Antía! Mam na imię Brais. Miło mi." },
+        { speaker: "Antía", text: "Encantada. Que tal, Brais?", pl: "Miło mi. Co słychać, Brais?" },
+        { speaker: "Brais", text: "Moi ben, grazas. E ti?", pl: "Bardzo dobrze, dzięki. A ty?" },
+        { speaker: "Antía", text: "Regular… Hoxe é o primeiro día!", pl: "Tak sobie… Dziś jest pierwszy dzień!" },
+        { speaker: "Brais", text: "Tranquila! Ata logo, Antía!", pl: "Spokojnie! Na razie, Antía!" },
+        { speaker: "Antía", text: "Adeus! Ata mañá!", pl: "Cześć! Do jutra!" },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "Na clase",
+      titlePl: "W klasie",
+      context: "W klasie. Pani Castro jest wychowawczynią i uczy galicyjskiego. Carla jest tu pierwszy dzień.",
+      cast: { "Profesora Castro": "f", Carla: "f" },
+      lines: [
+        { speaker: "Profesora Castro", text: "Bos días! Son a profesora Castro. Como te chamas?", pl: "Dzień dobry! Jestem pani Castro, nauczycielka. Jak masz na imię?" },
+        { speaker: "Carla", text: "Bos días. Chámome Carla.", pl: "Dzień dobry. Mam na imię Carla." },
+        { speaker: "Profesora Castro", text: "Encantada, Carla. Benvida a Santiago! Como estás?", pl: "Miło mi, Carlo. Witaj w Santiago! Jak się masz?" },
+        { speaker: "Carla", text: "Estou ben, grazas. E vostede?", pl: "Dobrze, dziękuję. A pani?" },
+        { speaker: "Profesora Castro", text: "Moi ben, grazas.", pl: "Bardzo dobrze, dziękuję." },
+      ],
+    },
+    {
+      type: "vocab",
+      title: "Słowniczek",
+      groups: [
+        {
+          title: "Powitania",
+          items: [
+            { text: "Ola!", pl: "Cześć!", note: "bez h – inaczej niż hiszpańskie „hola”" },
+            { text: "Bos días!", pl: "Dzień dobry! (rano, mniej więcej do obiadu)" },
+            { text: "Boas tardes!", pl: "Dzień dobry! (po południu, do zmroku)" },
+            { text: "Boas noites!", pl: "Dobry wieczór! / Dobranoc!" },
+          ],
+        },
+        {
+          title: "Pożegnania",
+          items: [
+            { text: "Adeus!", pl: "Do widzenia! / Cześć!" },
+            { text: "Ata logo!", pl: "Na razie! Do zobaczenia!" },
+            { text: "Ata mañá!", pl: "Do jutra!" },
+            { text: "Ata pronto!", pl: "Do zobaczenia wkrótce!" },
+          ],
+        },
+        {
+          title: "Przedstawianie się",
+          items: [
+            { text: "Como te chamas?", pl: "Jak masz na imię? (do kolegi)" },
+            { text: "Como se chama vostede?", pl: "Jak się pan/pani nazywa?" },
+            { text: "Chámome …", pl: "Mam na imię … / Nazywam się …" },
+            { text: "Son …", pl: "Jestem …" },
+            { text: "Encantado.", pl: "Miło mi. (mówi chłopak / mężczyzna)" },
+            { text: "Encantada.", pl: "Miło mi. (mówi dziewczyna / kobieta)" },
+            { text: "Moito gusto.", pl: "Bardzo mi miło." },
+            { text: "Benvido! / Benvida!", pl: "Witaj! (do chłopaka / do dziewczyny)" },
+          ],
+        },
+        {
+          title: "Samopoczucie",
+          items: [
+            { text: "Que tal?", pl: "Co słychać? Jak leci?" },
+            { text: "Como estás?", pl: "Jak się masz? (do kolegi)" },
+            { text: "Como está vostede?", pl: "Jak się pan/pani miewa?" },
+            { text: "Estou ben.", pl: "Mam się dobrze." },
+            { text: "moi ben", pl: "bardzo dobrze" },
+            { text: "ben", pl: "dobrze" },
+            { text: "regular", pl: "tak sobie" },
+            { text: "mal", pl: "źle" },
+            { text: "grazas", pl: "dziękuję, dzięki" },
+            { text: "E ti?", pl: "A ty?" },
+            { text: "E vostede?", pl: "A pan/pani?" },
+            { text: "hoxe", pl: "dzisiaj" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Czasownik chamarse – nazywać się",
+      paragraphs: [
+        "**Chamarse** to czasownik zwrotny – tak jak polskie „nazywać **się**”. Małe słówko „się” zmienia się razem z osobą: **me**, **te**, **se**.",
+        "Ważna galicyjska zasada: w zwykłym zdaniu oznajmującym to słówko stoi **za** czasownikiem i piszemy je **razem** z nim: **Chámome Carla.** (dosłownie: „Nazywam-się Carla”). Akcent graficzny (**á**) pokazuje, że wciąż akcentujemy pierwszą sylabę: **chá**-mo-me.",
+        "Ale w pytaniu z „Como?” (jak?) słówko przeskakuje **przed** czasownik i piszemy je osobno: **Como te chamas?** Zaimka „eu” (ja) ani „ti” (ty) zwykle nie mówimy – końcówka czasownika wystarczy.",
+      ],
+      table: {
+        headers: ["osoba", "zdanie", "pytanie", "po polsku"],
+        rows: [
+          { cells: ["(eu)", "Chámome …", "–", "ja nazywam się …"], speak: "Chámome Carla." },
+          { cells: ["(ti)", "Chámaste …", "Como te chamas?", "ty nazywasz się … / jak się nazywasz?"], speak: "Chámaste Brais. Como te chamas?" },
+          { cells: ["(el / ela)", "Chámase …", "Como se chama?", "on / ona nazywa się … / jak się nazywa?"], speak: "Chámase Antía. Como se chama?" },
+          { cells: ["(vostede)", "Chámase …", "Como se chama vostede?", "pan / pani nazywa się … / jak się pan(i) nazywa?"], speak: "Como se chama vostede?" },
+        ],
+      },
+      examples: [
+        { text: "Chámome Carla.", pl: "Mam na imię Carla." },
+        { text: "Como te chamas?", pl: "Jak masz na imię?" },
+        { text: "Este é Brais. Chámase Brais.", pl: "To jest Brais. Ma na imię Brais." },
+        { text: "Como se chama vostede?", pl: "Jak się pan/pani nazywa?" },
+      ],
+      tip: "Jeśli znasz hiszpański: uważaj! Po galicyjsku **nie** zaczynamy zdania od „Me chamo…” – mówimy **Chámome…**. Pytania i wykrzyknienia zwykle mają znak tylko na końcu, tak jak po polsku: **Como te chamas?** **Ola!** A słówka pytające **como**, **que** piszemy bez akcentu: **Que tal?**",
+    },
+    {
+      type: "grammar",
+      title: "ti czy vostede?",
+      paragraphs: [
+        "**ti** (ty) mówimy do kolegów, rodziny i dzieci. Uwaga: **ti** zawsze piszemy bez akcentu.",
+        "**vostede** (pan / pani) mówimy do starszych, nieznajomych dorosłych i w sytuacjach oficjalnych. Z **vostede** czasownik ma formę jak dla „on / ona”: **Como está vostede? Como se chama vostede?**",
+        "Jeśli nie wiesz, którą formę wybrać w rozmowie z dorosłym – wybierz **vostede**. To zawsze grzeczne.",
+      ],
+      table: {
+        headers: ["", "do kolegi (ti)", "do dorosłego (vostede)"],
+        rows: [
+          { cells: ["imię", "Como te chamas?", "Como se chama vostede?"], speak: "Como te chamas? Como se chama vostede?" },
+          { cells: ["samopoczucie", "Como estás?", "Como está vostede?"], speak: "Como estás? Como está vostede?" },
+          { cells: ["„a ty?”", "E ti?", "E vostede?"], speak: "E ti? E vostede?" },
+        ],
+      },
+    },
+    {
+      type: "pronunciation",
+      title: "Wymowa",
+      intro:
+        "Galicyjski czyta się prawie tak, jak się pisze. Zapamiętaj kilka liter, które brzmią inaczej niż po polsku. Kliknij przykład i powtórz go na głos 3 razy.",
+      items: [
+        { sound: "x", explanation: "czytamy jak polskie **sz**", examples: ["Xoán", "hoxe", "xa"] },
+        { sound: "ch", explanation: "czytamy jak polskie **cz**", examples: ["Chámome", "Como te chamas?", "Chámase"] },
+        { sound: "ñ", explanation: "czytamy jak polskie **ń**", examples: ["Ata mañá!", "España", "mañá"] },
+        { sound: "h", explanation: "jest **nieme** – nie czytamy go wcale", examples: ["hoxe", "home", "hora"] },
+        { sound: "-n na końcu słowa", explanation: "brzmi jak **n** w polskim słowie „bank” – trochę „przez nos”, z tyłu gardła", examples: ["ben", "Xoán", "moi ben"] },
+        { sound: "á, é, í, ó, ú", explanation: "kreska pokazuje, **którą sylabę akcentujemy** (mocniej wymawiamy)", examples: ["Chámome", "Antía", "Bos días!"] },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-1-1-listen",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Escoita e entende – Posłuchaj i zrozum",
+        instruction: "Kliknij ▶, posłuchaj wyrażenia i wybierz jego polskie znaczenie.",
+        items: [
+          { audio: "Boas tardes!", options: ["Dobranoc!", "Dzień dobry! (po południu)", "Dzień dobry! (rano)"], answer: 1 },
+          { audio: "Como te chamas?", options: ["Jak masz na imię?", "Jak się masz?", "Skąd jesteś?"], answer: 0 },
+          { audio: "Ata mañá!", options: ["Na razie!", "Dzień dobry!", "Do jutra!"], answer: 2 },
+          { audio: "Regular.", options: ["Bardzo dobrze.", "Tak sobie.", "Źle."], answer: 1 },
+          { audio: "Encantada.", options: ["Dziękuję.", "Do widzenia.", "Miło mi."], answer: 2 },
+          { audio: "Moi ben, grazas.", options: ["Bardzo dobrze, dzięki.", "Dobranoc, dziękuję.", "Tak sobie, dzięki."], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-1-1-situations",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Que dis? – Co powiesz?",
+        instruction: "Przeczytaj sytuację i wybierz właściwe wyrażenie.",
+        items: [
+          {
+            prompt: "Jest 9:00 rano. Wchodzisz do klasy i witasz się z nauczycielką.",
+            options: ["Boas noites!", "Bos días!", "Ata logo!"],
+            answer: 1,
+            speakOptions: true,
+          },
+          {
+            prompt: "Jest 18:00, jeszcze jasno. Wchodzisz do sklepu.",
+            options: ["Boas tardes!", "Bos días!", "Ata mañá!"],
+            answer: 0,
+            speakOptions: true,
+            explanation: "W Galicji, jak w całej Hiszpanii, obiad je się późno (ok. 14:00–15:00). Po obiedzie, aż do zmroku, mówimy „Boas tardes!”.",
+          },
+          {
+            prompt: "Idziesz spać. Co mówisz mamie?",
+            options: ["Ola!", "Boas tardes!", "Boas noites!"],
+            answer: 2,
+            speakOptions: true,
+          },
+          {
+            prompt: "Kolega pyta: **Que tal?** Co odpowiesz?",
+            speak: "Que tal?",
+            options: ["Chámome Brais.", "Moi ben, grazas.", "Adeus!"],
+            answer: 1,
+            speakOptions: true,
+          },
+          {
+            prompt: "Jesteś dziewczyną. Ktoś się przedstawia, a ty chcesz powiedzieć „Miło mi”.",
+            options: ["Encantado.", "Encantada."],
+            answer: 1,
+            speakOptions: true,
+            explanation: "Dziewczyna mówi „encantada” (końcówka -a), chłopak – „encantado” (końcówka -o).",
+          },
+          {
+            prompt: "Chcesz powiedzieć „Mam na imię Carla”.",
+            options: ["Me chamo Carla.", "Chámome Carla.", "Chamo Carla."],
+            answer: 1,
+            speakOptions: true,
+            explanation: "W zdaniu oznajmującym „me” stoi za czasownikiem i piszemy je razem z nim: Chámome.",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-1-1-ti-vostede",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "ti czy vostede?",
+        instruction: "Do kogo mówisz? Wybierz właściwe pytanie.",
+        items: [
+          {
+            prompt: "Pytasz nowego kolegę z klasy o imię.",
+            options: ["Como se chama vostede?", "Como te chamas?"],
+            answer: 1,
+            speakOptions: true,
+          },
+          {
+            prompt: "Pytasz starszą panią w autobusie, jak się nazywa.",
+            options: ["Como se chama vostede?", "Como te chamas?"],
+            answer: 0,
+            speakOptions: true,
+          },
+          {
+            prompt: "Pytasz dyrektora szkoły, jak się miewa.",
+            options: ["Como estás?", "Como está vostede?"],
+            answer: 1,
+            speakOptions: true,
+            explanation: "Z vostede czasownik ma formę jak dla „on / ona”: está.",
+          },
+          {
+            prompt: "Pytasz kuzynkę, jak się ma.",
+            options: ["Como estás?", "Como está vostede?"],
+            answer: 0,
+            speakOptions: true,
+          },
+          {
+            prompt: "Nauczyciel pyta, jak się masz. Odpowiadasz i pytasz: „A pan?”",
+            options: ["Ben, grazas. E vostede?", "Ben, grazas. E ti?"],
+            answer: 0,
+            speakOptions: true,
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-1-1-chamarse",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "Uzupełnij formy czasownika chamarse",
+        instruction:
+          "Wpisz brakujące słowa. Pamiętaj: w zdaniu – chámome, chámase (razem), w pytaniu z „Como” – te chamas, se chama (osobno). Brak akcentów zaliczymy, ale przypomnimy o nich.",
+        items: [
+          { before: "Ola,", after: "Antía.", answers: ["chámome"], hint: "(eu) →" },
+          { before: "Como", after: "?", answers: ["te chamas"], hint: "(ti) →" },
+          { before: "E ela?", after: "Antía.", answers: ["chámase"], hint: "(ela) →" },
+          { before: "Bos días, señora. Como", after: "vostede?", answers: ["se chama"], hint: "(vostede) →" },
+          { before: "E o profesor de matemáticas? Como", after: "?", answers: ["se chama"], hint: "(el) →" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-1-1-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["chamas?", "Como", "te"], answer: "Como te chamas?", pl: "Jak masz na imię?" },
+          { words: ["Carla", "Chámome"], answer: "Chámome Carla.", pl: "Mam na imię Carla." },
+          { words: ["vostede?", "está", "Como"], answer: "Como está vostede?", pl: "Jak się pan/pani miewa?" },
+          { words: ["grazas", "ben,", "Moi"], answer: "Moi ben, grazas.", pl: "Bardzo dobrze, dziękuję." },
+          { words: ["ti?", "ben.", "E", "Estou"], answer: "Estou ben. E ti?", pl: "Mam się dobrze. A ty?" },
+        ],
+      },
+    },
+    {
+      type: "culture",
+      title: "Cultura – Galicia, terra de dúas linguas",
+      paragraphs: [
+        "**Galicia** leży na północnym zachodzie Hiszpanii, nad Atlantykiem. Jej stolicą jest **Santiago de Compostela** – miasto, do którego od średniowiecza prowadzi słynny szlak pielgrzymkowy, **Camiño de Santiago**.",
+        "W Galicji są **dwa języki urzędowe**: **galego** (galicyjski) i **castelán** (kastylijski, czyli hiszpański). Większość ludzi zna oba i często przechodzi z jednego na drugi. W szkole uczy się obu języków, a część przedmiotów prowadzi się po galicyjsku – dlatego Carla będzie słyszała galicyjski na co dzień.",
+        "Gdy poznajesz nową osobę (zwłaszcza dziewczynę lub kobietę), witasz się zwykle **dwoma pocałunkami w policzek** – **dous bicos**. Chłopcy między sobą często podają sobie rękę.",
+        "**17 maja** to **Día das Letras Galegas** – Dzień Literatury Galicyjskiej, święto w całej Galicji. Każdego roku święto ma innego patrona – pisarza lub pisarkę tworzących po galicyjsku.",
+      ],
+      examples: [
+        { text: "o galego", pl: "język galicyjski" },
+        { text: "o castelán", pl: "język kastylijski (hiszpański)" },
+        { text: "dous bicos", pl: "dwa pocałunki (w policzek)" },
+        { text: "Día das Letras Galegas", pl: "Dzień Literatury Galicyjskiej (17 maja)" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-1-1-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "Agora ti! Przedstaw się",
+        instruction:
+          "Napisz krótką wypowiedź (3–4 zdania). Potem kliknij „Posłuchaj mojego tekstu”, przeczytaj go na głos razem z lektorem i porównaj z przykładem.",
+        checklist: [
+          "przywitaj się",
+          "powiedz, jak masz na imię (Chámome…)",
+          "zapytaj kolegę o imię",
+          "zapytaj, co słychać, i pożegnaj się",
+        ],
+        placeholder: "Ola! Chámome …",
+        model: "Ola! Chámome Carla. Como te chamas? Que tal? Ata mañá!",
+        modelPl: "Cześć! Mam na imię Carla. Jak masz na imię? Co słychać? Do jutra!",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Umiem przywitać się rano, po południu i wieczorem.",
+        "Umiem pożegnać się na kilka sposobów.",
+        "Umiem powiedzieć, jak mam na imię (Chámome…), i zapytać o imię (Como te chamas?).",
+        "Umiem zapytać, co słychać, i odpowiedzieć.",
+        "Wiem, kiedy mówić ti, a kiedy vostede.",
+        "Umiem przeczytać x, ch, ñ i nieme h.",
+      ],
+    },
+  ],
+};

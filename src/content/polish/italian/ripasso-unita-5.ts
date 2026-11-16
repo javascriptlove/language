@@ -1,0 +1,285 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "ripasso-unita-5",
+  chapter: 5,
+  number: 4,
+  title: "Ripasso – Unità 5",
+  titlePl: "Powtórka z rozdziału 5",
+  intro:
+    "To lekcja powtórkowa – zrób ją dzień lub dwa po skończeniu rozdziału 5. Przejrzyj ściągi i słowniczek, rozwiąż zadania, a na końcu napisz test. Jeśli coś pójdzie słabo, wróć do właściwej lekcji: czasowniki zwrotne i pory dnia – lekcja 1 („Mi alzo alle sette”), andare, uscire, transport i prima / poi – lekcja 2 („Come vai a scuola?”), przeczenie, posiłki i prima di / dopo – lekcja 3 („Il fine settimana mi riposo”).",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "opowiedzieć o swoim dniu od rana do wieczora z godzinami i czasownikami zwrotnymi,",
+        "powiedzieć, jak dojeżdżasz do szkoły – z andare i ci metto,",
+        "ułożyć czynności po kolei: prima, poi, dopo, alla fine,",
+        "zaprzeczyć z czasownikiem zwrotnym i nazwać włoskie posiłki.",
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: czasowniki zwrotne i pory dnia",
+      paragraphs: [
+        "Czasownik zwrotny ma przed sobą zaimek: **mi, ti, si, ci, vi, si** – mi alzo, ti lavi, si veste… W bezokoliczniku „się” jest na końcu: alzar**si**, vestir**si**. → lekcja 1",
+        "**andare a letto** (iść spać) – bez si! Vado a letto alle dieci. → lekcja 1",
+        "Godzina: **alle** sette, **all'una**, **a mezzogiorno**, **verso le** dieci (około). Pory dnia: **la mattina, il pomeriggio, la sera, la notte**. → lekcja 1",
+      ],
+      table: {
+        headers: ["osoba", "alzarsi", "svegliarsi", "vestirsi"],
+        rows: [
+          { cells: ["io", "mi alzo", "mi sveglio", "mi vesto"], speak: "mi alzo, mi sveglio, mi vesto" },
+          { cells: ["tu", "ti alzi", "ti svegli", "ti vesti"], speak: "ti alzi, ti svegli, ti vesti" },
+          { cells: ["lui / lei", "si alza", "si sveglia", "si veste"], speak: "si alza, si sveglia, si veste" },
+          { cells: ["noi", "ci alziamo", "ci svegliamo", "ci vestiamo"], speak: "ci alziamo, ci svegliamo, ci vestiamo" },
+          { cells: ["voi", "vi alzate", "vi svegliate", "vi vestite"], speak: "vi alzate, vi svegliate, vi vestite" },
+          { cells: ["loro", "si alzano", "si svegliano", "si vestono"], speak: "si alzano, si svegliano, si vestono" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: andare, uscire i po kolei",
+      paragraphs: [
+        "**andare** (iść, jechać): vado, vai, va, andiamo, andate, vanno. Jak? **in** autobus / metro / macchina / bici – ale **a piedi**. → lekcja 2",
+        "**uscire**: esco, esci, esce, usciamo, uscite, escono – Esco di casa alle otto. Ile czasu? **Quanto ci metti?** – **Ci metto** venti minuti. → lekcja 2",
+        "Po kolei: **prima** → **poi / dopo** → **alla fine**. → lekcja 2",
+      ],
+      table: {
+        headers: ["osoba", "andare", "uscire"],
+        rows: [
+          { cells: ["io", "vado", "esco"], speak: "vado, esco" },
+          { cells: ["tu", "vai", "esci"], speak: "vai, esci" },
+          { cells: ["lui / lei", "va", "esce"], speak: "va, esce" },
+          { cells: ["noi", "andiamo", "usciamo"], speak: "andiamo, usciamo" },
+          { cells: ["voi", "andate", "uscite"], speak: "andate, uscite" },
+          { cells: ["loro", "vanno", "escono"], speak: "vanno, escono" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: przeczenie, posiłki, prima di / dopo",
+      paragraphs: [
+        "Przeczenie: **non** + zaimek + czasownik: **Non mi** alzo presto. **Non mi** sveglio **mai** prima delle dieci. → lekcja 3",
+        "Posiłki: **la colazione** (rano, słodka) → **il pranzo** (ok. 13:00) → **la merenda** (ok. 16:30) → **la cena** (ok. 20:00). Czasowniki: fare colazione, pranzare, fare merenda, cenare. Obiad: antipasto, primo, secondo, dolce. → lekcja 3",
+        "**prima di** cena / prima di uscire; **dopo** pranzo / dopo la scuola. → lekcja 3",
+      ],
+      table: {
+        headers: ["", "przykład", "po polsku"],
+        rows: [
+          { cells: ["non", "Non mi faccio la doccia la sera.", "Nie biorę prysznica wieczorem."], speak: "Non mi faccio la doccia la sera." },
+          { cells: ["non … mai", "Non mi alzo mai prima delle dieci.", "Nigdy nie wstaję przed dziesiątą."], speak: "Non mi alzo mai prima delle dieci." },
+          { cells: ["prima di", "Prima di cena faccio i compiti.", "Przed kolacją odrabiam lekcje."], speak: "Prima di cena faccio i compiti." },
+          { cells: ["dopo", "Dopo pranzo mi riposo.", "Po obiedzie odpoczywam."], speak: "Dopo pranzo mi riposo." },
+        ],
+      },
+    },
+    {
+      type: "vocab",
+      title: "Najważniejsze słowa i zwroty",
+      groups: [
+        {
+          title: "Codzienne czynności (lekcja 1)",
+          items: [
+            { text: "svegliarsi / alzarsi", pl: "budzić się / wstawać" },
+            { text: "lavarsi / farsi la doccia", pl: "myć się / brać prysznic" },
+            { text: "lavarsi i denti", pl: "myć zęby" },
+            { text: "vestirsi / pettinarsi", pl: "ubierać się / czesać się" },
+            { text: "riposarsi / andare a letto / dormire", pl: "odpoczywać / iść spać / spać" },
+            { text: "la mattina / il pomeriggio / la sera", pl: "rano / po południu / wieczorem" },
+            { text: "presto / tardi / verso le dieci", pl: "wcześnie / późno / około dziesiątej" },
+            { text: "essere in ritardo", pl: "być spóźnionym" },
+          ],
+        },
+        {
+          title: "Droga do szkoły (lekcja 2)",
+          items: [
+            { text: "a piedi / in bici / in monopattino", pl: "pieszo / rowerem / na hulajnodze" },
+            { text: "in autobus / in metro / in tram", pl: "autobusem / metrem / tramwajem" },
+            { text: "in macchina / in motorino", pl: "samochodem / skuterem" },
+            { text: "uscire di casa", pl: "wychodzić z domu" },
+            { text: "la fermata / la stazione della metro", pl: "przystanek / stacja metra" },
+            { text: "Quanto ci metti? – Ci metto…", pl: "Ile ci to zajmuje? – Zajmuje mi…" },
+            { text: "prima / poi / dopo / alla fine", pl: "najpierw / potem / później / na koniec" },
+          ],
+        },
+        {
+          title: "Posiłki i weekend (lekcja 3)",
+          items: [
+            { text: "la colazione / il pranzo", pl: "śniadanie / obiad" },
+            { text: "la merenda / la cena", pl: "podwieczorek / kolacja" },
+            { text: "fare colazione / pranzare / cenare", pl: "jeść śniadanie / obiad / kolację" },
+            { text: "l'antipasto / il primo / il secondo / il dolce", pl: "przystawka / pierwsze danie / drugie danie / deser" },
+            { text: "durante la settimana / il fine settimana", pl: "w tygodniu / w weekend" },
+            { text: "prima di / dopo", pl: "przed / po" },
+            { text: "Buon appetito!", pl: "Smacznego!" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "La giornata della professoressa Rossi",
+      titlePl: "Dzień nauczycielki, pani Rossi",
+      context: "Giulia i Olena przeprowadzają wywiad z panią Rossi do szkolnej gazetki. Uwaga: do nauczycielki mówią Lei!",
+      cast: { Giulia: "f", Olena: "f", "Professoressa Rossi": "f" },
+      lines: [
+        { speaker: "Giulia", text: "Professoressa, a che ora si alza?", pl: "Pani profesor, o której pani wstaje?" },
+        { speaker: "Professoressa Rossi", text: "Molto presto. Mi alzo alle sei meno un quarto.", pl: "Bardzo wcześnie. Wstaję za kwadrans szósta." },
+        { speaker: "Olena", text: "Che presto! E poi?", pl: "Jak wcześnie! A potem?" },
+        { speaker: "Professoressa Rossi", text: "Prima mi faccio la doccia. Poi faccio colazione con i miei figli: un caffè e un cornetto. Dopo esco di casa alle sette e un quarto.", pl: "Najpierw biorę prysznic. Potem jem śniadanie z dziećmi: kawa i rogalik. Następnie wychodzę z domu kwadrans po siódmej." },
+        { speaker: "Giulia", text: "Come va a scuola?", pl: "Jak pani dojeżdża do szkoły?" },
+        { speaker: "Professoressa Rossi", text: "Vado in treno. Ci metto quaranta minuti. Leggo sempre in treno.", pl: "Jeżdżę pociągiem. Zajmuje mi to czterdzieści minut. W pociągu zawsze czytam." },
+        { speaker: "Olena", text: "E la sera, a che ora va a letto?", pl: "A wieczorem o której pani idzie spać?" },
+        { speaker: "Professoressa Rossi", text: "Verso mezzanotte. Dopo cena correggo i vostri compiti!", pl: "Około północy. Po kolacji poprawiam wasze prace!" },
+        { speaker: "Giulia", text: "E il fine settimana si riposa?", pl: "A w weekend pani odpoczywa?" },
+        { speaker: "Professoressa Rossi", text: "Sì! La domenica non mi alzo mai prima delle dieci. E non correggo i compiti!", pl: "Tak! W niedziele nigdy nie wstaję przed dziesiątą. I nie poprawiam prac!" },
+        { speaker: "Olena", text: "Grazie mille, professoressa! Buon fine settimana!", pl: "Bardzo dziękujemy, pani profesor! Miłego weekendu!" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-5-4-dialogue",
+        kind: "choice",
+        skill: "Słuchanie",
+        title: "Hai capito? – Zrozumiałeś/-aś?",
+        instruction: "Odpowiedz na pytania do wywiadu „La giornata della professoressa Rossi”.",
+        items: [
+          { prompt: "La professoressa si alza alle…", options: ["6:15", "5:45", "6:45"], answer: 1, explanation: "sei meno un quarto = za kwadrans szósta." },
+          { prompt: "Come va a scuola la professoressa?", speak: "Come va a scuola la professoressa?", options: ["in macchina", "in autobus", "in treno"], answer: 2 },
+          { prompt: "Quanto ci mette?", speak: "Quanto ci mette?", options: ["quaranta minuti", "quattordici minuti", "quattro minuti"], answer: 0 },
+          { prompt: "Cosa fa in treno?", speak: "Cosa fa in treno?", options: ["Dorme.", "Legge.", "Corregge i compiti."], answer: 1 },
+          { prompt: "La domenica la professoressa…", options: ["si alza alle sei.", "corregge i compiti.", "non si alza mai prima delle dieci."], answer: 2, speakOptions: true },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-5-4-reflexive",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "Czasowniki zwrotne",
+        instruction: "Wpisz zaimek (mi, ti, si, ci, vi) albo formę czasownika z nawiasu.",
+        items: [
+          { before: "La mattina io mi", after: "in fretta.", answers: ["vesto"], hint: "(vestirsi)" },
+          { before: "Tu", after: "fai la doccia la sera?", answers: ["ti"], hint: "(zaimek)" },
+          { before: "Noi ci", after: "alle sette.", answers: ["alziamo"], hint: "(alzarsi)" },
+          { before: "I miei genitori si", after: "alle sei.", answers: ["svegliano"], hint: "(svegliarsi)" },
+          { before: "Voi", after: "riposate la domenica?", answers: ["vi"], hint: "(zaimek)" },
+          { before: "La sera io", after: "a letto alle dieci.", answers: ["vado"], hint: "(andare)" },
+          { before: "Luca non", after: "alza mai prima di mezzogiorno.", answers: ["si"], hint: "(zaimek)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-5-4-andare",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "andare, uscire i transport",
+        instruction: "Wybierz poprawną formę.",
+        items: [
+          { prompt: "Noi ___ a scuola a piedi.", options: ["andate", "andiamo", "vanno"], answer: 1 },
+          { prompt: "Olena e Laura ___ in metro.", options: ["vanno", "andiamo", "va"], answer: 0 },
+          { prompt: "Io ___ di casa alle otto.", options: ["uscio", "esce", "esco"], answer: 2 },
+          { prompt: "Vado a scuola ___ metro.", options: ["a", "in", "al"], answer: 1 },
+          { prompt: "Paula va a scuola ___ piedi.", options: ["a", "in", "al"], answer: 0 },
+          { prompt: "Quanto ci ___? – Venti minuti.", options: ["metti", "mette", "metto"], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-5-4-meals",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Che pasto è?",
+        instruction: "Popatrz na godzinę i wybierz włoski posiłek.",
+        items: [
+          { prompt: "🥐 7:15", options: ["la cena", "la colazione", "la merenda"], answer: 1, speakOptions: true },
+          { prompt: "🍝 13:00", options: ["il pranzo", "la cena", "la colazione"], answer: 0, speakOptions: true },
+          { prompt: "🍎 16:30", options: ["la colazione", "la merenda", "il pranzo"], answer: 1, speakOptions: true },
+          { prompt: "🍲 20:00", options: ["la merenda", "il pranzo", "la cena"], answer: 2, speakOptions: true },
+          { prompt: "„Przed kolacją” to…", options: ["dopo cena", "prima di cena", "prima cena di"], answer: 1, speakOptions: true },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-5-4-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["vesto", "mi", "Prima"], answer: "Prima mi vesto.", pl: "Najpierw się ubieram." },
+          { words: ["scuola", "in", "Vanno", "a", "metro"], answer: "Vanno a scuola in metro.", pl: "Jeżdżą do szkoły metrem." },
+          { words: ["tardi", "Non", "letto", "vado", "a"], answer: "Non vado a letto tardi.", pl: "Nie kładę się późno." },
+          { words: ["uscire", "di", "Faccio", "prima", "colazione"], answer: "Faccio colazione prima di uscire.", pl: "Jem śniadanie przed wyjściem." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-5-4-test",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "Test: rozdział 5",
+        instruction: "10 pytań z całego rozdziału: słówka, gramatyka i kultura. 8 dobrych odpowiedzi na 10 = rozdział zaliczony!",
+        items: [
+          { prompt: "„Budzę się o siódmej.”", options: ["Mi alzo alle sette.", "Mi sveglio alle sette.", "Vado a letto alle sette."], answer: 1, speakOptions: true },
+          { prompt: "Lei ___ veste in fretta.", options: ["mi", "si", "ti"], answer: 1 },
+          { prompt: "„Idę spać o dziesiątej.”", options: ["Mi vado a letto alle dieci.", "Vado a letto alle dieci.", "Si vado a letto alle dieci."], answer: 1, speakOptions: true, explanation: "andare a letto – bez si." },
+          { prompt: "„Około dziesiątej” to…", options: ["alle dieci", "verso le dieci", "le dieci e mezza"], answer: 1, speakOptions: true },
+          { prompt: "Tu ___ a scuola in autobus?", options: ["vado", "va", "vai"], answer: 2 },
+          { prompt: "„Jeżdżę do szkoły rowerem.”", options: ["Vado a scuola a bici.", "Vado a scuola in bici.", "Vado in scuola in bici."], answer: 1, speakOptions: true },
+          { prompt: "Io ___ di casa alle otto.", options: ["esco", "uscio", "esce"], answer: 0 },
+          { prompt: "„Nigdy nie wstaję wcześnie.”", options: ["Mi non alzo mai presto.", "Non mi alzo mai presto.", "Non mai mi alzo presto."], answer: 1, speakOptions: true },
+          { prompt: "Makaron w czasie włoskiego obiadu to…", options: ["il primo", "il secondo", "il dolce"], answer: 0 },
+          { prompt: "Kiedy Włosi piją cappuccino?", options: ["po obiedzie", "do pizzy", "rano"], answer: 2, explanation: "Lekcja 3 – Cultura." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "it-5-4-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "Adesso tu! Mój dzień – wiadomość do Oleny",
+        instruction:
+          "Olena chce wiedzieć, jak wygląda dzień ucznia w Polsce. Napisz do niej wiadomość (8–10 zdań): od budzika aż do snu. Na końcu zapytaj ją o jej dzień. Potem kliknij „Posłuchaj mojego tekstu” i przeczytaj go na głos.",
+        checklist: [
+          "opisz poranek po kolei z czasownikami zwrotnymi i godzinami (prima mi alzo alle…)",
+          "napisz, jak dojeżdżasz do szkoły i ile czasu ci to zajmuje",
+          "nazwij posiłki i godziny (pranzo alle…, ceno alle…)",
+          "napisz, czego nie robisz w weekend (non mi alzo…, non … mai)",
+          "zadaj Olenie co najmniej dwa pytania (A che ora…? Come vai…?)",
+        ],
+        placeholder: "Ciao Olena! Ecco la mia giornata…",
+        model:
+          "Ciao Olena! Ecco la mia giornata in Polonia. Prima mi sveglio alle sei e un quarto e mi alzo alle sei e mezza. Poi mi faccio la doccia, mi vesto e faccio colazione con mio fratello: pane e marmellata. Dopo esco di casa alle sette e mezza. Vado a scuola in autobus e ci metto venti minuti. Pranzo a casa alle tre e ceno alle sette. Prima di dormire leggo un po'. Vado a letto verso le dieci. Il fine settimana non mi alzo mai prima delle nove. E tu? A che ora ti alzi? Come vai a scuola? Un abbraccio!",
+        modelPl:
+          "Cześć, Oleno! Oto mój dzień w Polsce. Najpierw budzę się kwadrans po szóstej i wstaję o wpół do siódmej. Potem biorę prysznic, ubieram się i jem śniadanie z bratem: chleb z dżemem. Następnie wychodzę z domu o wpół do ósmej. Jeżdżę do szkoły autobusem i zajmuje mi to dwadzieścia minut. Obiad jem w domu o trzeciej, a kolację o siódmej. Przed snem trochę czytam. Idę spać około dziesiątej. W weekend nigdy nie wstaję przed dziewiątą. A ty? O której wstajesz? Jak dojeżdżasz do szkoły? Ściskam!",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Umiem opowiedzieć o swoim dniu z czasownikami zwrotnymi i godzinami.",
+        "Umiem odmienić andare i uscire i powiedzieć, jak dojeżdżam do szkoły.",
+        "Umiem ułożyć czynności po kolei: prima, poi, dopo, alla fine.",
+        "Umiem zaprzeczyć z czasownikiem zwrotnym: non mi alzo, non mi sveglio mai.",
+        "Znam włoskie posiłki i dania obiadu.",
+      ],
+    },
+  ],
+};

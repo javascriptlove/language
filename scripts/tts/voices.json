@@ -1,0 +1,65 @@
+{
+  "de-DE": {
+    "contentDir": "src/content/polish/german",
+    "engine": "piper",
+    "voices": {
+      "n": "de_DE-thorsten-high",
+      "m": "de_DE-thorsten-high",
+      "f": "de_DE-kerstin-medium"
+    }
+  },
+  "it-IT": {
+    "contentDir": "src/content/polish/italian",
+    "engine": "piper",
+    "voices": {
+      "n": "it_IT-serena-high",
+      "m": "it_IT-riccardo-x_low?noise=0.333&noise_w=0.4",
+      "f": "it_IT-serena-high"
+    }
+  },
+  "fr-FR": {
+    "contentDir": "src/content/polish/french",
+    "engine": "piper",
+    "voices": {
+      "n": "fr_FR-siwis-medium",
+      "m": "fr_FR-tom-medium",
+      "f": "fr_FR-siwis-medium"
+    }
+  },
+  "es-ES": {
+    "contentDir": "src/content/polish/spanish",
+    "engine": "piper",
+    "voices": {
+      "n": "es_ES-davefx-medium",
+      "m": "es_ES-davefx-medium",
+      "f": "es_ES-sharvard-medium#1"
+    }
+  },
+  "pt-PT": {
+    "contentDir": "src/content/polish/portuguese",
+    "engine": "piper",
+    "voices": {
+      "n": "pt_PT-tugão-medium",
+      "m": "pt_PT-tugão-medium",
+      "f": "pt_PT-tugão-medium"
+    }
+  },
+  "ca-ES": {
+    "contentDir": "src/content/polish/catalan",
+    "engine": "piper",
+    "voices": {
+      "n": "ca_ES-upc_ona-medium",
+      "m": "ca_ES-upc_pau-x_low?noise=0.333&noise_w=0.4",
+      "f": "ca_ES-upc_ona-medium"
+    }
+  },
+  "gl-ES": {
+    "contentDir": "src/content/polish/galician",
+    "engine": "nos",
+    "voices": {
+      "n": "nos:celtia",
+      "m": "nos:brais",
+      "f": "nos:celtia"
+    }
+  }
+}

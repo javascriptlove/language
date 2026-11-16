@@ -1,0 +1,286 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "repaso-unidad-7",
+  chapter: 7,
+  number: 4,
+  title: "Repaso – Unidad 7",
+  titlePl: "Powtórka z rozdziału 7",
+  intro:
+    "Powtarzamy ubrania i zakupy! Zrób tę lekcję dzień lub dwa po skończeniu rozdziału 7. Przejrzyj ściągi i słowniczek, rozwiąż zadania, a na koniec napisz test. Jeśli coś pójdzie słabo, wróć do właściwej lekcji: ubrania, kolory i llevar – lekcja 1 („¿Qué llevas hoy?”), zakupy, ceny, este / esta i quería – lekcja 2 („¿Cuánto cuesta?”), porównania, ¿cuál? i preferir – lekcja 3 („Un regalo para Marcos”).",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "opisać, co ktoś ma na sobie – z kolorami we właściwej formie,",
+        "zrobić zakupy: poprosić, przymierzyć, zapytać o cenę i rozmiar,",
+        "wskazać rzecz: este, esta, estos, estas, ese, esa,",
+        "porównać rzeczy i zapytać ¿cuál prefieres?",
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: kolory i llevar",
+      paragraphs: [
+        "Kolor stoi **po rzeczowniku** i pasuje do niego. Na -o: rojo, roja, rojos, rojas. Na -e i spółgłoskę – jedna forma dla obu rodzajów: verde(s), azul(es), gris(es), marrón / marrones. **rosa, naranja** – zwykle bez zmian. → lekcja 1",
+        "**llevar** (nosić, mieć na sobie) – zwykły czasownik na -ar. **pantalones, vaqueros** – liczba mnoga: Mis vaqueros **son** azules. → lekcja 1",
+        "Pytanie o kolor: **¿De qué color es** tu jersey? / **¿De qué color son** tus zapatillas? → lekcja 1",
+      ],
+      table: {
+        headers: ["on", "ona", "oni", "one"],
+        rows: [
+          { cells: ["negro", "negra", "negros", "negras"], speak: "negro, negra, negros, negras" },
+          { cells: ["blanco", "blanca", "blancos", "blancas"], speak: "blanco, blanca, blancos, blancas" },
+          { cells: ["verde", "verde", "verdes", "verdes"], speak: "verde, verdes" },
+          { cells: ["azul", "azul", "azules", "azules"], speak: "azul, azules" },
+          { cells: ["marrón", "marrón", "marrones", "marrones"], speak: "marrón, marrones" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: w sklepie – este / ese, quería, ceny",
+      paragraphs: [
+        "Ten / ta: **este** jersey, **esta** falda, **estos** zapatos, **estas** botas. Tamten / tamta: **ese, esa, esos, esas**. → lekcja 2",
+        "**querer**: quiero, quieres, quiere, queremos, queréis, quieren. Grzecznie: **Quería** una camiseta, por favor. **¿Puedo probarme…?** Rozmiar: **¿Qué talla usas?** – Uso la M. Buty: **¿Qué número usas?** → lekcja 2",
+        "Cena: **¿Cuánto cuesta / cuestan?** – 29,90 € = veintinueve euros con noventa; 100 € = **cien**; 120 € = **ciento** veinte. Za: **demasiado** caro / grande / pequeño. → lekcja 2",
+      ],
+      table: {
+        headers: ["", "blisko (ten)", "dalej (tamten)"],
+        rows: [
+          { cells: ["on", "este jersey", "ese jersey"], speak: "este jersey, ese jersey" },
+          { cells: ["ona", "esta falda", "esa falda"], speak: "esta falda, esa falda" },
+          { cells: ["oni", "estos zapatos", "esos zapatos"], speak: "estos zapatos, esos zapatos" },
+          { cells: ["one", "estas botas", "esas botas"], speak: "estas botas, esas botas" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: porównania, ¿cuál? i preferir",
+      paragraphs: [
+        "**más** … **que** (bardziej niż), **menos** … **que** (mniej niż), **tan** … **como** (tak jak). **bueno → mejor**, **malo → peor**; wiek: **mayor / menor**. → lekcja 3",
+        "**¿Cuál?** / **¿Cuáles?** – gdy wybieramy (zwykle bez rzeczownika). **¿Qué** + rzeczownik: ¿Qué camiseta? → lekcja 3",
+        "**preferir**: prefiero, prefieres, prefiere, preferimos, preferís, prefieren. Dla kogo: **para** Marcos, **para** ti. → lekcja 3",
+      ],
+      table: {
+        headers: ["", "przykład"],
+        rows: [
+          { cells: ["más … que", "La chaqueta es más cara que el jersey."], speak: "La chaqueta es más cara que el jersey." },
+          { cells: ["menos … que", "El Rastro es menos caro que las tiendas."], speak: "El Rastro es menos caro que las tiendas." },
+          { cells: ["tan … como", "Pablo es tan alto como Marcos."], speak: "Pablo es tan alto como Marcos." },
+          { cells: ["el mejor", "¡Es el mejor regalo!"], speak: "¡Es el mejor regalo!" },
+        ],
+      },
+    },
+    {
+      type: "vocab",
+      title: "Najważniejsze słówka rozdziału 7",
+      groups: [
+        {
+          title: "Ubrania i kolory",
+          items: [
+            { text: "una camiseta / un jersey / una sudadera", pl: "koszulka / sweter / bluza" },
+            { text: "una camisa / un vestido / una falda", pl: "koszula / sukienka / spódnica" },
+            { text: "unos pantalones / unos vaqueros", pl: "spodnie / dżinsy" },
+            { text: "una chaqueta / un abrigo", pl: "kurtka / płaszcz" },
+            { text: "unos zapatos / unas zapatillas / unas botas", pl: "buty / buty sportowe / kozaki" },
+            { text: "un gorro / una gorra / una bufanda", pl: "czapka / czapka z daszkiem / szalik" },
+            { text: "rojo, blanco, negro, amarillo, morado", pl: "czerwony, biały, czarny, żółty, fioletowy" },
+            { text: "verde, azul, gris, marrón, rosa, naranja", pl: "zielony, niebieski, szary, brązowy, różowy, pomarańczowy" },
+            { text: "llevar", pl: "nosić, mieć na sobie" },
+          ],
+        },
+        {
+          title: "W sklepie",
+          items: [
+            { text: "el dependiente / la dependienta", pl: "sprzedawca / sprzedawczyni" },
+            { text: "la talla / el número", pl: "rozmiar / rozmiar buta" },
+            { text: "probarse / el probador", pl: "przymierzać / przymierzalnia" },
+            { text: "Quería…", pl: "Chciałbym / Chciałabym…" },
+            { text: "¿Cuánto cuesta? / ¿Cuánto cuestan?", pl: "Ile kosztuje? / Ile kosztują?" },
+            { text: "caro / barato", pl: "drogi / tani" },
+            { text: "demasiado grande / pequeño / caro", pl: "za duży / za mały / za drogi" },
+            { text: "Me llevo este.", pl: "Biorę ten." },
+            { text: "las rebajas / de oferta", pl: "wyprzedaż / w promocji" },
+          ],
+        },
+        {
+          title: "Prezenty i porównania",
+          items: [
+            { text: "un regalo / regalar", pl: "prezent / dawać w prezencie" },
+            { text: "el cumpleaños / una tarta", pl: "urodziny / tort" },
+            { text: "¿Para quién es? – Es para ti.", pl: "Dla kogo to? – Dla ciebie." },
+            { text: "más … que / menos … que / tan … como", pl: "bardziej niż / mniej niż / tak jak" },
+            { text: "mejor / peor / el mejor", pl: "lepszy / gorszy / najlepszy" },
+            { text: "¿Cuál prefieres?", pl: "Który wolisz?" },
+            { text: "el Rastro / regatear", pl: "pchli targ w Madrycie / targować się" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "Un gorro para Cracovia",
+      titlePl: "Czapka na Kraków",
+      context: "Środa po południu. Carla jedzie na Święta do dziadków w Krakowie i potrzebuje ciepłych rzeczy. Lucía idzie z nią do sklepu.",
+      cast: { Carla: "f", "Lucía": "f", Dependienta: "f" },
+      lines: [
+        { speaker: "Lucía", text: "Bueno, Carla, ¿qué buscas?", pl: "No to, Carlo, czego szukasz?" },
+        { speaker: "Carla", text: "Un gorro y unos guantes. ¡En Cracovia, en diciembre, hay nieve!", pl: "Czapki i rękawiczek. W Krakowie w grudniu jest śnieg!" },
+        { speaker: "Dependienta", text: "Hola, buenas tardes. ¿Os puedo ayudar?", pl: "Cześć, dzień dobry. Mogę wam pomóc?" },
+        { speaker: "Carla", text: "Sí, gracias. Quería un gorro, por favor.", pl: "Tak, dziękuję. Chciałabym czapkę, poproszę." },
+        { speaker: "Dependienta", text: "¿De qué color? Tengo este gorro rojo y ese gorro gris.", pl: "W jakim kolorze? Mam tę czerwoną czapkę i tamtą szarą." },
+        { speaker: "Lucía", text: "¡El rojo es más bonito que el gris!", pl: "Czerwona jest ładniejsza niż szara!" },
+        { speaker: "Carla", text: "Sí, pero es más caro. ¿Cuánto cuesta?", pl: "Tak, ale droższa. Ile kosztuje?" },
+        { speaker: "Dependienta", text: "El rojo cuesta diecinueve euros y el gris, catorce.", pl: "Czerwona kosztuje dziewiętnaście euro, a szara czternaście." },
+        { speaker: "Carla", text: "Me llevo el rojo. ¿Y cuánto cuestan estos guantes blancos?", pl: "Biorę czerwoną. A ile kosztują te białe rękawiczki?" },
+        { speaker: "Dependienta", text: "Están de oferta: nueve euros con noventa.", pl: "Są w promocji: dziewięć euro dziewięćdziesiąt." },
+        { speaker: "Lucía", text: "Rojo y blanco… ¡Son los colores de la bandera de Polonia!", pl: "Czerwony i biały… To kolory polskiej flagi!" },
+        { speaker: "Carla", text: "¡Es verdad! Perfectos para Cracovia. ¡Me llevo los guantes también!", pl: "To prawda! Idealne do Krakowa. Biorę też rękawiczki!" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "es-7-4-dialogue",
+        kind: "choice",
+        skill: "Słuchanie",
+        title: "¿Lo has entendido? – Zrozumiałeś/-aś?",
+        instruction: "Odpowiedz na pytania do dialogu „Un gorro para Cracovia”.",
+        items: [
+          { prompt: "¿Qué busca Carla?", speak: "¿Qué busca Carla?", options: ["un abrigo y unas botas", "un gorro y unos guantes", "un jersey y unos vaqueros"], answer: 1, speakOptions: true },
+          { prompt: "¿Cuánto cuesta el gorro gris?", speak: "¿Cuánto cuesta el gorro gris?", options: ["14 €", "19 €", "9,90 €"], answer: 0 },
+          { prompt: "¿Qué gorro compra Carla?", speak: "¿Qué gorro compra Carla?", options: ["el gris", "el blanco", "el rojo"], answer: 2, speakOptions: true },
+          { prompt: "¿De qué color son los guantes?", speak: "¿De qué color son los guantes?", options: ["blancos", "rojos", "grises"], answer: 0, speakOptions: true },
+          { prompt: "Ile Carla płaci w sumie?", options: ["23,90 €", "28,90 €", "33,90 €"], answer: 1, explanation: "19 € + 9,90 € = 28,90 €." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "es-7-4-colors",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "Kolory we właściwej formie",
+        instruction: "Wpisz kolor z nawiasu w poprawnej formie.",
+        items: [
+          { before: "Emma lleva un vestido", after: ".", answers: ["verde"], hint: "(verde)" },
+          { before: "Tengo unas zapatillas", after: ".", answers: ["blancas"], hint: "(blanco)" },
+          { before: "La profesora lleva una falda", after: ".", answers: ["negra"], hint: "(negro)" },
+          { before: "Lucía tiene unas botas", after: ".", answers: ["marrones"], hint: "(marrón)" },
+          { before: "Pablo lleva una gorra", after: ".", answers: ["roja"], hint: "(rojo)" },
+          { before: "Carla lleva una sudadera", after: ".", answers: ["morada"], hint: "(morado)" },
+          { before: "Son unos calcetines", after: ".", answers: ["azules"], hint: "(azul)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "es-7-4-shop",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "este / esta, ¿cuál?, porównania",
+        instruction: "Wybierz poprawną odpowiedź.",
+        items: [
+          { prompt: "¿Cuánto cuesta ___ chaqueta?", options: ["este", "esta", "estos"], answer: 1 },
+          { prompt: "Quiero ___ zapatos.", options: ["estos", "estas", "este"], answer: 0 },
+          { prompt: "___ botas son demasiado caras.", options: ["Esta", "Estos", "Estas"], answer: 2 },
+          { prompt: "¿___ prefieres, la roja o la azul?", options: ["Qué", "Cuál", "Cuáles"], answer: 1 },
+          { prompt: "La camiseta (10 €) es ___ cara que el jersey (30 €).", options: ["más", "menos", "tan"], answer: 1 },
+          { prompt: "Es el ___ regalo.", options: ["más bueno", "mejor", "bueno que"], answer: 1 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "es-7-4-prices",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Ceny",
+        instruction: "Kliknij ▶, posłuchaj i wybierz właściwą cenę.",
+        items: [
+          { audio: "Cuesta diecinueve euros.", options: ["9 €", "19 €", "90 €"], answer: 1 },
+          { audio: "Cuesta catorce euros con cincuenta.", options: ["14,50 €", "40,50 €", "4,50 €"], answer: 0 },
+          { audio: "Cuestan setenta euros.", options: ["60 €", "17 €", "70 €"], answer: 2 },
+          { audio: "Cuesta ciento cincuenta euros.", options: ["105 €", "150 €", "115 €"], answer: 1 },
+          { audio: "Cuesta cien euros.", options: ["100 €", "110 €", "10 €"], answer: 0 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "es-7-4-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["camisa", "lleva", "blanca", "Marcos", "una"], answer: "Marcos lleva una camisa blanca.", pl: "Marcos ma na sobie białą koszulę." },
+          { words: ["probarme", "vestido", "Quería", "este"], answer: "Quería probarme este vestido.", pl: "Chciałabym przymierzyć tę sukienkę." },
+          { words: ["cuesta", "¿Cuánto"], answer: "¿Cuánto cuesta?", pl: "Ile to kosztuje?" },
+          { words: ["menos", "La", "cara", "falda", "es", "que", "vestido", "el"], answer: "La falda es menos cara que el vestido.", pl: "Spódnica jest tańsza niż sukienka." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "es-7-4-test",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "Test: rozdział 7",
+        instruction: "10 pytań z całego rozdziału. Jeśli odpowiesz dobrze na co najmniej 8 – rozdział 7 zaliczony!",
+        items: [
+          { prompt: "„czerwona sukienka”", options: ["un rojo vestido", "un vestido rojo", "un vestido roja"], answer: 1, speakOptions: true },
+          { prompt: "„białe buty sportowe”", options: ["unas zapatillas blancos", "unas zapatillas blancas", "unas blancas zapatillas"], answer: 1, speakOptions: true },
+          { prompt: "„niebieskie skarpetki”", options: ["unos calcetines azules", "unos calcetines azuls", "unos calcetines azul"], answer: 0, speakOptions: true },
+          { prompt: "Mis vaqueros ___ negros.", options: ["es", "son", "está"], answer: 1, explanation: "vaqueros – liczba mnoga." },
+          { prompt: "Grzecznie w sklepie: „Chciałabym ten sweter.”", options: ["¡Quiero este jersey ya!", "Quería este jersey, por favor.", "Dame este jersey."], answer: 1, speakOptions: true },
+          { prompt: "Yo ___ esta camiseta. (chcieć)", options: ["quero", "quiero", "quiere"], answer: 1 },
+          { prompt: "120 € to…", options: ["cien veinte euros", "ciento veinte euros", "cientos veinte euros"], answer: 1, speakOptions: true },
+          { prompt: "¿___ prefieres, estas o esas?", options: ["Cuál", "Cuáles", "Qué"], answer: 1 },
+          { prompt: "„Ten prezent jest lepszy.”", options: ["Este regalo es más bueno.", "Este regalo es mejor.", "Este regalo es tan bueno."], answer: 1, speakOptions: true },
+          { prompt: "El Rastro w Madrycie działa…", options: ["w niedziele i święta rano", "codziennie wieczorem", "tylko w lipcu"], answer: 0, explanation: "Lekcja 3 – Cultura." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "es-7-4-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "¡Ahora tú! Moje zakupy – wiadomość do Emmy",
+        instruction:
+          "Napisz wiadomość do Emmy (8–10 zdań) o dzisiejszych zakupach: co kupujesz, w jakim kolorze, ile to kosztuje i co jest lepsze. Potem kliknij „Posłuchaj mojego tekstu” i przeczytaj go na głos.",
+        checklist: [
+          "napisz, gdzie jesteś i co kupujesz (hoy estoy en…, compro…)",
+          "opisz co najmniej trzy ubrania z kolorami w poprawnej formie",
+          "podaj ceny słowami",
+          "użyj este / esta / estos / estas i demasiado",
+          "porównaj dwie rzeczy (más … que / menos … que) i zapytaj Emmę ¿cuál prefieres?",
+        ],
+        placeholder: "¡Hola, Emma! Hoy estoy en…",
+        model:
+          "¡Hola, Emma! Hoy estoy en una tienda con Lucía. Compro un gorro rojo y unos guantes blancos para Cracovia. El gorro cuesta diecinueve euros. También hay un gorro gris: es menos caro, pero el rojo es más bonito. Los guantes cuestan nueve euros con noventa, están de oferta. Lucía se prueba una chaqueta morada, pero es demasiado grande. ¡Estas cosas son perfectas para el invierno polaco! ¿Y tú? ¿Cuál es tu color favorito? Un beso, Carla",
+        modelPl:
+          "Cześć, Emmo! Dzisiaj jestem w sklepie z Lucíą. Kupuję czerwoną czapkę i białe rękawiczki do Krakowa. Czapka kosztuje dziewiętnaście euro. Jest też szara czapka: tańsza, ale czerwona jest ładniejsza. Rękawiczki kosztują dziewięć euro dziewięćdziesiąt, są w promocji. Lucía przymierza fioletową kurtkę, ale jest za duża. Te rzeczy są idealne na polską zimę! A ty? Jaki jest twój ulubiony kolor? Buziaki, Carla",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Umiem opisać, co ktoś ma na sobie – z kolorami w poprawnej formie.",
+        "Umiem zrobić zakupy: quería…, ¿puedo probarme…?, uso la…, ¿cuánto cuesta?",
+        "Umiem przeczytać ceny w euro (cien, ciento veinte).",
+        "Umiem użyć este, esta, estos, estas i ese, esa.",
+        "Umiem porównać rzeczy (más … que, menos … que, tan … como, mejor) i zapytać ¿cuál prefieres?",
+      ],
+    },
+  ],
+};

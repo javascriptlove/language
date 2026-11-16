@@ -1,0 +1,297 @@
+import type { Lesson } from "../../types";
+
+export const lesson: Lesson = {
+  slug: "repaso-unidade-7",
+  chapter: 7,
+  number: 4,
+  title: "Repaso – Unidade 7",
+  titlePl: "Powtórka z rozdziału 7",
+  intro:
+    "Powtarzamy wszystko o ubraniach i zakupach! Zrób tę lekcję dzień lub dwa po skończeniu rozdziału 7. Przejrzyj ściągi i słowniczek, rozwiąż zadania, a na koniec napisz test. Jeśli coś pójdzie słabo, wróć do lekcji: ubrania, kolory i levar – „Que levas hoxe?”, este / ese / aquel, quería i ceny – „Canto custa?”, porównania i preferir – „Un agasallo para Brais”.",
+  blocks: [
+    {
+      type: "goals",
+      items: [
+        "nazwać ubrania i opisać strój z kolorami,",
+        "dopasować kolor do rzeczownika – także w liczbie mnogiej,",
+        "zrobić zakupy: quería, podo probalo?, canto custa?,",
+        "wskazywać rzeczy: este / ese / aquel,",
+        "liczyć do 1000 i podawać ceny,",
+        "porównywać: máis … ca / que, tan … coma, mellor, peor.",
+      ],
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: ubrania i kolory",
+      paragraphs: [
+        "Kolor stoi **po rzeczowniku** i zgadza się z nim: un xersei **branco**, unha saia **branca**, uns vaqueiros **brancos**, unhas botas **brancas**. Jedna forma dla obu rodzajów: **verde, azul, gris, marrón, rosa, laranxa**. Liczba mnoga: verdes, **azuis**, grises, marróns. (Lekcja „Que levas hoxe?”)",
+        "**levar** = mieć na sobie: **Levo** unha sudadeira. „Zakładam” = **póñome**: Póñome o abrigo. Polecenie: **Ponte** a bufanda! Zdejmować: **quito** a cazadora.",
+      ],
+      table: {
+        headers: ["", "męski", "żeński", "męski l.mn.", "żeński l.mn."],
+        rows: [
+          { cells: ["biały", "branco", "branca", "brancos", "brancas"], speak: "branco, branca, brancos, brancas" },
+          { cells: ["żółty", "amarelo", "amarela", "amarelos", "amarelas"], speak: "amarelo, amarela, amarelos, amarelas" },
+          { cells: ["niebieski", "azul", "azul", "azuis", "azuis"], speak: "azul, azuis" },
+          { cells: ["czerwony", "vermello", "vermella", "vermellos", "vermellas"], speak: "vermello, vermella, vermellos, vermellas" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: na tenda",
+      paragraphs: [
+        "Blisko mnie: **este, esta, estes, estas**. Blisko ciebie: **ese, esa, eses, esas**. Daleko: **aquel, aquela, aqueles, aquelas**. (Lekcja „Canto custa?”)",
+        "Zwroty: **Quería…** · **Que talla usas?** · **Podo probalo / probala?** · **Quédame ben / grande / pequeno.** · **Canto custa? / Canto vale?** · **É demasiado caro.** · **Lévoo.** · **Podo pagar con tarxeta?**",
+        "Liczby: **cen, cento vinte, douscentos, trescentos… novecentos, mil**. Z rzeczownikiem żeńskim: **duascentas** persoas. Cena: 69,90 € = **sesenta e nove euros con noventa**.",
+      ],
+      table: {
+        headers: ["liczba", "po galicyjsku"],
+        rows: [
+          { cells: ["120", "cento vinte"], speak: "cento vinte" },
+          { cells: ["250", "douscentos cincuenta"], speak: "douscentos cincuenta" },
+          { cells: ["500", "cincocentos / quiñentos"], speak: "cincocentos" },
+          { cells: ["1000", "mil"], speak: "mil" },
+          { cells: ["19,99 €", "dezanove euros con noventa e nove"], speak: "dezanove euros con noventa e nove" },
+        ],
+      },
+    },
+    {
+      type: "grammar",
+      title: "Ściąga: porównania",
+      paragraphs: [
+        "**máis** + przymiotnik + **ca / que**: máis caro ca unha camiseta, máis caro que o libro. **menos … ca / que**. **tan … coma**: tan bonita coma a outra. (Lekcja „Un agasallo para Brais”)",
+        "Nieregularne: **mellor** (lepszy), **peor** (gorszy), **maior** (większy, starszy), **menor** (mniejszy, młodszy).",
+        "„Który?” = **cal / cales** (albo **que** + rzeczownik). **preferir**: prefiro, prefires, prefire, preferimos, preferides, prefiren.",
+      ],
+      table: {
+        headers: ["po galicyjsku", "po polsku"],
+        rows: [
+          { cells: ["O abrigo é máis quente que a cazadora.", "Płaszcz jest cieplejszy niż kurtka."], speak: "O abrigo é máis quente que a cazadora." },
+          { cells: ["As zapatillas son menos caras que as botas.", "Adidasy są mniej drogie niż kozaki."], speak: "As zapatillas son menos caras que as botas." },
+          { cells: ["Xoán é tan alto coma Brais.", "Xoán jest tak samo wysoki jak Brais."], speak: "Xoán é tan alto coma Brais." },
+          { cells: ["Cal prefires? – A vermella.", "Którą wolisz? – Czerwoną."], speak: "Cal prefires? A vermella." },
+        ],
+      },
+    },
+    {
+      type: "vocab",
+      title: "Najważniejsze słówka rozdziału 7",
+      groups: [
+        {
+          title: "Ubrania",
+          items: [
+            { text: "a camiseta / a camisa", pl: "koszulka / koszula" },
+            { text: "o xersei / a sudadeira", pl: "sweter / bluza" },
+            { text: "os pantalóns / os vaqueiros", pl: "spodnie / dżinsy" },
+            { text: "a saia / o vestido", pl: "spódnica / sukienka" },
+            { text: "a cazadora / o abrigo", pl: "kurtka / płaszcz" },
+            { text: "os zapatos / as zapatillas", pl: "buty / adidasy" },
+            { text: "as botas / os calcetíns", pl: "kozaki / skarpetki" },
+            { text: "a bufanda / as luvas", pl: "szalik / rękawiczki" },
+            { text: "o gorro / a gorra", pl: "czapka zimowa / czapka z daszkiem" },
+          ],
+        },
+        {
+          title: "Zakupy",
+          items: [
+            { text: "a tenda / o probador", pl: "sklep / przymierzalnia" },
+            { text: "a talla / a caixa", pl: "rozmiar / kasa" },
+            { text: "a tarxeta / o diñeiro", pl: "karta / pieniądze" },
+            { text: "caro / barato", pl: "drogi / tani" },
+            { text: "as rebaixas", pl: "wyprzedaż" },
+            { text: "Quería…", pl: "Chciałbym / Chciałabym…" },
+            { text: "Canto custa? / Canto vale?", pl: "Ile kosztuje?" },
+            { text: "Lévoo.", pl: "Biorę go." },
+          ],
+        },
+        {
+          title: "Porównania",
+          items: [
+            { text: "máis … ca / que", pl: "bardziej … niż" },
+            { text: "tan … coma", pl: "tak … jak" },
+            { text: "mellor / peor", pl: "lepszy / gorszy" },
+            { text: "maior / menor", pl: "większy, starszy / mniejszy, młodszy" },
+            { text: "preferir (prefiro)", pl: "woleć" },
+            { text: "o agasallo", pl: "prezent" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "dialogue",
+      title: "Gorro e luvas",
+      titlePl: "Czapka i rękawiczki",
+      context: "Piątek po lekcjach. Carla i Antía idą do sklepu sportowego. Carla potrzebuje jeszcze czegoś ciepłego na Kraków.",
+      cast: { Dependente: "m", Carla: "f", "Antía": "f" },
+      lines: [
+        { speaker: "Dependente", text: "Boas tardes, rapazas! Que desexades?", pl: "Dzień dobry, dziewczyny! Czym mogę służyć?" },
+        { speaker: "Carla", text: "Boas tardes. Quería un gorro de la e unhas luvas.", pl: "Dzień dobry. Chciałabym wełnianą czapkę i rękawiczki." },
+        { speaker: "Dependente", text: "Os gorros están alí, ao lado da caixa. De que cor o queres?", pl: "Czapki są tam, obok kasy. W jakim kolorze chcesz?" },
+        { speaker: "Antía", text: "Mira este gorro gris. É máis bonito que aquel negro.", pl: "Popatrz na tę szarą czapkę. Jest ładniejsza niż tamta czarna." },
+        { speaker: "Carla", text: "Si, pero o negro é máis quente… Canto custan?", pl: "Tak, ale czarna jest cieplejsza… Ile kosztują?" },
+        { speaker: "Dependente", text: "O gris custa dez euros e o negro, dezaoito.", pl: "Szara kosztuje dziesięć euro, a czarna osiemnaście." },
+        { speaker: "Carla", text: "Entón o gris. É tan quente coma o negro?", pl: "W takim razie szarą. Jest tak samo ciepła jak czarna?" },
+        { speaker: "Dependente", text: "Case. E as luvas vermellas tamén custan dez euros.", pl: "Prawie. A czerwone rękawiczki też kosztują dziesięć euro." },
+        { speaker: "Antía", text: "Gris e vermello… Combinan moi ben co teu abrigo!", pl: "Szary i czerwony… Bardzo pasują do twojego płaszcza!" },
+        { speaker: "Carla", text: "Perfecto. Lévoos os dous. Vinte euros, non?", pl: "Idealnie. Biorę oba. Dwadzieścia euro, tak?" },
+        { speaker: "Dependente", text: "Exacto. Boa viaxe a Polonia!", pl: "Dokładnie. Miłej podróży do Polski!" },
+      ],
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-7-4-dialogue",
+        kind: "choice",
+        skill: "Czytanie",
+        title: "Verdadeiro ou falso?",
+        instruction: "Na podstawie dialogu zdecyduj: zdanie jest prawdziwe (verdadeiro) czy fałszywe (falso)?",
+        items: [
+          { prompt: "Carla quere un gorro e unhas luvas.", speak: "Carla quere un gorro e unhas luvas.", options: ["verdadeiro", "falso"], answer: 0 },
+          { prompt: "Os gorros están ao lado da porta.", speak: "Os gorros están ao lado da porta.", options: ["verdadeiro", "falso"], answer: 1, explanation: "Czapki są obok kasy – ao lado da caixa." },
+          { prompt: "O gorro negro é máis caro que o gris.", speak: "O gorro negro é máis caro que o gris.", options: ["verdadeiro", "falso"], answer: 0 },
+          { prompt: "Carla compra o gorro negro.", speak: "Carla compra o gorro negro.", options: ["verdadeiro", "falso"], answer: 1, explanation: "Carla wybiera szarą czapkę – o gris." },
+          { prompt: "As luvas son vermellas.", speak: "As luvas son vermellas.", options: ["verdadeiro", "falso"], answer: 0 },
+          { prompt: "Carla paga vinte e oito euros.", speak: "Carla paga vinte e oito euros.", options: ["verdadeiro", "falso"], answer: 1, explanation: "10 + 10 = 20 – vinte euros." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-7-4-listen",
+        kind: "listen",
+        skill: "Słuchanie",
+        title: "Escoita e entende",
+        instruction: "Kliknij ▶, posłuchaj i wybierz właściwe znaczenie albo cenę.",
+        items: [
+          { audio: "Custa trescentos corenta euros.", options: ["304 €", "340 €", "430 €"], answer: 1 },
+          { audio: "Vinte e nove euros con cincuenta.", options: ["29,50 €", "25,90 €", "92,50 €"], answer: 0 },
+          { audio: "Aquelas botas son demasiado caras.", options: ["Te kozaki są za drogie.", "Tamte kozaki są za drogie.", "Tamte kozaki są tanie."], answer: 1 },
+          { audio: "Póñome a cazadora amarela.", options: ["Zdejmuję żółtą kurtkę.", "Mam na sobie żółty sweter.", "Zakładam żółtą kurtkę."], answer: 2 },
+          { audio: "Este abrigo é mellor que o outro.", options: ["Ten płaszcz jest lepszy niż tamten.", "Ten płaszcz jest gorszy niż tamten.", "Ten płaszcz jest tak samo dobry jak tamten."], answer: 0 },
+          { audio: "Que talla usas?", options: ["Ile kosztuje?", "Jaki rozmiar nosisz?", "Jaki kolor wolisz?"], answer: 1 },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-7-4-mixed",
+        kind: "choice",
+        skill: "Gramatyka",
+        title: "Cal é a frase correcta?",
+        instruction: "Wybierz poprawne zdanie. Uważaj na typowe błędy!",
+        items: [
+          { prompt: "„Mam na sobie białą spódnicę.”", options: ["Levo unha branca saia.", "Levo unha saia branco.", "Levo unha saia branca."], answer: 2, speakOptions: true, explanation: "Kolor stoi po rzeczowniku i zgadza się z nim: branca." },
+          { prompt: "„Niebieskie adidasy”", options: ["as zapatillas azules", "as zapatillas azuis", "as zapatillas azul"], answer: 1, speakOptions: true },
+          { prompt: "„Chciałbym tamte rękawiczki.”", options: ["Quería aquelas luvas.", "Quería aqueles luvas.", "Quería estas luvas."], answer: 0, speakOptions: true, explanation: "as luvas – żeński, liczba mnoga → aquelas." },
+          { prompt: "„200 euro”", options: ["duascentas euros", "douscentos euros", "dous cen euros"], answer: 1, speakOptions: true },
+          { prompt: "„Ta koszulka jest lepsza.”", options: ["Esta camiseta é máis boa.", "Esta camiseta é mellor.", "Esta camiseta é máis mellor."], answer: 1, speakOptions: true },
+          { prompt: "„Jest tak samo droga jak tamta.”", options: ["É tan cara coma aquela.", "É tan cara ca aquela.", "É máis cara coma aquela."], answer: 0, speakOptions: true },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-7-4-fill",
+        kind: "fill",
+        skill: "Gramatyka",
+        title: "Uzupełnij zdania",
+        instruction: "Wpisz brakujące słowo. Podpowiedź w nawiasie.",
+        items: [
+          { before: "Hoxe", after: "uns vaqueiros negros.", answers: ["levo"], hint: "(levar)" },
+          { before: "Xoán leva unha bufanda", after: ".", answers: ["vermella"], hint: "(czerwona)" },
+          { before: "", after: "un abrigo de inverno, por favor.", answers: ["Quería"], hint: "(chciałabym)" },
+          { before: "Canto", after: "estes zapatos?", answers: ["custan", "valen"], hint: "(kosztują)" },
+          { before: "O libro é máis barato", after: "a camiseta.", answers: ["que"], hint: "(niż – przed rodzajnikiem)" },
+          { before: "Eu", after: "o gorro gris.", answers: ["prefiro"], hint: "(preferir)" },
+          { before: "", after: "prefires, o negro ou o branco?", answers: ["Cal"], hint: "(który)" },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-7-4-order",
+        kind: "order",
+        skill: "Pisanie",
+        title: "Ułóż zdania",
+        instruction: "Klikaj wyrazy w odpowiedniej kolejności. Kliknij wyraz w odpowiedzi, aby go cofnąć.",
+        items: [
+          { words: ["probar", "Podo", "xersei?", "este"], answer: "Podo probar este xersei?", pl: "Mogę przymierzyć ten sweter?" },
+          { words: ["amarelas", "Levo", "zapatillas", "unhas"], answer: "Levo unhas zapatillas amarelas.", pl: "Mam na sobie żółte adidasy." },
+          { words: ["caro", "demasiado", "É"], answer: "É demasiado caro.", pl: "Jest za drogi." },
+          { words: ["quente", "abrigo", "é", "O", "que", "cazadora", "a", "máis"], answer: "O abrigo é máis quente que a cazadora.", pl: "Płaszcz jest cieplejszy niż kurtka." },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-7-4-test",
+        kind: "choice",
+        skill: "Słownictwo",
+        title: "Test: rozdział 7",
+        instruction: "10 pytań z całego rozdziału. Jeśli odpowiesz dobrze na co najmniej 8 – rozdział 7 zaliczony!",
+        items: [
+          { prompt: "**a saia** to…", options: ["sukienka", "spódnica", "koszula"], answer: 1 },
+          { prompt: "uns vaqueiros ___ (niebieskie)", options: ["azules", "azul", "azuis"], answer: 2, speakOptions: true },
+          { prompt: "unha cazadora ___ (żółta)", options: ["amarela", "amarelo", "amarelas"], answer: 0, speakOptions: true },
+          { prompt: "No inverno ___ a bufanda.", options: ["quito", "póñome", "custo"], answer: 1, speakOptions: true },
+          { prompt: "(daleko) Canto vale ___ abrigo?", options: ["este", "aquela", "aquel"], answer: 2, speakOptions: true },
+          { prompt: "500", options: ["cincuenta", "cincocentos", "cinco cen"], answer: 1, speakOptions: true },
+          { prompt: "A camiseta é ___ cara que o libro.", options: ["máis", "tan", "coma"], answer: 0, speakOptions: true },
+          { prompt: "Eu ___ o azul.", options: ["prefire", "prefiro", "prefero"], answer: 1, speakOptions: true },
+          {
+            prompt: "Jaki dodatek jest najważniejszy w deszczowym Santiago?",
+            options: ["o paraugas", "a gorra", "as zapatillas de casa"],
+            answer: 0,
+            explanation: "o paraugas – parasol. W Santiago bardzo często pada!",
+          },
+          {
+            prompt: "Jak po galicyjsku składamy życzenia urodzinowe?",
+            options: ["Bo proveito!", "Parabéns!", "Bo Camiño!"],
+            answer: 1,
+            explanation: "Parabéns! – Wszystkiego najlepszego!",
+          },
+        ],
+      },
+    },
+    {
+      type: "exercise",
+      exercise: {
+        id: "gl-7-4-write",
+        kind: "write",
+        skill: "Mówienie",
+        title: "Agora ti! As miñas compras",
+        instruction:
+          "Nagraj (albo napisz) wiadomość głosową dla Antíi (7–9 zdań): opowiedz o zakupach – co kupujesz, w jakim kolorze, za ile i dlaczego właśnie to. Potem kliknij „Posłuchaj mojego tekstu”, przeczytaj go na głos razem z lektorem i porównaj z przykładem.",
+        checklist: [
+          "co potrzebujesz kupić i dlaczego (para o inverno, para unha festa…)",
+          "kolory z dobrą końcówką",
+          "ceny słownie (z con przy centach)",
+          "porównanie: máis … que / tan … coma / mellor",
+          "co wybierasz: prefiro… / lévoo",
+        ],
+        placeholder: "Ola, Antía! Hoxe vou de compras…",
+        model:
+          "Ola, Antía! Hoxe vou de compras coa miña nai. Necesito unhas botas para o inverno. Na tenda hai unhas botas negras e unhas marróns. As negras custan sesenta euros e as marróns, corenta e nove euros con noventa. As negras son máis bonitas, pero as marróns son tan quentes coma as negras e son máis baratas. Prefiro as marróns! Tamén compro uns calcetíns amarelos para min e unha bufanda azul para o meu irmán. Ata mañá!",
+        modelPl:
+          "Cześć, Antío! Dziś idę na zakupy z mamą. Potrzebuję kozaków na zimę. W sklepie są czarne i brązowe kozaki. Czarne kosztują sześćdziesiąt euro, a brązowe czterdzieści dziewięć euro dziewięćdziesiąt. Czarne są ładniejsze, ale brązowe są tak samo ciepłe jak czarne i są tańsze. Wolę brązowe! Kupuję też żółte skarpetki dla siebie i niebieski szalik dla brata. Do jutra!",
+      },
+    },
+    {
+      type: "selfcheck",
+      items: [
+        "Nazywam ubrania i opisuję strój z kolorami.",
+        "Dopasowuję kolor do rzeczownika – także azuis, grises, marróns.",
+        "Robię zakupy: quería, podo probalo?, canto custa?",
+        "Wskazuję rzeczy: este / ese / aquel.",
+        "Liczę do 1000 i podaję ceny.",
+        "Porównuję: máis … ca / que, tan … coma, mellor, peor.",
+      ],
+    },
+  ],
+};

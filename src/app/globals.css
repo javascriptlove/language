@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  --background: #fbf8f1;
+  --foreground: #1c1917;
+  /* Overridden per course on the course/lesson pages. */
+  --accent: #e11d48;
+  --accent-soft: #fff1f2;
+  --accent-ink: #881337;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-nunito), system-ui, sans-serif;
+  --font-display: var(--font-baloo), var(--font-nunito), system-ui, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Target-language text: slightly wider tracking reads better for learners. */
+.font-target {
+  letter-spacing: 0.01em;
+}
+
+/* White "workbook page" card with a faint ruled-paper feel. */
+.paper-card {
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, #e7e5e4, #d6d3d1) border-box;
+  border: 1px solid transparent;
+  box-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.03),
+    0 8px 24px -12px rgba(0, 0, 0, 0.12);
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent); }
+  100% { box-shadow: 0 0 0 10px transparent; }
+}
+.speaking {
+  animation: pulse-ring 1s ease-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
 }

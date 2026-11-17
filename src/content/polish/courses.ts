@@ -166,7 +166,12 @@ export const courses: Course[] = [
             title: "Reisen",
             titlePl: "Podróże",
             topics: ["wakacje", "czas przeszły Perfekt"],
-            lessons: [],
+            lessons: [
+              { slug: "was-hast-du-in-den-ferien-gemacht", title: "Was hast du in den Ferien gemacht?" },
+              { slug: "wir-sind-nach-hamburg-gefahren", title: "Wir sind nach Hamburg gefahren" },
+              { slug: "urlaub-am-meer", title: "Urlaub am Meer" },
+              { slug: "wiederholung-kapitel-4", title: "Wiederholung – Kapitel 4" },
+            ],
           },
         ],
       },

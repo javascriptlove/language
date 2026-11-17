@@ -140,6 +140,10 @@ import { lesson as germanMeinKopfTutWeh } from "./german/mein-kopf-tut-weh";
 import { lesson as germanBeimArzt } from "./german/beim-arzt";
 import { lesson as germanFitUndGesund } from "./german/fit-und-gesund";
 import { lesson as germanG8WiederholungKapitel3 } from "./german/wiederholung-kapitel-3-klasse-8";
+import { lesson as germanWasHastDuInDenFerienGemacht } from "./german/was-hast-du-in-den-ferien-gemacht";
+import { lesson as germanWirSindNachHamburgGefahren } from "./german/wir-sind-nach-hamburg-gefahren";
+import { lesson as germanUrlaubAmMeer } from "./german/urlaub-am-meer";
+import { lesson as germanG8WiederholungKapitel4 } from "./german/wiederholung-kapitel-4-klasse-8";
 import { lesson as frenchJeMeLeveASeptHeures } from "./french/je-me-leve-a-sept-heures";
 import { lesson as frenchCommentTuVasAuCollege } from "./french/comment-tu-vas-au-college";
 import { lesson as frenchLeWeekEndOnSeRepose } from "./french/le-week-end-on-se-repose";
@@ -387,6 +391,10 @@ export const polish: SourceLanguage = {
     "german/grade-8/beim-arzt": germanBeimArzt,
     "german/grade-8/fit-und-gesund": germanFitUndGesund,
     "german/grade-8/wiederholung-kapitel-3": germanG8WiederholungKapitel3,
+    "german/grade-8/was-hast-du-in-den-ferien-gemacht": germanWasHastDuInDenFerienGemacht,
+    "german/grade-8/wir-sind-nach-hamburg-gefahren": germanWirSindNachHamburgGefahren,
+    "german/grade-8/urlaub-am-meer": germanUrlaubAmMeer,
+    "german/grade-8/wiederholung-kapitel-4": germanG8WiederholungKapitel4,
     "french/grade-7/je-me-leve-a-sept-heures": frenchJeMeLeveASeptHeures,
     "french/grade-7/comment-tu-vas-au-college": frenchCommentTuVasAuCollege,
     "french/grade-7/le-week-end-on-se-repose": frenchLeWeekEndOnSeRepose,

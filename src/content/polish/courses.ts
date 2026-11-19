@@ -123,7 +123,7 @@ export const courses: Course[] = [
         name: "Klasa 8",
         level: "A1+/A2",
         description:
-          "Drugi rok: jedzenie, miasto, zdrowie i podróże – i pierwsze zdania w czasie przeszłym.",
+          "Drugi rok: jedzenie, miasto, zdrowie, podróże, przyjaciele, media, przyroda i plany na przyszłość – z czasem przeszłym, zdaniami z weil i dass oraz czasem przyszłym.",
         chapters: [
           {
             number: 1,
@@ -171,6 +171,54 @@ export const courses: Course[] = [
               { slug: "wir-sind-nach-hamburg-gefahren", title: "Wir sind nach Hamburg gefahren" },
               { slug: "urlaub-am-meer", title: "Urlaub am Meer" },
               { slug: "wiederholung-kapitel-4", title: "Wiederholung – Kapitel 4" },
+            ],
+          },
+          {
+            number: 5,
+            title: "Freunde",
+            titlePl: "Przyjaciele",
+            topics: ["wygląd i charakter", "czasowniki zwrotne", "zaimki ihn / ihm"],
+            lessons: [
+              { slug: "wie-sieht-er-aus", title: "Wie sieht er aus?" },
+              { slug: "ein-echter-freund", title: "Ein echter Freund" },
+              { slug: "wir-vertragen-uns-wieder", title: "Wir vertragen uns wieder" },
+              { slug: "wiederholung-kapitel-5", title: "Wiederholung – Kapitel 5" },
+            ],
+          },
+          {
+            number: 6,
+            title: "Medien",
+            titlePl: "Media",
+            topics: ["telefon i internet", "zdania z weil i dass", "stopniowanie przymiotników"],
+            lessons: [
+              { slug: "ohne-handy-geht-nichts", title: "Ohne Handy geht nichts" },
+              { slug: "ich-finde-dass", title: "Ich finde, dass …" },
+              { slug: "welche-app-ist-besser", title: "Welche App ist besser?" },
+              { slug: "wiederholung-kapitel-6", title: "Wiederholung – Kapitel 6" },
+            ],
+          },
+          {
+            number: 7,
+            title: "Umwelt und Natur",
+            titlePl: "Środowisko i przyroda",
+            topics: ["segregacja i ochrona środowiska", "Wo? / Wohin? – przyimki z celownikiem lub biernikiem", "zdania z wenn"],
+            lessons: [
+              { slug: "was-kommt-in-welche-tonne", title: "Was kommt in welche Tonne?" },
+              { slug: "ausflug-in-den-wald", title: "Ausflug in den Wald" },
+              { slug: "wenn-alle-mitmachen", title: "Wenn alle mitmachen …" },
+              { slug: "wiederholung-kapitel-7", title: "Wiederholung – Kapitel 7" },
+            ],
+          },
+          {
+            number: 8,
+            title: "Pläne und Träume",
+            titlePl: "Plany i marzenia",
+            topics: ["zawody", "czas przyszły z werden", "ich würde gern …"],
+            lessons: [
+              { slug: "was-willst-du-werden", title: "Was willst du werden?" },
+              { slug: "mein-traumberuf", title: "Mein Traumberuf" },
+              { slug: "bis-naechstes-jahr", title: "Bis nächstes Jahr!" },
+              { slug: "wiederholung-kapitel-8", title: "Wiederholung – Kapitel 8" },
             ],
           },
         ],

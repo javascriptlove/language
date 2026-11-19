@@ -144,6 +144,10 @@ import { lesson as germanWasHastDuInDenFerienGemacht } from "./german/was-hast-d
 import { lesson as germanWirSindNachHamburgGefahren } from "./german/wir-sind-nach-hamburg-gefahren";
 import { lesson as germanUrlaubAmMeer } from "./german/urlaub-am-meer";
 import { lesson as germanG8WiederholungKapitel4 } from "./german/wiederholung-kapitel-4-klasse-8";
+import { lesson as germanWieSiehtErAus } from "./german/wie-sieht-er-aus";
+import { lesson as germanEinEchterFreund } from "./german/ein-echter-freund";
+import { lesson as germanWirVertragenUnsWieder } from "./german/wir-vertragen-uns-wieder";
+import { lesson as germanG8WiederholungKapitel5 } from "./german/wiederholung-kapitel-5-klasse-8";
 import { lesson as frenchJeMeLeveASeptHeures } from "./french/je-me-leve-a-sept-heures";
 import { lesson as frenchCommentTuVasAuCollege } from "./french/comment-tu-vas-au-college";
 import { lesson as frenchLeWeekEndOnSeRepose } from "./french/le-week-end-on-se-repose";
@@ -395,6 +399,10 @@ export const polish: SourceLanguage = {
     "german/grade-8/wir-sind-nach-hamburg-gefahren": germanWirSindNachHamburgGefahren,
     "german/grade-8/urlaub-am-meer": germanUrlaubAmMeer,
     "german/grade-8/wiederholung-kapitel-4": germanG8WiederholungKapitel4,
+    "german/grade-8/wie-sieht-er-aus": germanWieSiehtErAus,
+    "german/grade-8/ein-echter-freund": germanEinEchterFreund,
+    "german/grade-8/wir-vertragen-uns-wieder": germanWirVertragenUnsWieder,
+    "german/grade-8/wiederholung-kapitel-5": germanG8WiederholungKapitel5,
     "french/grade-7/je-me-leve-a-sept-heures": frenchJeMeLeveASeptHeures,
     "french/grade-7/comment-tu-vas-au-college": frenchCommentTuVasAuCollege,
     "french/grade-7/le-week-end-on-se-repose": frenchLeWeekEndOnSeRepose,

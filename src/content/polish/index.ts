@@ -152,6 +152,10 @@ import { lesson as germanOhneHandyGehtNichts } from "./german/ohne-handy-geht-ni
 import { lesson as germanIchFindeDass } from "./german/ich-finde-dass";
 import { lesson as germanWelcheAppIstBesser } from "./german/welche-app-ist-besser";
 import { lesson as germanG8WiederholungKapitel6 } from "./german/wiederholung-kapitel-6-klasse-8";
+import { lesson as germanWasKommtInWelcheTonne } from "./german/was-kommt-in-welche-tonne";
+import { lesson as germanAusflugInDenWald } from "./german/ausflug-in-den-wald";
+import { lesson as germanWennAlleMitmachen } from "./german/wenn-alle-mitmachen";
+import { lesson as germanG8WiederholungKapitel7 } from "./german/wiederholung-kapitel-7-klasse-8";
 import { lesson as frenchJeMeLeveASeptHeures } from "./french/je-me-leve-a-sept-heures";
 import { lesson as frenchCommentTuVasAuCollege } from "./french/comment-tu-vas-au-college";
 import { lesson as frenchLeWeekEndOnSeRepose } from "./french/le-week-end-on-se-repose";
@@ -411,6 +415,10 @@ export const polish: SourceLanguage = {
     "german/grade-8/ich-finde-dass": germanIchFindeDass,
     "german/grade-8/welche-app-ist-besser": germanWelcheAppIstBesser,
     "german/grade-8/wiederholung-kapitel-6": germanG8WiederholungKapitel6,
+    "german/grade-8/was-kommt-in-welche-tonne": germanWasKommtInWelcheTonne,
+    "german/grade-8/ausflug-in-den-wald": germanAusflugInDenWald,
+    "german/grade-8/wenn-alle-mitmachen": germanWennAlleMitmachen,
+    "german/grade-8/wiederholung-kapitel-7": germanG8WiederholungKapitel7,
     "french/grade-7/je-me-leve-a-sept-heures": frenchJeMeLeveASeptHeures,
     "french/grade-7/comment-tu-vas-au-college": frenchCommentTuVasAuCollege,
     "french/grade-7/le-week-end-on-se-repose": frenchLeWeekEndOnSeRepose,

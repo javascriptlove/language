@@ -156,6 +156,10 @@ import { lesson as germanWasKommtInWelcheTonne } from "./german/was-kommt-in-wel
 import { lesson as germanAusflugInDenWald } from "./german/ausflug-in-den-wald";
 import { lesson as germanWennAlleMitmachen } from "./german/wenn-alle-mitmachen";
 import { lesson as germanG8WiederholungKapitel7 } from "./german/wiederholung-kapitel-7-klasse-8";
+import { lesson as germanWasWillstDuWerden } from "./german/was-willst-du-werden";
+import { lesson as germanMeinTraumberuf } from "./german/mein-traumberuf";
+import { lesson as germanBisNaechstesJahr } from "./german/bis-naechstes-jahr";
+import { lesson as germanG8WiederholungKapitel8 } from "./german/wiederholung-kapitel-8-klasse-8";
 import { lesson as frenchJeMeLeveASeptHeures } from "./french/je-me-leve-a-sept-heures";
 import { lesson as frenchCommentTuVasAuCollege } from "./french/comment-tu-vas-au-college";
 import { lesson as frenchLeWeekEndOnSeRepose } from "./french/le-week-end-on-se-repose";
@@ -419,6 +423,10 @@ export const polish: SourceLanguage = {
     "german/grade-8/ausflug-in-den-wald": germanAusflugInDenWald,
     "german/grade-8/wenn-alle-mitmachen": germanWennAlleMitmachen,
     "german/grade-8/wiederholung-kapitel-7": germanG8WiederholungKapitel7,
+    "german/grade-8/was-willst-du-werden": germanWasWillstDuWerden,
+    "german/grade-8/mein-traumberuf": germanMeinTraumberuf,
+    "german/grade-8/bis-naechstes-jahr": germanBisNaechstesJahr,
+    "german/grade-8/wiederholung-kapitel-8": germanG8WiederholungKapitel8,
     "french/grade-7/je-me-leve-a-sept-heures": frenchJeMeLeveASeptHeures,
     "french/grade-7/comment-tu-vas-au-college": frenchCommentTuVasAuCollege,
     "french/grade-7/le-week-end-on-se-repose": frenchLeWeekEndOnSeRepose,

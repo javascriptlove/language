@@ -192,6 +192,10 @@ import { lesson as spanishQueTiempoHace } from "./spanish/que-tiempo-hace";
 import { lesson as spanishCuandoEsTuCumpleanos } from "./spanish/cuando-es-tu-cumpleanos";
 import { lesson as spanishFelizNavidad } from "./spanish/feliz-navidad";
 import { lesson as spanishRepasoUnidad8 } from "./spanish/repaso-unidad-8";
+import { lesson as spanishG8MeEncantaLaPaella } from "./spanish/me-encanta-la-paella";
+import { lesson as spanishG8EnElMercado } from "./spanish/en-el-mercado";
+import { lesson as spanishG8EnElRestaurante } from "./spanish/en-el-restaurante";
+import { lesson as spanishG8RepasoUnidad1 } from "./spanish/repaso-unidad-1-curso-8";
 import { lesson as italianMiAlzoAlleSette } from "./italian/mi-alzo-alle-sette";
 import { lesson as italianComeVaiAScuola } from "./italian/come-vai-a-scuola";
 import { lesson as italianIlFineSettimanaMiRiposo } from "./italian/il-fine-settimana-mi-riposo";
@@ -459,6 +463,10 @@ export const polish: SourceLanguage = {
     "spanish/grade-7/cuando-es-tu-cumpleanos": spanishCuandoEsTuCumpleanos,
     "spanish/grade-7/feliz-navidad": spanishFelizNavidad,
     "spanish/grade-7/repaso-unidad-8": spanishRepasoUnidad8,
+    "spanish/grade-8/me-encanta-la-paella": spanishG8MeEncantaLaPaella,
+    "spanish/grade-8/en-el-mercado": spanishG8EnElMercado,
+    "spanish/grade-8/en-el-restaurante": spanishG8EnElRestaurante,
+    "spanish/grade-8/repaso-unidad-1": spanishG8RepasoUnidad1,
     "italian/grade-7/mi-alzo-alle-sette": italianMiAlzoAlleSette,
     "italian/grade-7/come-vai-a-scuola": italianComeVaiAScuola,
     "italian/grade-7/il-fine-settimana-mi-riposo": italianIlFineSettimanaMiRiposo,
